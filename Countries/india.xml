@@ -5,21 +5,19 @@
 <thumbnail></thumbnail>
 
 <item>
-<title>Saab RegEx *http://blacktvlive.com/sabtv.html*</title>
-<link>$doregex[get-rtmp] pageUrl=http://xuscacamusca.se/gen_e.php?id=$doregex[get-id]&width=640&height=450
+<title>Saab</title>
+<link>$doregex[get-rtmp] pageUrl=http://xuscacamusca.se/gen_e.php?id=$doregex[get-id]&width=640&height=450</link>
 
 <regex>
 <name>get-rtmp</name>
 <expres>file:'(rtmp.*?)'}</expres>
 <page>$doregex[get-unwize]</page>
-<referer> </referer>
 </regex>
 
 <regex>
 <name>get-unwize</name>
 <expres>$pyFunction:get_unwise("$doregex[get-decode]")</expres>
-<page> </page>
-<referer> </referer>
+<page></page>
 </regex>
 
 <regex>
@@ -35,9 +33,7 @@
 <page>http://des*******s.tv/embed/sab_tv.php</page>
 <referer>http://blacktvlive.com/sabtv.html</referer>
 </regex>
-</link>
-<thumbnail> </thumbnail>
-</item> 
+</item>
 
 
 <item>
