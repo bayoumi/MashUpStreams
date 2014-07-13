@@ -5,38 +5,6 @@
 <thumbnail></thumbnail>
 
 <item>
-<title>Saab</title>
-<link>$doregex[get-rtmp] pageUrl=http://xuscacamusca.se/gen_e.php?id=$doregex[get-id]&width=640&height=450</link>
-
-<regex>
-<name>get-rtmp</name>
-<expres>file:'(rtmp.*?)'}</expres>
-<page>$doregex[get-unwize]</page>
-</regex>
-
-<regex>
-<name>get-unwize</name>
-<expres>$pyFunction:get_unwise("$doregex[get-decode]")</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>get-decode</name>
-<expres>Loading the player.*eval\(function\(w,i,s,e\).*}\((.*?)\)</expres>
-<page>http://xuscacamusca.se/gen_e.php?id=$doregex[get-id]&width=600&height=450</page>
-<referer>http://des*******s.tv/embed/sab_tv.php</referer>
-</regex>
-
-<regex>
-<name>get-id</name>
-<expres>id="(.*?)\"</expres>
-<page>http://des*******s.tv/embed/sab_tv.php</page>
-<referer>http://blacktvlive.com/sabtv.html</referer>
-</regex>
-</item>
-
-
-<item>
 <title>Star Gold</title>
 <link>http://154.57.145.182/flv/4dd469a36a357/testat123?0.2006565905176103</link>
 <thumbnail>http://images.wikia.com/logopedia/images/f/f0/Star_Gold_2011.png</thumbnail>
@@ -236,7 +204,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>ABP News</title>
-<link>http://hindiabp-lh.akamaihd.net/z/hindiabp1new_1@192103/manifest.f4m</link>
+<link>http://hindiabp-lh.akamaihd.net/i/hindiabp1new_1@192103/master.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-IFaVajKdtsw/T9Vizf2ic2I/AAAAAAAAF-s/l77n7ruKGh8/s1600/abpnews.jpg</thumbnail>
 </item>
 
@@ -314,7 +282,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>Zee TV</title>
-<link>rtmp://109.123.114.162/live playpath=zeetvhd?id=15204 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ezcast.tv/embedded/zeetvhd/1/600/430</link>
+<link>rtmpe://watch.playfooty.tv/live playpath=zeetv99 swfUrl=http://www.playfooty.tv/play/player/player.swf live=true timeout=15 pageUrl=http://www.playfooty.tv/</link>
 <thumbnail>http://blacktvlive.com/logo/zee_tv_hd.png</thumbnail>
 </item>
 

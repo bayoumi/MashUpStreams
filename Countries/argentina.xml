@@ -6,7 +6,7 @@
 
 <item>
 <title>TV Pública</title>
-<link>http://prepublish.a.qaotic.net/epb/c7live02Internacional-20034/manifest.f4m</link>
+<link>http://prepublish.f.qaotic.net/epa/ngrp:c7live02Internacional-20034_all/manifest.f4m</link>
 <thumbnail>http://www.tv14.net/wp-content/uploads/2010/09/TV-P%C3%BAblica.jpg</thumbnail>
 </item>
 
@@ -48,25 +48,25 @@
 
 <item>
 <title>TYC Sports</title>
-<link>http://lsdinfobaehds-lh.akamaihd.net/z/infobaehds_1@179878/manifest.f4m</link>
+<link>rtmp://cdn.direct-stream.org/liverepeat/ playpath=egtv559 swfUrl=http://direct-stream.org/jwplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=http://direct-stream.org/</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tyc_sports.png</thumbnail>
 </item>
 
 <item>
 <title>Fox Sports</title>
-<link>rtmp://149.255.34.122/live playpath=asdffoxsdfpo?id=202294 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/a3asdfsdfasdf/1/600/450</link>
+<link>rtmp://198.105.217.36/live playpath=mercado?id=208250 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/a3asdfsdfasdf/1/600/450</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_lam_ar.png</thumbnail>
 </item>
 
 <item>
 <title>ESPN</title>
-<link>http://kalsegsec-a.akamaihd.net/dc-0/m/pa-live-publish1/kLive/smil:0_wmgs085t_all.smil/playlist.m3u8</link>
+<link>rtmp://174.37.252.206/live playpath=carrera23?id=208840 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/carrera23/1/620/382</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/espn_lam.png</thumbnail>
 </item>
 
 <item>
 <title>DirecTV</title>
-<link>rtmp://5.63.146.236/live playpath=directv2016?id=205954 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/directv2016/1/620/385</link>
+<link>rtmp://109.123.116.26/live playpath=zeyufosx8?id=71344 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/zeyufosx8/1/620/382 live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/directv2016/1/620/385</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/directv_lam_sports.png</thumbnail>
 </item>
 
