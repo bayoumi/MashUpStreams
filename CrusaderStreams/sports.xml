@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixes[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sport French ALL, Fixed Some Bein Sport Arabic[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -161,7 +161,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmp://173.192.81.172/flash playpath=18951 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</sublink>
-<sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein1 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=1734 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 <sublink>http://110751-f.akamaihd.net/ajswebch309_1_2400@s12996?primaryToken=2072942531_6cdf0cab90e85e5dc50fd29258709ea1&amp;v=3.4.0&amp;fp=WIN+14%2C0%2C0%2C125&amp;r=CISXO&amp;g=UOASUSAPNWEK live=true swfVfy=true</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
