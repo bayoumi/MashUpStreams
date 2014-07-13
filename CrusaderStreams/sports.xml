@@ -160,7 +160,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://strm.ukcast.tv/redirect playpath=BN1 swfUrl=http://ukcast.tv/player/player.swf pageUrl=http://www.ukcast.tv live=true swfVfy=true timeout=15</sublink>
+<sublink>rtmp://173.192.81.172/flash playpath=18951 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</sublink>
 <sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein1 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
 <sublink>http://110751-f.akamaihd.net/ajswebch309_1_2400@s12996?primaryToken=2072942531_6cdf0cab90e85e5dc50fd29258709ea1&amp;v=3.4.0&amp;fp=WIN+14%2C0%2C0%2C125&amp;r=CISXO&amp;g=UOASUSAPNWEK live=true swfVfy=true</sublink>
 </link>
@@ -170,7 +170,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://204.45.157.98/flash playpath=19025 swfurl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=1</sublink>
+<sublink>rtmp://204.45.157.98/flash playpath=18950 swfurl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=1</sublink>
 <sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein2 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
 <sublink>http://110751-f.akamaihd.net/ajswebch308_1_2400@s12995?primaryToken=2072942500_79b422ff21b124d461cb08609d7e2f70&amp;v=3.4.0&amp;fp=WIN+14%2C0%2C0%2C125&amp;r=EGZUA&amp;g=UIDXMWPBSZLS live=true swfVfy=true</sublink>
 </link>
@@ -220,7 +220,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 7 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://185.56.28.202:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=7665 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://50.7.28.234/flash playpath=19007 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
 <sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein7 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
 <sublink>http://110751-f.akamaihd.net/ajswebch302_1_2400@s12838?primaryToken=2072935294_cc353db70a4eb2df8c07bf28ea2c523b&amp;v=3.4.0&amp;fp=WIN%252010%2C1%2C53%2C64&amp;r=CSTKU&amp;g=LJOBEXJXPAKP live=true swfVfy=true</sublink>
 </link>
@@ -230,7 +230,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 8 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://185.56.28.202:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=8946 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://50.7.28.234/flash playpath=19070 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
 <sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein8 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
 <sublink>http://110751-f.akamaihd.net/ajswebch304_1_2400@s12970?primaryToken=2072942389_ab7866a36783c697795851b4ae83529f&amp;v=3.4.0&amp;fp=WIN+14%2C0%2C0%2C125&amp;r=SRHCY&amp;g=JPVERSFUEBGE033699 live=true swfVfy=true</sublink>
 <thumbnail>http://i.imgur.com/cEpkyFy.jpg</thumbnail>
@@ -239,7 +239,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 9 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://185.56.28.202:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=bein9hd658 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://50.7.28.234/flash playpath=19071 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
 <sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein9 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/beinsport_9hd.jpg</thumbnail>
@@ -248,7 +248,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://185.27.237.122:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=bein10hd365 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/?id=21443 live=1</sublink>
+<sublink>rtmp://50.7.28.234/flash playpath=19072 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
 <sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein10 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
 </link>
 <thumbnail>http://scrat.hellocoton.fr/img/classic/bein-sport-10hd-live-regarder-bein-sport-10-hd-en-direct-gratuit-11334154.jpg</thumbnail>
@@ -268,67 +268,70 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmpe://46.246.124.22:1935/redirect playpath=bes1 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</link>
+<link>
+<sublink>rtmpe://46.246.124.22:1935/redirect playpath=bes1 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmp://31.220.0.82:1935/live playpath=beins1 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</sublink>
+</link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmpe://46.246.124.22:1935/redirect playpath=bes22014 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins2 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/G8aSwIJ.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 3 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein3 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins3 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 4 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein4 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins4 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/MCi8WTD.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 5 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein5 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins5 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/eKtzUc4.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 6 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein6 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins6 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/by9j5N2.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 7 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein7 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins7 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/cHNlLaQ.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 8 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein8 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins8 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://i.imgur.com/cEpkyFy.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 9 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein9 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins9 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/beinsport_9hd.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein10 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins10 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/beinsport_10hd.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 11 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://31.220.0.134:1935/live playpath=bein11 token=%ZZri(nKa@#Z swfUrl=http://www.eucast.tv/ePlayerr.swf pageUrl=http://www.eucast.tv/swfVfy=true live=true timeout=15</link>
+<link>rtmp://31.220.0.82:1935/live playpath=beins12 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf live=true timeout=15 pageUrl=http://www.flashtv.co/</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/beinsport_11hd.jpg</thumbnail>
 </item>
 
@@ -340,13 +343,18 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 
 <item>
 <title>Bein 13 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://94.242.228.110/ app=liveedge playpath=b13 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</link>
+<sublink>rtmp://94.242.228.110/ app=liveedge playpath=b13 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://46.246.124.22:1935/redirect playpath=bch13 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</sublink>
+</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/beinsport_13hd.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 14 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
-<link>rtmp://94.242.228.110/ app=liveedge playpath=b14 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</link>
+<link>
+<sublink>rtmp://94.242.228.110/ app=liveedge playpath=b14 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://46.246.124.22:1935/redirect playpath=bch14 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</sublink>
+</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/beinsport_14hd.jpg</thumbnail>
 </item>
 
