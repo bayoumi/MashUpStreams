@@ -18,7 +18,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>PFC</title>
-<link>rtmpe://94.102.63.23:443/ app=liveedge/ playpath=ch07-x2up4iXo33 pageurl=http://livecast.cc/live/stream21.php</link>
+<link>rtmpe://80.82.64.252:443/liveedge app=liveedge/ playpath=ch07-x2up4iXo33 pageurl=http://livecast.cc/</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premiere_futebol_clube_internacional.png</thumbnail>
 </item>
 
@@ -30,7 +30,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>GLOBO RECIFE</title>
-<link>rtmp://204.45.108.34/ app=ctv playpath=dbz swfUrl=http://www.canaistv.net/swf/player.swf live=true timeout=15 pageUrl=http://www.canaistv.net/tvamigos/dbz.html</link>
+<link>rtmp://206.190.151.38/ app=ctv playpath=dbz swfUrl=http://www.canaistv.net/swf/player.swf live=true timeout=15 pageUrl=http://www.canaistv.net/tvamigos/dbz.html</link>
 <thumbnail>http://www.globo.pe/obj/952/180660,800,80.jpg</thumbnail>
 </item>
 
@@ -42,7 +42,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>O Globo HD</title>
-<link>rtmp://cdn-edge.livestreamcast.org/ app=liverepeat/ playpath=101010 swfUrl=http://livestreamcast.org/jwplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=http://livestreamcast.org/</link>
+<link>rtmp://94.102.56.186/freelivestreamHD playpath=futebolmelhor swfUrl=http://www.freelivestream.tv/swfs/player.swf pageUrl=http://www.freelivestream.tv/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rede_globo.jpg</thumbnail>
 </item>
 
@@ -72,7 +72,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Band</title>
-<link>rtmp://173.193.20.136:1935/mtv playpath=tvimagemhd swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf live=true timeout=15 pageUrl=http://fpdownload.adobe.com/</link>
+<link>rtmp://94.102.63.56/liverepeat playpath=bandy swfUrl=http://www.curtirtv.net/plyer.swf pageUrl=http://abcast.biz/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/bb/band_nacional.png</thumbnail>
 </item>
 
@@ -116,7 +116,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <title>HBO 2</title> 
 <link>rtmp://109.200.202.124:1935/live playpath=hbo2 swfUrl=http://tv-msn.com/StroveMediaPlaybackSecureToken-fp10.swf token=ef8e8620da151301dfa07b3886ab30ad pageUrl=http://tv-msn.com/hbo2.html live=1 swfVfy=1 timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hbo2_brasil.jpg</thumbnail>
-</item>
+</item>f
 
 <item>
 <title>HBO Family</title> 
@@ -125,8 +125,8 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 </item>
 
 <item>
-<title>Sport TV</title>
-<link>rtmp://94.102.56.186/ app=freelivestreamHD playpath=sportv24h swfUrl=http://www.freelivestream.tv/swfs/player.swf live=true timeout=15 pageUrl=http://www.freelivestream.tv/embedPlayer.php?file=sportv24h&width=480&height=360</link>
+<title>Spor TV</title>
+<link>rtmp://94.102.56.186/ app=freelivestreamHD playpath=sportv24h swfUrl=http://www.freelivestream.tv/swfs/player.swf live=true timeout=15 pageUrl=http://www.freelivestream.tv/</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sportv_br.png</thumbnail>
 </item>
 
@@ -348,7 +348,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Just TV</title>
-<link>rtmp://72.55.165.222:1935/live/ playpath=livestream.sdb swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.justtv.com.br/ live=true timeout=60</link>
+<link>rtmp://201.85.33.57:1935/live/ playpath=livestream.sdb swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.justtv.com.br/ live=true timeout=60</link>
 <thumbnail>http://www.tv14.net/wp-content/uploads/2010/09/Just-TV.gif</thumbnail>
 </item>
 
@@ -456,7 +456,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Multi Show</title>
-<link>rtmpe://89.248.172.239:443/ app=liveedge/ playpath=ch34-cf19eFpGP5 pageurl=http://livecast.cc/live/stream18.php </link>
+<link>rtmp://cdn.direct-stream.org/liverepeat/ playpath=101010 swfUrl=http://direct-stream.org/embeds/jwplayer/jwplayer.flash.swf pageUrl=http://direct-stream.org/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/multishow.png</thumbnail>
 </item>
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Hatti TV Channels</name>
+<thumbnail></thumbnail>
+
+<item>
+<title>RTH1</title>
+<link>rtmp://nu71e5ix.mdn.onyxservers.com/livepkgr/ playpath=rth2000 swfUrl=http://nu71e5ix.stream.onyxservers.com/onyxpanel/player/player/player-3.2.16.swf pageUrl=http://www.rth2000.com/index.php/rth-tv1</link>
+<thumbnail>http://www.rth2000.com/images/RTHBANNER.jpg</thumbnail>
+</item>
+
+<item>
+<title>Kajou TV</title>
+<link>rtmp://wms.waystv.tv:1935/rtmp_waystlive/68/playpath=mainstream swfUrl=http://www.waystv.tv/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 pageUrl=http://www.waystv.tv/</link>
+<thumbnail>http://static.wixstatic.com/media/16e18f_d27318c838d44ff4b51a0f6eb231660e.png_srz_p_87_68_75_22_0.50_1.20_0.00_png_srz</thumbnail>
+</item>
+
+<item>
+<title>RTH2</title>
+<link>rtmp://nu71e5ix.mdn.onyxservers.com/livepkgr/ playpath=RTH2000TV swfUrl=http://nu71e5ix.stream.onyxservers.com/onyxpanel/player/player/player-3.2.16.swf pageUrl=http://www.rth2000.com/index.php/rth-tv2-gospel</link>
+<thumbnail>http://www.freeetv.com/images/01_logo/rth_2000_haiti.jpg</thumbnail>
+</item>
+
+<item>
+<title>TeleBoston</title>
+<link>rtmp://edge1.video.vaughnsoft.net:443/ app=live?Xi4jxUsw6znyyZgkwHYT6iCVLar5edTZ playpath=live_papa2111 swfUrl=http://vaughnlive.tv/800021294/swf/VaughnSoftPlayer.swf pageUrl=http://vaughnlive.tv/ token=30dabc4871922a1314192e925ab7961dn pageurl=http://www.livevideostreams.tv/</link>
+<thumbnail>http://teleboston.com/Header.jpg</thumbnail>
+</item>
+
+</channel>

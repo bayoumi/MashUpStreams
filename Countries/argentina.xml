@@ -42,7 +42,7 @@
 
 <item>
 <title>TN Noticias</title>
-<link>http://admtvlive-f.akamaihd.net/tnmulti1_1_1@135364?v=2.11.3&amp;fp=WIN%2014,0,0,125&amp;r=TDKJN&amp;g=TWDEOVLHKHMX</link>
+<link>rtmp://stream.tn.com.ar/live playpath=tnhd2 swfUrl=http://tn.com.ar/sites/all/themes/leono/swf/dplayer/player.swf pageUrl=http://tn.com.ar/envivo/24hs live=true timeout=15</link>
 <thumbnail>http://www.grupoclarin.com/en/sites/default/files/logo_tn_0_0.jpg</thumbnail>
 </item>
 

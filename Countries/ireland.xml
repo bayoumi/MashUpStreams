@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Irish TV Channels</name>
+<thumbnail></thumbnail>
+
+<item>
+<title>RTE News</title>
+<link>http://www.rte.ie/manifests/newsnow.f4m</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rte_news_now.png</thumbnail>
+</item>
+
+<item>
+<title>RTE Jr</title>
+<link>http://livehds.rasset.ie/hds-live/_definst_/rsw5/rsw5_576p.f4m</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rte_jr_tv.png</thumbnail>
+</item>
+
+</channel>
