@@ -66,7 +66,7 @@
 
 <item>
 <title>RCN</title>
-<link>rtmp://173.192.81.172/flash playpath=19133 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true timeout=15</link>
+<link>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=resentidos906 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</link>
 <thumbnail>http://www.mediamoves.com/wp-content/uploads/2012/07/rcn.jpg</thumbnail>
 </item>
 

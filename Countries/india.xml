@@ -71,6 +71,12 @@ rtmp://dittotv.live-s.cdn.bitgravity.com/ app=cdn-live/_definst_ playpath=$doreg
 </item>
 
 <item>
+<title>B4U Movies</title>
+<link>rtmp://50.7.175.253:1939/base2 playPath=dd25.stream token=Vu4KaBzaxa pageUrl=http://desilivetv.net/ swfUrl=http://desilivetv.net/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf</link>
+<thumbnail>http://www.entertainmentdoor.com.pk/images/channel_image/b4u_movies.png</thumbnail>
+</item>
+
+<item>
 <title>Colors</title>
 <link>rtmpe://watch.playfooty.tv/live playpath=colors99 swfUrl=http://www.playfooty.tv/play/player/player.swf live=true timeout=15 pageUrl=http://www.playfooty.tv/</link>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20111013225802/logopedia/images/3/33/Colors_TV.png</thumbnail>

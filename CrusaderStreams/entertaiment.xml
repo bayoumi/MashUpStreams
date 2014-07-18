@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Melody, Removed Non-Working Channels[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Updated CBC Channels[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -260,13 +260,31 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
 
 <item>
 <title>CBC</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=u-tfkQUYR4A</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=bPEvkvbOEzc</link>
 <thumbnail>http://3.bp.blogspot.com/-bQhnaV_8KF4/T7ZPNiBq6zI/AAAAAAAADEY/p3VdxQEj1Ws/s1600/cbc.jpg</thumbnail>
 </item>
 
 <item>
+<title>CBC 2</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=OFs8THBMRBU</link>
+<thumbnail>https://yt3.ggpht.com/-NZi8n5mnEgs/AAAAAAAAAAI/AAAAAAAAAAA/rzVXyciExjI/s88-c-k-no/photo.jpg</thumbnail>
+</item>
+
+<item>
+<title>CBC Extra</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=tfnz_ue-Sko</link>
+<thumbnail>https://yt3.ggpht.com/-01YF5Z5-iko/AAAAAAAAAAI/AAAAAAAAAAA/lo6d1n4uaAg/s88-c-k-no/photo.jpg</thumbnail>
+</item>
+
+<item>
+<title>CBC Drama</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=BZrd8Rua13s</link>
+<thumbnail>https://yt3.ggpht.com/-tDe3PyadQnQ/AAAAAAAAAAI/AAAAAAAAAAA/rBmsY_5xshg/s88-c-k-no/photo.jpg</thumbnail>
+</item>
+
+<item>
 <title>CBC Sofra</title>
-<link>rtmp://41.196.200.11:9900/live playpath=ssoofra.stream swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=true timeout=15 pageUrl=http://www.cbcsofra.com/%d8%a7%d9%84%d8%a8%d8%ab-%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/</link></link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=vkzlfJm7X10</link>
 <thumbnail>http://www.livetv.tn/images/icons/256.gif</thumbnail>
 </item>
 

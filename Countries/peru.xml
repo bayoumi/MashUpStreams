@@ -12,13 +12,13 @@
 
 <item>
 <title>Panamericana</title>
-<link>http://stream-ak.vty.dmcdn.net/05/dm/1/x18w5up/live.isml/live.m3u8?rebase=on</link>
+<link>http://stream-ak.vty.dmcdn.net/18/dm/1/x18w5up/live.isml/live.f4m</link>
 <thumbnail>http://www.panamericana.pe/imagenes/cabecera/panamericana-2013.png</thumbnail>
 </item>
 
 <item>
 <title>America Television</title>
-<link>http://d3omloebzr61ev.cloudfront.net/liveedge/smil:americatvgo_PC.smil/chunklist_b800000.m3u8</link>
+<link>rtmp://46.28.50.116/live playpath=soldado477?id=71440 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/soldado477/1/620/400 live=true timeout=15</link>
 <thumbnail>http://1.bp.blogspot.com/-s0trtn50v28/URbZZkIqGYI/AAAAAAAAC-8/jERp8mmTRck/s1600/logoameric.jpg</thumbnail>
 </item>
 
@@ -30,7 +30,7 @@
 
 <item>
 <title>ATV</title>
-<link>rtmp://173.193.227.91/live Playpath=hambre?id=205096 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/hambre/1/620/382 live=true timeout=15</link>
+<link>rtmp://d9642.iblups.com/lives playpath=Zld5BoM1Ne swfUrl=http://iblups.com/playertvlive123456789panamericanatv.swf?config=configpanamericanatv%2Exml pageUrl=http://iblups.com/e_atv-520-343 live=true timeout=15</link>
 <thumbnail>http://4.bp.blogspot.com/-pSHGTkx9ttA/URbZa4B39WI/AAAAAAAAC_Q/MKH-NvUoAa4/s1600/logoatv.jpg</thumbnail>
 </item>
 
@@ -50,30 +50,6 @@
 <title>La Tele</title>
 <link>rtmp://d91.iblups.com/ app=latele playpath=MMb2wRCis1 swfUrl=http://iblups.com/playertvlive123456789.swf?config=configplayer%2Ephp%3Fid%3D10691&amp;autostart=true live=true timeout=15 pageUrl=http://iblups.com/e_latele-620-390</link>
 <thumbnail>http://4.bp.blogspot.com/-gnAPZarKzsM/UzwvKmalmFI/AAAAAAAAA4c/7CCFyqkDr-4/s1600/latele1.png</thumbnail>
-</item>
-
-<item>
-<title>FOX</title>
-<link>rtmp://173.192.209.69/live playpath=mmxmxmx?id=61406 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ucaster.eu/embedded/mmxmxmx/1/620/382</link>
-<thumbnail>http://2.bp.blogspot.com/-6IPoGDxdwoE/UzwvCdmsSgI/AAAAAAAAA4U/7mOUX2wPkMI/s1600/fox1.png</thumbnail>
-</item>
-
-<item>
-<title>Discovery</title>
-<link>rtmp://109.123.123.68/live playpath=DC2015?id=8081 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.janjua.tv/embedplayer/DC2015/1/585/385</link>
-<thumbnail>http://4.bp.blogspot.com/-Uf8gBN6OS-U/UzX8ktdWnKI/AAAAAAAAA28/NT3SJkS0ls8/s1600/disco1.png</thumbnail>
-</item>
-
-<item>
-<title>Nat Geo</title>
-<link>rtmp://146.185.25.130/live playpath=nattionnalgeo?id=14153 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ezcast.tv/embedded/nattionnalgeo/1/650/400</link>
-<thumbnail>http://3.bp.blogspot.com/-bD6Rip3YOlg/UrPdAJxzU_I/AAAAAAAAArw/gXUmXTPpkpE/s1600/logoNAT12.png</thumbnail>
-</item>
-
-<item>
-<title>ESPN</title>
-<link>rtmp://5.63.151.44/live playpath=asdfchhivas?id=199564 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/asdfchhivas/1/620/400</link>
-<thumbnail>http://1.bp.blogspot.com/-xn37mpKlEfw/URbZcdjjtEI/AAAAAAAAC_o/Mp-krNvUNkM/s1600/logoespn.jpg</thumbnail>
 </item>
 
 </channel>
