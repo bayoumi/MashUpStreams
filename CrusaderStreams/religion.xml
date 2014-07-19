@@ -36,8 +36,26 @@
 
 <item>
 <title>MEsat</title>
-<link>rtmp://stream.s17.cpanelservices.com/ app=coptictvlive playpath=livestream swfUrl=http://copticpope.tv/flowplayer-3.2.7.swf live=true timeout=15 pageUrl=http://mesatcopticchannel.blogspot.com/</link>
+<link>rtmp://sc-e1.streamcyclone.com:1935/MeSat playpath=MeSat swfUrl=http://copticpope.tv/flowplayer-3.2.7.swf pageUrl=http://mesatcopticchannel.blogspot.com/ live=true timeout=15</link>
 <thumbnail>http://1.bp.blogspot.com/-j2Fe0r5_iRs/T4QCqXGZwrI/AAAAAAAAAJU/ODMWlJzE-Gs/s1600/mesat.jpg</thumbnail>
+</item>
+
+<item>
+<title>Sat 7</title>
+<link>rtmp://unirtmp.tulix.tv:1935/sat7arabic playpath=sat7arabic1 swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.streamwebtown.com/player/sat7/arabic/index.php live=true timeout=15</link>
+<thumbnail>http://www.sat7uk.org/sat7-uploaded-media/Logos/SAT-7%20ARABIC.jpg</thumbnail>
+</item>
+
+<item>
+<title>Sat 7 Kids</title>
+<link>rtmp://unirtmp.tulix.tv:1935/sat7kids playpath=sat7kids1 swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.streamwebtown.com/player/sat7/kids/index.php live=true timeout=15</link>
+<thumbnail>http://www.loveworldchristiannetwork.org/Newsroom/upload/NewsPictures/14268.jpg</thumbnail>
+</item>
+
+<item>
+<title>ATV Sat</title>
+<link>rtmp://videos.atvsat.com:1935/atvsatlive playpath=atvsatlive1 swfUrl=http://atvsat.com/liveplayer/player.swf pageUrl=http://atvsat.com/ live=true timeout=15</link>
+<thumbnail>http://www.tv14.net/images/atvsat.jpeg</thumbnail>
 </item>
 
 <item>
