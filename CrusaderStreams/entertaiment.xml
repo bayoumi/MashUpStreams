@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Updated CBC Channels, Updated A Couple Channels & Added Dream Channels[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Updated CBC Channels, Updated A Couple Channels & Added Dream Channels, Fixed Al Kahera Wal Nas 1&2[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -19,13 +19,13 @@
 
 <item>
 <title>Al Kahera Wal Nas</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=bzpmJq_aorU</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ahDnepO4RYE</link>
 <thumbnail>http://www.alkaherawalnas.com/images/logo-02.png</thumbnail>
 </item>
 
 <item>
 <title>Al Kahera Wal Nas 2</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=Fsvf3Q5Jl54</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=_Zd0lkWYlCA</link>
 <thumbnail>http://www.alkaherawalnas.com/images/TNTV-02-01.png</thumbnail>
 </item>
 
