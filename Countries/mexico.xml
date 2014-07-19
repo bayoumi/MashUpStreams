@@ -80,7 +80,7 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 
 <item>
 <title>Telemundo</title>
-<link>rtmp://204.45.157.98/app playpath=16393 swfUrl=http://cdn.shidurlive.com/player.swf pageUrl=http://www.shidurlive.com/ live=true timeout=15</link>
+<link>rtmp://50.7.28.178/app playpath=16460 swfUrl=http://cdn.shidurlive.com/player.swf pageUrl=http://www.shidurlive.com/ live=true timeout=15</link>
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/telemar6_320.jpg</thumbnail>
 </item>
 
