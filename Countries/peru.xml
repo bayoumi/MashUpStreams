@@ -42,7 +42,7 @@
 
 <item>
 <title>Willax</title>
-<link>rtmp://willax.mediastream.pe/ app=vv_willax playpath=livestream swfUrl=http://monitor.mediastream.pe/MStreamLive.swf?v=qtnjVOvh live=true timeout=15 pageUrl=http://www.tele-on.com/2014/04/willax.html</link>
+<link>rtmp://willax.mediastream.pe/ app=vv_willax playpath=livestream swfUrl=http://monitor.mediastream.pe/MStreamLive.swf?v=qtnjVOvh pageUrl=http://willax.tv/ live=true timeout=15</link>
 <thumbnail>http://4.bp.blogspot.com/-rEx1kFMNgXw/Uzwur9QGLcI/AAAAAAAAA38/nZcyxofqyUM/s1600/will1.png</thumbnail>
 </item>
 
