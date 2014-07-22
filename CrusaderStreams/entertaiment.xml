@@ -7,7 +7,12 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Updated CBC Channels, Updated A Couple Channels & Added Dream Channels, Fixed Al Kahera Wal Nas 1&2[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Updated A Couple Channels[/COLOR]</message>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
+</info>
+
+<info>
+<message>[COLOR=FFFF0000]Important: If You Get A Black Screen, You Must Click Channel 3 Times To Get Video[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -43,7 +48,7 @@
 
 <item>
 <title>Dubai TV</title>
-<link>rtmp://dmiLiveDubaiTV.flash.internapcdn.net/dmiLiveDubaiTV/live_3 app=dmiLiveDubaiTV/live_3 playpath=dmilivedubaitv_4 swfUrl=http://vod.dmi.ae/bundles/endavoenhance/js/lib/jwplayer/jwplayer.flash.swf pageUrl=http://vod.dmi.ae/jwplayer/player16.php?width=630&height=461&channel=dubaitv swfVfy=true live=true timeout=15</link>
+<link>http://cdnedvrdubaitv.endavomedia.com/smil:dmilivedubaitvhls.smil/playlist.m3u8</link>
 <thumbnail>http://tv.onlinemoviesportsandtv.com/wp-content/uploads/2012/11/Dubai-TV.jpg</thumbnail>
 </item>
 
@@ -232,7 +237,21 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
 
 <item>
 <title>MBC Maser</title>
-<link>rtmp://109.123.123.68/live playpath=nnm54?id=10371 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/nnm54/1/600/450 live=true timeout=15</link>
+<link>
+rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
+<regex>
+<name>e</name>
+<expres>e=([^&]*)</expres>
+<page>http://www.web-medias.net/iptv/?ch=mbc_maser</page>
+<referer>http://www.tele-live.net/mbc-masr-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%b5%d8%b1-%d8%a8%d8%ab-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_010846d61.html</referer>
+</regex>
+<regex>
+<name>st</name>
+<expres>st=([^<]*)</expres>
+<page>http://www.web-medias.net/iptv/?ch=mbc_maser</page>
+<referer>http://www.tele-live.net/mbc-masr-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%b5%d8%b1-%d8%a8%d8%ab-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_010846d61.html</referer>
+</regex>
+</link>
 <thumbnail>http://jazarah.net/ar/wp-content/uploads/2012/10/MBC-MASR-logo.jpg</thumbnail>
 </item>
 
@@ -280,7 +299,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
 
 <item>
 <title>CBC 2</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=OFs8THBMRBU</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=wyBM93PG_wY</link>
 <thumbnail>https://yt3.ggpht.com/-NZi8n5mnEgs/AAAAAAAAAAI/AAAAAAAAAAA/rzVXyciExjI/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 
@@ -316,9 +335,10 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
 
 <item>
 <title>Dream 2</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/18127105/streams/live/playlist.m3u8</link>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/18117128/streams/live/playlist.m3u8</link>
 <thumbnail>http://bell-vs-rogers.com/channellogos/cid599dream2.png</thumbnail>
 </item>
+
 
 <item>
 <title>Dream 2 +2</title>
@@ -342,12 +362,6 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
 <title>Mehwer</title>
 <link>rtmp://livestreaming4.onlinehorizons.net/ app=MehwarTV playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/MehwarTV/player.swf live=true timeout=15 pageUrl=http://onlinehorizons.net/livestreaming/MehwarTV/</link>
 <thumbnail>http://www.elmehwartv.com/wp-content/uploads/2014/01/1.png</thumbnail>
-</item>
-
-<item>
-<title>CBC 2</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=Rlvl3B8ECvo</link>
-<thumbnail>http://www.cbc-eg.com/images/twolive.png</thumbnail>
 </item>
 
 <item>
@@ -509,7 +523,7 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>MBC 4</title>
-<link>rtmp://149.255.34.122/live playpath=sdhdfhhdffhdddhh?id=201717 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/sdhdfhhdffhdddhh/1/600/380</link>
+<link>rtmp://198.105.217.36/live playpath=sdhdfhhdffhdddhh?id=201717 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/sdhdfhhdffhdddhh/1/600/380</link>
 <thumbnail>http://aflam4you.tv/uploads/thumbs/71-1.jpg</thumbnail>
 </item>
 

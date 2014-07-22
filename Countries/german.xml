@@ -66,7 +66,7 @@
 
 <item>
 <title>ZDF (Link 2)</title>
-<link>rtmp://94.20.21.34:1935/live playpath=zdf.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/zdf.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=zdf.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/zdf.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/zz/zdf_de_hd.jpg</thumbnail>
 </item>
 
@@ -89,12 +89,6 @@
 </item>
 
 <item>
-<title>ARD Das Erste</title>
-<link>rtsp://daserste.edges.wowza.gl-systemhaus.de/live/mp4:daserste_int_1600</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ard_das_erste.jpg</thumbnail>
-</item>
-
-<item>
 <title>Das Erste  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
 <link>http://daserste_live-lh.akamaihd.net/z/daserste_de@91204/manifest.f4m</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Das_Erste_HD_Logo.svg/725px-Das_Erste_HD_Logo.svg.png</thumbnail>
@@ -102,13 +96,13 @@
 
 <item>
 <title>Das Erste (Link 2)</title>
-<link>rtmp://94.20.21.34:1935/live playpath=ard.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/ard.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=ard.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/ard.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Das_Erste_HD_Logo.svg/725px-Das_Erste_HD_Logo.svg.png</thumbnail>
 </item>
 
 <item>
 <title>3Sat</title>
-<link>rtmp://94.20.21.34:1935/live playpath=3sat.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/3sat.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://213.163.74.20:1935/live playpath=3sat.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/3sat.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/num/3sat.png</thumbnail>
 </item>
 
@@ -120,7 +114,7 @@
 
 <item>
 <title>Nick</title>
-<link>rtmp://94.20.21.34:1935/live playpath=nickcc.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/nickcc.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=nickcc.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/nickcc.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png</thumbnail>
 </item>
 
@@ -150,13 +144,13 @@
 
 <item>
 <title>RTL 2</title>
-<link>rtmp://94.20.21.34:1935/live playpath=rtl2.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtl2.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=rtl2.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtl2.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rtl2_at.png</thumbnail>
 </item>
 
 <item>
 <title>RTL Nitro</title>
-<link>rtmp://94.20.21.34:1935/live playpath=rtlnitro.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtlnitro.html#tab2-tab </link>
+<link>rtmp://94.20.21.40:1935/live playpath=rtlnitro.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtlnitro.html#tab2-tab </link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rtl_nitro_de.png</thumbnail>
 </item>
 
@@ -168,25 +162,25 @@
 
 <item>
 <title>SF 1</title>
-<link>rtmp://94.20.21.34:1935/live playpath=sf1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sf1.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://213.163.74.20:1935/live playpath=sf1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sf1.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/2/27/SF_1_logo.png</thumbnail>
 </item>
 
 <item>
 <title>Sixx</title>
-<link>rtmp://94.20.21.34:1935/live playpath=sixx.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sixx.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=sixx.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sixx.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sixx.png</thumbnail>
 </item>
 
 <item>
 <title>Sport 1</title>
-<link>rtmp://94.20.21.34:1935/live playpath=sport1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sport1.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://213.163.74.20:1935/live playpath=sport1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sport1.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sport1_de.png</thumbnail>
 </item>
 
 <item>
 <title>Viva</title>
-<link>rtmp://94.20.21.34:1935/live playpath=viva.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/viva.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=viva.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/viva.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/viva_de.png</thumbnail>
 </item>
 
@@ -210,7 +204,7 @@
 
 <item>
 <title>VOX</title>
-<link>rtmp://94.20.21.34:1935/live playpath=vox.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/vox.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.40:1935/live playpath=vox.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/vox.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://4.bp.blogspot.com/-2_2zXUYZJHs/UW02asERLiI/AAAAAAAAAJM/GkUg6mll8X8/s1600/Vox.jpg</thumbnail>
 </item>
 
