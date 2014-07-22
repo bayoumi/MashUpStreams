@@ -30,8 +30,20 @@
 
 <item>
 <title>KIKA (Link 2)</title>
-<link>rtmp://94.20.21.40:1935/live playpath=kika.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/kika.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=kika.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/kika.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://file1.npage.de/009857/81/bilder/logo_kika.gif</thumbnail>
+</item>
+
+<item>
+<title>ATV</title>
+<link>rtmp://94.20.21.34:1935/live playpath=atv.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/atv.html#tab2-tab live=true timeout=15</link>
+<thumbnail>http://www.tv14.net/wp-content/uploads/2010/10/ATV1.jpeg</thumbnail>
+</item>
+
+<item>
+<title>Pro7</title>
+<link>rtmp://94.20.21.34:1935/live playpath=pro7.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/pro7.html#tab2-tab live=true timeout=15</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/pro_sieben_ch.png</thumbnail>
 </item>
 
 <item>
@@ -101,14 +113,8 @@
 </item>
 
 <item>
-<title>ATV</title>
-<link>rtmp://213.163.74.20:1935/live playpath=atv.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/atv.html#tab2-tab live=true timeout=15</link>
-<thumbnail>http://www.tv14.net/wp-content/uploads/2010/10/ATV1.jpeg</thumbnail>
-</item>
-
-<item>
 <title>Disney Channel</title>
-<link>rtmp://94.20.21.40:1935/live playpath=disneychannel.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/disney_channel.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=disneychannel.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/disney_channel.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_junior_de.png</thumbnail>
 </item>
 
@@ -126,13 +132,13 @@
 
 <item>
 <title>Eurosport</title>
-<link>rtmp://94.20.21.40:1935/live playpath=eurosport.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/eurosport.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=eurosport.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/eurosport.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/eurosport.png</thumbnail>
 </item>
 
 <item>
 <title>Kabel 1</title>
-<link>rtmp://94.20.21.40:1935/live playpath=kabel1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/kabel1.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=kabel1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/kabel1.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/kk/kabel_eins.png</thumbnail>
 </item>
 
@@ -143,26 +149,20 @@
 </item>
 
 <item>
-<title>Pro7</title>
-<link>rtmp://213.163.74.20:1935/live playpath=pro7.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/pro7.html#tab2-tab live=true timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/pro_sieben_ch.png</thumbnail>
-</item>
-
-<item>
 <title>RTL 2</title>
-<link>rtmp://213.163.74.20:1935/live playpath=rtl2.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtl2.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=rtl2.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtl2.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rtl2_at.png</thumbnail>
 </item>
 
 <item>
 <title>RTL Nitro</title>
-<link>rtmp://213.163.74.20:1935/live playpath=rtlnitro.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtlnitro.html#tab2-tab </link>
+<link>rtmp://94.20.21.34:1935/live playpath=rtlnitro.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/rtlnitro.html#tab2-tab </link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rtl_nitro_de.png</thumbnail>
 </item>
 
 <item>
 <title>Super RTL</title>
-<link>rtmp://213.163.74.20:1935/live playpath=superrtl.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/superrtl.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=superrtl.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/superrtl.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/super_rtl_at.png</thumbnail>
 </item>
 
@@ -180,19 +180,19 @@
 
 <item>
 <title>Sport 1</title>
-<link>rtmp://213.163.74.20:1935/live playpath=sport1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sport1.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=sport1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sport1.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sport1_de.png</thumbnail>
 </item>
 
 <item>
 <title>Viva</title>
-<link>rtmp://213.163.74.20:1935/live playpath=viva.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/viva.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=viva.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/viva.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/viva_de.png</thumbnail>
 </item>
 
 <item>
 <title>Tele 5</title>
-<link>rtmp://213.163.74.20:1935/live playpath=tele5.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/tele5.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=tele5.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/tele5.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tele5_de.png</thumbnail>
 </item>
 
@@ -210,7 +210,7 @@
 
 <item>
 <title>VOX</title>
-<link>rtmp://213.163.74.20:1935/live playpath=vox.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/vox.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://94.20.21.34:1935/live playpath=vox.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/vox.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://4.bp.blogspot.com/-2_2zXUYZJHs/UW02asERLiI/AAAAAAAAAJM/GkUg6mll8X8/s1600/Vox.jpg</thumbnail>
 </item>
 
