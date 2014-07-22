@@ -48,13 +48,13 @@
 
 <item>
 <title>TVI</title>
-<link>rtmp://5.63.149.180/live playpath=TVI2122?id=14432 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ezcast.tv/embedded/TVI2122/1/550/420</link>
-<thumbnail>http://jorgesalvador.files.wordpress.com/2011/09/tvi24logo.png?w=300</thumbnail>
+<link>rtmp://46.23.67.114/live playpath=TVI8282?id=16616 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf pageUrl=http://www.ezcast.tv/embedded/TVI8282/1/550/420 live=true timeout=15</link>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20100918105531/logopedia/images/b/b0/TVI_logo.png</thumbnail>
 </item>
 
 <item>
 <title>A Bola</title>
-<link>rtmp://5.63.149.180/live<playpath>bolatv4?id=16354 <swfUrl>http://www.ezcast.tv/static/scripts/eplayer.swf <pageUrl>http://www.ezcast.tv/embedded/bolatv4/1/550/420</link>
+<link>rtmp://5.63.149.180/live playpath=bolatv4?id=16354 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf pageUrl=http://www.ezcast.tv/embedded/bolatv4/1/550/420 live=true timeout=15</link>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20131129194554/logopedia/images/b/b2/A_Bola_TV_logo.png</thumbnail>
 </item>
 
