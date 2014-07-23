@@ -12,7 +12,7 @@
 
 <item>
 <title>Televisa</title>
-<link>rtmp://149.255.37.164/live playpath=starjun?id=5744 conn=S:OK swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.streamify.tv/embedplayer/starjun/1/600/400</link>
+<link>rtmp://46.28.50.116/live playpath=starago014?id=71582 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/starago014/1/590/400 live=true timeout=15</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2013/02/Watch-Live-Online-Televisa-en-Vivo-Logo.jpg</thumbnail>
 </item>
 
@@ -80,7 +80,7 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 
 <item>
 <title>Telemundo</title>
-<link>rtmp://50.7.28.178/app playpath=16460 swfUrl=http://cdn.shidurlive.com/player.swf pageUrl=http://www.shidurlive.com/ live=true timeout=15</link>
+<link>rtmp://149.255.37.163/live playpath=Telemundo69?id=4557 conn=S:OK swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf pageUrl=http://www.streamify.tv/embedplayer/Telemundo69/1/580/380 live=true timeout=15</link>
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/telemar6_320.jpg</thumbnail>
 </item>
 

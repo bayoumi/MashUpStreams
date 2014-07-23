@@ -17,6 +17,24 @@
 </item>
 
 <item>
+<title>Pogo</title>
+<link>http://d1vfuy3zwrxiut.cloudfront.net/live/_definst_/sweetbcha1novD29_W_150.sdp/manifest.f4m</link>
+<thumbnail>http://i.cdn.turner.com/dr/teg/turner/release/sites/default/files/images/pogo_left_logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Suvarna News 24x7</title>
+<link>http://asianet-lh.akamaihd.net/z/asianetN_1@30556/manifest.f4m</link>
+<thumbnail>http://3.bp.blogspot.com/_uyLdN4k4jjs/TUGpe2ljMqI/AAAAAAAADNo/8RGaEj5BPOM/s1600/162056_110861872278207_871524_n.jpg</thumbnail>
+</item>
+
+<item>
+<title>TV9 KANNADA</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=dBRrtltPUmI</link>
+<thumbnail>http://newtvworld.com/Images/tv9_kannada.jpg</thumbnail>
+</item>
+
+<item>
 <title>Zee Talkies</title>
 <link>
 rtmp://dittotv.live-s.cdn.bitgravity.com/ app=cdn-live/_definst_ playpath=$doregex[src] swfurl=http://dittotv.com/assets/flash/jwplayer.flash.swf live=true timeout=15 pageurl=http://dittotv.com/
@@ -72,7 +90,7 @@ rtmp://dittotv.live-s.cdn.bitgravity.com/ app=cdn-live/_definst_ playpath=$doreg
 
 <item>
 <title>B4U Movies</title>
-<link>rtmp://50.7.175.253:1939/base2 playPath=dd25.stream token=Vu4KaBzaxa pageUrl=http://desilivetv.net/ swfUrl=http://desilivetv.net/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf</link>
+<link>rtmp://50.7.175.4:1940/base2 playpath=dd25.stream swfUrl=http://desilivetv.net/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl=http://desilivetv.net/b4u-movies/ live=true timeout=15 token=Vu4KaBzaxa</link>
 <thumbnail>http://www.entertainmentdoor.com.pk/images/channel_image/b4u_movies.png</thumbnail>
 </item>
 

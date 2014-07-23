@@ -23,4 +23,10 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/ww/wapa_televicentro.png</thumbnail>
 </item>
 
+<item>
+<title>Telemundo</title>
+<link>http://cdn.cls4e.bimvidlive.com/tlmpr1/ngrp:tlmpr1_all/manifest.f4m</link>
+<thumbnail>http://media.telemundopr.com/designimages/TLMD_60Aniversario_logo_TCANAL.png</thumbnail>
+</item>
+
 </channel>
