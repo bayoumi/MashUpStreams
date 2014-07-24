@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Arabic Bein Channels[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Backup Links, Fixed Arabic Bein Channels[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -124,7 +124,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://173.192.81.172/flash playpath=18951 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein1 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=1734 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
@@ -143,7 +143,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 3 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=3b426 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein3 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein3 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -152,7 +152,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 4 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=4b206 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein4 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein4 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/MCi8WTD.jpg</thumbnail>
 </item>
@@ -161,7 +161,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 5 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=5b981 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein5 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein5 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/eKtzUc4.jpg</thumbnail>
 </item>
@@ -170,7 +170,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 6 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=6b660 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://94.242.228.110/ app=liveedge playpath=mootembein6 swfUrl=http://www.livevideostreams.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.livevideostreams.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein6 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/by9j5N2.jpg</thumbnail>
 </item>
@@ -178,7 +178,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 7 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://50.7.28.234/flash playpath=19007 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein7 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=7b842swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/cHNlLaQ.jpg</thumbnail>
@@ -187,7 +187,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 8 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://50.7.28.210/flash playpath=19070 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein8 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=8b916 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 <thumbnail>http://i.imgur.com/cEpkyFy.jpg</thumbnail>
 </item>
@@ -195,7 +195,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 9 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://50.7.28.234/flash playpath=19071 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein9 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=9b272 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_9hd.jpg</thumbnail>
@@ -204,7 +204,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://50.7.28.234/flash playpath=19072 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein10 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=10b510 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 </link>
 <thumbnail>http://scrat.hellocoton.fr/img/classic/bein-sport-10hd-live-regarder-bein-sport-10-hd-en-direct-gratuit-11334154.jpg</thumbnail>
@@ -214,7 +214,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 11 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=11549 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://173.192.200.79/flash playpath=19168 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein11 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_11hd.jpg</thumbnail>
 </item>
@@ -223,7 +223,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 12 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=12829 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://173.192.81.172/flash playpath=19162 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein12 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_12hd.jpg</thumbnail>
 </item>
@@ -307,7 +307,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 13 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=13128 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmpe://46.246.124.22:1935/redirect playpath=bch13 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein13 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_13hd.jpg</thumbnail>
 </item>
@@ -316,7 +316,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 14 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=14620 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmpe://46.246.124.22:1935/redirect playpath=bch14 swfUrl=http://www.hdcast.org/players.swf pageUrl=http://www.hdcast.org/ token=Fo5_n0w?U.rA6l3-70w47ch swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein14 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_14hd.jpg</thumbnail>
 </item>
@@ -325,6 +325,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 15 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=15516 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein15 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_15hd.jpg</thumbnail>
 </item>
