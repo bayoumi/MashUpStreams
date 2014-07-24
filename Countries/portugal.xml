@@ -60,7 +60,7 @@
 
 <item>
 <title>CM TV</title>
-<link>rtmpe://5.153.233.106:443/ app=vee playpath=24rcmtv4yt-VHQWHfQ swfUrl=http://veecast.net/player59.swf pageurl=http://www.veecast.net</link>
+<link>mms://cn1.toservers.com:1234</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cm_tv_pt.png</thumbnail>
 </item>
 
@@ -84,7 +84,7 @@
 
 <item>
 <title>SIC Noticias</title>
-<link>rtmp://46.23.67.114/live playpath=SIC8989?id=14799 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ezcast.tv/embedded/SIC8989/1/550/420</link>
+<link>rtmp://213.13.26.12/live playpath=sicnoticias swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://tvfree.me/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sic_noticias.jpg</thumbnail>
 </item>
 
@@ -96,7 +96,7 @@
 
 <item>
 <title>TVI24</title>
-<link>rtmp://50.22.223.52/live playpath=tvi24nouvelles?id=61609 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/tvi24nouvelles/1/555/435 swfVfy=true live=true timeout=15 </link>
+<link>rtmp://173.192.209.69/live playpath=tvi24nouvelles?id=61609 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/tvi24nouvelles/1/555/435 swfVfy=true live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tvi_24.jpg </thumbnail>
 </item>
 

@@ -6,6 +6,19 @@
 <thumbnail></thumbnail>
 
 <item>
+<title>Canal 11</title>
+<link>rtmpe://live.miotv.hn:1935/ app=securelive/ playpath=$doregex[file] token=dAzAf3dUtHuprapRaCeb5amukEcEf8UD swfUrl=http://www.miralo.tv/canales/player.swf pageUrl=http://www.miralo.tv/ swfVfy=true live=1
+<regex>
+<name>file</name>
+<expres>'file','([^']*)</expres>
+<page>http://www.miralo.tv/canal11.php?width=630&amp;height=430</page>
+<referer>http://miralo.tv/ver-canal-11-en-vivo.html</referer>
+</regex>
+</link>
+<thumbnail>http://www.canal11.hn/imagenes/index/logocanal11.jpg</thumbnail>
+</item>
+
+<item>
 <title>CANAL6</title>
 <link>rtmp://216.231.129.4/canal6 playpath=canal6 swfUrl=http://216.231.129.4/system/misc/flvplayer/FLVplayer_Custom.swf pageUrl=http://www.telecatracha.com/2010/02/canal-6-san-pedro-sula-honduras.html</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canal6_hn.jpg</thumbnail>
