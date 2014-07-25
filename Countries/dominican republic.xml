@@ -5,6 +5,68 @@
 <thumbnail></thumbnail>
 
 <item>
+<title>CDN Canal 37</title>
+<link>http://108.168.206.90:1935/cdn/cdn/playlist.m3u8</link>
+<thumbnail>http://tv-online.in/wp-content/uploads/2013/01/CDN1-CANAL-37-Santo-Domingo-live.gif</thumbnail>
+</item>
+
+<item>
+<title>Teleantillas Canal 2</title>
+<link>http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8</link>
+<thumbnail>http://teleantillas.com.do/images/logo2.png</thumbnail>
+</item>
+
+<item>
+<title>Telesistema Canal 11</title>
+<link>http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8</link>
+<thumbnail>http://canalesdominicanosenvivo.com/wp-content/uploads/2013/09/telesistema_poster.png</thumbnail>
+</item>
+
+<item>
+<title>Telefuturo Canal 23</title>
+<link>http://ss7.domint.net:1950/tf_str/futu/playlist.m3u8</link>
+<thumbnail>http://tusolcaribe.net/wp-content/uploads/2012/10/telefuturo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Noticias 16 Canal 16</title>
+<link>http://mek2.mekstream.com:1935/noticias16/live2/playlist.m3u8</link>
+<thumbnail>http://canalesdominicanosenvivo.com/wp-content/uploads/2014/05/Noticias-16-Santo-Domingo-Canales-Dominicanos-Online.jpg</thumbnail>
+</item>
+
+<item>
+<title>CDN Sport Max</title>
+<link>http://108.168.206.90:1935/cdnsm/cdnsm/playlist.m3u8</link>
+<thumbnail>http://mediavid.net/img/tv-icons/cdnsports.jpg</thumbnail>
+</item>
+
+<item> 
+<title>Univision</title> 
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=15648&amp;wh=625&amp;ht=395&amp;r=www.mirandotv.net</page>
+<referer>http://www.mirandotv.net/2014/03/univision-en-vivo-por-internet.html</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=15648&amp;wh=625&amp;ht=395&amp;r=www.mirandotv.net</page>
+<referer>http://www.mirandotv.net/2014/03/univision-en-vivo-por-internet.html</referer>
+</regex>
+</link>
+<thumbnail>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQW70cx-uJo3CBjJQ-K6d0vESjwL1R10Ql-0QTUNFveGoKJyhfr</thumbnail>
+</item>
+
+<item>
+<title>Telemundo</title>
+<link>rtmp://149.255.37.163/live playpath=Telemundo69?id=4557 conn=S:OK swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf pageUrl=http://www.streamify.tv/embedplayer/Telemundo69/1/580/380 live=true timeout=15</link>
+<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/telemar6_320.jpg</thumbnail>
+</item>
+
+<item>
 <title>Dominicana York TV En Vivo</title>
 <link>http://stream.dominicanyork.tv:1985/dominicanyorktv/DMYTV/playlist.m3u8?wowzasessionid=935498660</link>
 <thumbnail>http://canalesdominicanosenvivo.com/logos/Dominican-York-TV.jpg</thumbnail>
@@ -12,13 +74,13 @@
 
 <item>
 <title>Teleuniverso Canal 29</title>
-<link>http://ss4.domint.net:1942/tu_str/universo/chunklist_w1063263370.m3u8</link>
+<link>http://ss7.domint.net:1942/tu_str/universo/playlist.m3u8</link>
 <thumbnail>http://emisoradominicana.net/television/logos/Teleuniverso-Canal-29.jpg</thumbnail>
 </item>
 
 <item>
 <title>ColorVision Canal 9</title>
-<link>http://198.27.81.114:1935/rtplive/colorvision.sdp/playlist.m3u8?wowzasessionid=1811741867</link>
+<link>http://192.99.148.27:1935/rtplive/colorvision.sdp/playlist.m3u8</link>
 <thumbnail>http://www.esacademic.com/pictures/eswiki/67/Colorvisionlogo.jpg</thumbnail>
 </item>
 
@@ -35,8 +97,8 @@
 </item>
 
 <item>
-<title>Digital 15  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>rtmp://67.212.234.140:9095/live playpath=telemicro15 token=9cf004951cc00f85 swfUrl=http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf live=true timeout=15 pageUrl=http://telemicro.com.do/envivo/index.php?option=com_content&view=article&id=3&Itemid=5</link>
+<title>Digital 15</title>
+<link>rtmp://67.212.234.140:9095/telemicro/ playpath=telemicro1515 swfUrl=http://telemicro.com.do/tv/components/com_jmsvideo/jwplayer/jwplayer.flash.swf pageUrl=http://emisoradominicana.net/ live=true timeout=15</link>
 <thumbnail>http://www.cirqueros.com/web/images/stories/digital%2015%20logo.jpg</thumbnail>
 </item>
 
@@ -59,8 +121,8 @@
 </item>
 
 <item>
-<title>Santiago TV Canel 36</title>
-<link>plugin://plugin.video.jtv.archives/?mode=2&amp;name=santiagotv3636</link>
+<title>Santiago TV Canal 36  [COLOR=FFFF0000]XBMC Gotham Only[/COLOR]</title>
+<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=santiagotv3636&amp;play=true</link>
 <thumbnail>http://www.santiagotv36.com/images/logo.png</thumbnail>
 </item>
 
@@ -72,7 +134,7 @@
 
 <item>
 <title>Telemedios Canal 25</title>
-<link>rtmp://198.27.81.114:1935/ app=rtplive/_definst_/canal25 playpath=canal25.sdp swfUrl=http://192.254.234.245/~orosario/canal25/player-2012-free.swf live=true timeout=15 pageUrl=http://192.254.234.245/~orosario/canal25/player.html</link>
+<link>http://192.99.148.27:1935/rtplive/_definist_/canal25.sdp/playlist.m3u8</link>
 <thumbnail>http://www.canalesdominicano.com/wp-content/uploads/2013/10/Telemedios-Canal-25.jpg</thumbnail>
 </item>
 
