@@ -23,7 +23,13 @@
 </item>
 
 <item>
-<title>Ariana International</title>
+<title>Ariana International Link 1 </title>
+<link>rtsp://50.97.117.4/AFG-AINT-PACIFIC</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/aa/ariana_tv_network_international.png</thumbnail>
+</item>
+
+<item>
+<title>Ariana International Link 2</title>
 <link>rtsp://50.97.117.4/AFG-AINT-MAIN</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/ariana_tv_network_international.png</thumbnail>
 </item>
@@ -41,7 +47,13 @@
 </item>
 
 <item>
-<title>RTA Milli</title>
+<title>RTA Milli Link 1</title>
+<link>rtsp://50.97.117.4/AFG-RTA-EUROPE</link>
+<thumbnail>http://livetv.liveafghantv.com/images/tv/tv_rta.jpg</thumbnail>
+</item>
+
+<item>
+<title>RTA Milli Link 2</title>
 <link>rtsp://50.97.117.4/AFG-RTA-MAIN</link>
 <thumbnail>http://livetv.liveafghantv.com/images/tv/tv_rta.jpg</thumbnail>
 </item>
