@@ -6,7 +6,7 @@
 
 <item>
 <title>Star Gold</title>
-<link>http://154.57.145.49/flv/4e2c5fd04592d/testat123?0.9396636397577822</link>
+<link>http://154.57.145.117/flv/4dd469a36a357/testat123?0.7692639166489244</link>
 <thumbnail>http://images.wikia.com/logopedia/images/f/f0/Star_Gold_2011.png</thumbnail>
 </item>
 
@@ -486,7 +486,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>Star Movies</title>
-<link>http://154.57.145.36/flv/52e610b6955aa/testat123?0.24639876931905746</link>
+<link>http://154.57.145.36/flv/52e610b6955aa/testat123?0.5752934282645583</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/star_movies_tw_hd.png</thumbnail>
 </item>
 </channel>
@@ -506,7 +506,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>Zee Cinema</title>
-<link>http://154.57.145.148/flv/4e0e6f4dcc2d3/testat123?0.8605019780807197</link>
+<link>http://154.57.145.148/flv/4e0e6f4dcc2d3/testat123?0.6815365254878998</link>
 <thumbnail>http://images.wikia.com/logopedia/images/4/48/Zee_Cinema_2011.png</thumbnail>
 </item>
 
