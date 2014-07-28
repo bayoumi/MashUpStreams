@@ -60,13 +60,13 @@
 
 <item>
 <title>CM TV</title>
-<link>mms://cn1.toservers.com:1234</link>
+<link>rtmp://46.28.50.124/live playpath=m1cmtv?id=71241 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/m1cmtv/1/650/500 live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cm_tv_pt.png</thumbnail>
 </item>
 
 <item>
 <title>MTV</title>
-<link>rtmpe://5.153.233.106:443/ app=vee playpath=mtv04r-LYMFPUP swfUrl=http://veecast.net/player59.swf pageurl=http://www.veecast.net</link>
+<link>rtmp://109.123.123.68/live playpath=ef22mtv?id=18059 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/ef22mtv/1/650/500 live=true timeout=15</link>
 <thumbnail>http://blogilvypr.pt/wp-content/uploads/mtv-logo_-ls09_por.jpg</thumbnail>
 </item>
 
@@ -83,9 +83,9 @@
 </item>
 
 <item>
-<title>SIC Noticias</title>
-<link>rtmp://213.13.26.12/live playpath=sicnoticias swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://tvfree.me/ live=true timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sic_noticias.jpg</thumbnail>
+<title>SIC</title>
+<link>rtmp://206.190.150.8/live playpath=efsicv900?id=13251 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/efsicv900/1/650/500 live=true timeout=15</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/pt/8/8c/Sic_logo.png</thumbnail>
 </item>
 
 <item>
