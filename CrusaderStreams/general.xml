@@ -6,14 +6,14 @@
 ##############################################################################################################################
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Updated Al Manar[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Everything[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
 
 <item>
 <title>Al Masria</title>
-<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUEgy playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf live=true timeout=15 pageUrl=http://onlinehorizons.net/livestreaming/ertu/index.html</link>
+<link>rtmp://38.111.46.93:1935/ app=masriya playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf live=true timeout=15 pageUrl=http://onlinehorizons.net/livestreaming/ertu/index.html</link>
 <thumbnail>http://i82.servimg.com/u/f82/17/28/12/40/egypti10.png</thumbnail>
 </item>
 
@@ -37,8 +37,8 @@
 
 <item>
 <title>BAGHDAD SAT</title>
-<link>rtmp://212.7.196.88/live playpath=baghdad swfUrl=http://www.primcast.com/jwplayer5/player.swf live=true timeout=15</link>
-<thumbnail>http://playbolo.tv/pics/BagdadChannel-big.jpg</thumbnail>
+<link>rtmp://streamer1.hamuraabi.com:1935/ app=baghdad playpath=live swfUrl=http://hamuraabi.com/BAGHDAD/player.swf pageUrl=http://hamuraabi.com/BAGHDAD/baghdad.html live=true timeout=15</link>
+<thumbnail>http://www.tv-logo.com/pt-data/uploads/images/logo/baghdad_tv.jpg</thumbnail>
 </item>
 
 <item>
@@ -67,7 +67,7 @@
 
 <item>
 <title>Kuwait 1</title>
-<link>http://62.215.183.1/Segments/HLS_TS/rtpencoder/ch1.sdp.m3u8</link>
+<link>http://91.140.238.7/Segments/HLS_TS/rtpencoder/ch1.sdp.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/kk/ktv_1.png</thumbnail>
 </item>
 
@@ -79,13 +79,13 @@
 
 <item>
 <title>Kuwait 2</title>
-<link>http://62.215.183.1/Segments/HLS_TS/rtpencoder/ch2.sdp.m3u8</link>
+<link>http://91.140.238.7/Segments/HLS_TS/rtpencoder/ch2.sdp.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/kk/ktv_2.png</thumbnail>
 </item>
 
 <item>
 <title>Al Quds</title>
-<link>http://196.205.23.142:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8</link>
+<link>http://stream.qudstv.com:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8</link>
 <thumbnail>http://1.bp.blogspot.com/-KBETksdbRo4/UQeAGj-i0eI/AAAAAAAAq70/aFpIbT28KTw/s1600/al_quds_tv_palestine_channel_live_online_free_arabic_channel.JPG</thumbnail>
 </item>
 
@@ -96,14 +96,14 @@
 </item>
 
 <item>
-<title>Qatar TV</title>
-<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_16s20.m3u8</link>
+<title>Qatar TV HD</title>
+<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_38s16.m3u8</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/01/Qatar_TV_Logo.png</thumbnail>
 </item>
 
 <item>
 <title>Iraqi Media Network</title>
-<link>mms://212.7.196.74/iraqia</link>
+<link>http://212.7.205.5:1935/Iraqia/live/playlist.m3u8</link>
 <thumbnail>http://images-mediawiki-sites.thefullwiki.org/08/4/2/3/4905202658349467.png</thumbnail>
 </item>
 

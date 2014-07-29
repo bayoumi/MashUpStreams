@@ -18,7 +18,21 @@
 
 <item>
 <title>Cario Drama</title>
-<link>rtmpe://108.178.40.250/live/ playpath=10127.stream  swfUrl=http://www.watchfomny.net/jwplayer/jwplayer.flash.swf pageUrl=http://www.20sat.com/ live=true timeout=15</link>
+<link>
+rtmp://iptv3.web-medias.net:8080/live/ playpath=cairo_drama?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
+<regex>
+<name>e</name>
+<expres>e=([^&]*)</expres>
+<page>http://www.web-medias.net/iptv/?ch=cairo_drama</page>
+<referer>http://www.tele-live.net/cairo-drama-en-direct-live-streaming-%d9%82%d9%86%d8%a7%d8%a9-%d9%83%d8%a7%d9%8a%d8%b1%d9%88-%d8%af%d8%b1%d8%a7%d9%85%d8%a7-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_ce540b284.html</referer>
+</regex>
+<regex>
+<name>st</name>
+<expres>st=([^<]*)</expres>
+<page>http://www.web-medias.net/iptv/?ch=cairo_drama</page>
+<referer>http://www.tele-live.net/cairo-drama-en-direct-live-streaming-%d9%82%d9%86%d8%a7%d8%a9-%d9%83%d8%a7%d9%8a%d8%b1%d9%88-%d8%af%d8%b1%d8%a7%d9%85%d8%a7-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_ce540b284.html</referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/64.gif</thumbnail>
 </item>
 
@@ -36,7 +50,7 @@
 
 <item>
 <title>Talaqie</title>
-<link>http://82.137.248.16:1935/Talaqie/TalaqieLive3/playlist.m3u8</link>
+<link>rtmp://82.137.248.20:1935/Talaqie playpath=TalaqieLive3 swfUrl=http://live.rtv.gov.sy/flash/lib/StrobeMediaPlayback2.swf pageUrl=http://live.rtv.gov.sy/Talaqie.aspx?HQ=1 live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/e/e7/Talaqie_Logo.png</thumbnail>
 </item>
 
@@ -73,14 +87,28 @@
 	
 <item>
 <title>Abu Dubai Drama</title>
-<link>http://85.91.143.23:1935/58891/58891.stream/playlist.m3u8</link>
+<link>
+rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
+<regex>
+<name>e</name>
+<expres>e=([^&]*)</expres>
+<page>http://www.web-medias.net/iptv/?ch=abu_dhabi_drama</page>
+<referer>http://www.tele-live.net/abu-dhabi-drama-en-direct-live-%D9%82%D9%86%D8%A7%D8%A9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_0924ddc86.html</referer>
+</regex>
+<regex>
+<name>st</name>
+<expres>st=([^<]*)</expres>
+<page>http://www.web-medias.net/iptv/?ch=abu_dhabi_drama</page>
+<referer>http://www.tele-live.net/abu-dhabi-drama-en-direct-live-%D9%82%D9%86%D8%A7%D8%A9-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_0924ddc86.html</referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/54.gif</thumbnail>
 </item>
 
 <item>
 <title>Al Hayat Cinema</title>
 <link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=alhayat_cinema?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
+rtmp://iptv2.web-medias.net:8080/live/ playpath=alhayat_cinema?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
 <regex>
 <name>e</name>
 <expres>e=([^&]*)</expres>
@@ -181,7 +209,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=fox_movies?e=$doregex[e]&amp;st=
 
 <item>
 <title>Zee Aflam</title>
-<link>rtmp://108.59.14.229/live playpath=xcvcwvvwwwcccvvv?id=201720 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/xcvcwvvwwwcccvvv/1/600/380 live=true timeout=15</link>
+<link>http://38.99.146.43:7777/ZeeAflam.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/74.gif</thumbnail>
 </item>
 
@@ -192,7 +220,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=fox_movies?e=$doregex[e]&amp;st=
 </item>
 
 <item>
-<title>Palestine</title>
+<title>Palestine HD</title>
 <link>rtmp://vstream2.hadara.ps:1935/pbc playpath=pbc_1 swfUrl=http://www.arabztv.net/player.swf pageUrl=http://www.megalivestream.com/palestine-tv/ live=true timeout=15</link>
 <thumbnail>http://www.megalivestream.com/wp-content/uploads/2013/07/Palestine-TV-570x172_c.png</thumbnail>
 </item>
@@ -225,13 +253,13 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
  	
 <item>
 <title>Sada Al Balad</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=bvca3Y8pmw8#</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=bTr0JZes5MI</link>
 <thumbnail>http://www.designweek.co.uk/Pictures/web/k/m/j/SADA-AL-BALA_482.jpg</thumbnail>
 </item>
 
 <item>
 <title>Sada Al Balad 2</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=L0Xm2aEVg5Q#</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=1kzwVu_tliU</link>
 <thumbnail>http://www.designweek.co.uk/Pictures/web/k/m/j/SADA-AL-BALA_482.jpg</thumbnail>
 </item>
 
@@ -253,18 +281,6 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 </regex>
 </link>
 <thumbnail>http://jazarah.net/ar/wp-content/uploads/2012/10/MBC-MASR-logo.jpg</thumbnail>
-</item>
-
-<item>
-<title>Noor Dubai</title>
-<link>http://cdnedvrnoordubaitv.endavomedia.com/smil:dmilivenoordubaitvhls.smil/playlist.m3u8</link>
-<thumbnail>http://live-tv-channels.net/pt-data/uploads/logo/noor_dubai_tv.jpg</thumbnail>
-</item>
-
-<item>
-<title>Al Nahar Sport</title>
-<link>rtmp://stream1.streamtrix.com/nahar1 playpath=naharsports.stream_720p swfUrl=http://demos.streamtrix.com/swf/flowplayer.cluster-3.2.10.swf live=true timeout=15 pageUrl=http://demos.streamtrix.com/alnaharsport/</link>
-<thumbnail>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel2.png</thumbnail>
 </item>
 
 <item>
@@ -323,7 +339,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 
 <item>
 <title>Echourouk TV</title>
-<link>rtmp://live.echoroukonline.com/live playpath=EchoroukTV swfUrl=http://static.echoroukonline.com/live/player/player.swf live=true timeout=15 pageUrl=http://www.echoroukonline.com/live/</link>
+<link>http://live.echoroukonline.com/live/EchoroukTV_SD/chunklist.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/118.gif</thumbnail>
 </item>
 
@@ -339,7 +355,6 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 <thumbnail>http://bell-vs-rogers.com/channellogos/cid599dream2.png</thumbnail>
 </item>
 
-
 <item>
 <title>Dream 2 +2</title>
 <link>http://iphone-streaming.ustream.tv/ustreamVideo/18117128/streams/live/playlist.m3u8</link>
@@ -353,12 +368,6 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 </item>
 
 <item>
-<title>CBC Extra</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=DTLtFo3BMN0</link>
-<thumbnail>http://www.livetv.tn/images/icons/255.gif</thumbnail>
-</item>
-
-<item>
 <title>Mehwer</title>
 <link>rtmp://livestreaming4.onlinehorizons.net/ app=MehwarTV playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/MehwarTV/player.swf live=true timeout=15 pageUrl=http://onlinehorizons.net/livestreaming/MehwarTV/</link>
 <thumbnail>http://www.elmehwartv.com/wp-content/uploads/2014/01/1.png</thumbnail>
@@ -366,7 +375,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 
 <item>
 <title>Baghdadiya</title>
-<link>http://albag1.groovygecko.edge01.streammatrix.tv/livealbag1/smil:albag1.smil/master.m3u8</link>
+<link>http://albag1.groovygecko.edge01.streammatrix.tv/livealbag1/smil:albag1.smil/playlist.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/112.gif</thumbnail>
 </item>
 
@@ -593,13 +602,13 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_4?e=$doregex[e]&amp;st=$dore
 
 <item>
 <title>Al Baghdadia 2</title>
-<link>rtmp://cp44832.live.edgefcs.net/live/ playpath=albag1_500@90981 swfUrl=http://www.albaghdadia.com/albag_players/flowplayer/_player/flowplayer.commercial-3.2.6.swf live=true timeout=15 pageUrl=http://www.albaghdadia.com/live/livehigh</link>
+<link>http://albag2.groovygecko.edge01.streammatrix.tv/livealbag2/smil:albag2.smil/playlist.m3u8</link>
 <thumbnail>http://a1.mzstatic.com/us/r1000/107/Purple/cf/aa/5c/mzl.bjffmkul.jpg</thumbnail>
 </item>
 
 <item>
 <title>Melody Drama</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=_cN8Op5KgIs</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=HwFmY34qZAc</link>
 <thumbnail>http://4.bp.blogspot.com/_ayWC2KUhMqw/TJ04otUC4mI/AAAAAAAACds/mCsD_c_kqfU/s1600/melody%2Bdrama%2Blogo%255B1%255D.JPG</thumbnail>
 </item>
 
@@ -612,7 +621,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_4?e=$doregex[e]&amp;st=$dore
 <item>
 <title>Melody Classic</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=JUPtgRnY6I8</link>
-<thumbnail>http://www.tvfrekans.com/wp-content/uploads/2012/11/melody-tv-logo-resmi.jpg</thumbnail>
+<thumbnail>http://i.ytimg.com/vi/b-e5GQrqu8I/hqdefault.jpg</thumbnail>
 </item>
 
 <item>
@@ -624,7 +633,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_4?e=$doregex[e]&amp;st=$dore
 <item>
 <title>Melody Aflam</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=WpGRO2SKmBw</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/mm/melody_arabia.png</thumbnail>
+<thumbnail>http://i.ytimg.com/vi/QqRmPIDkBrM/hqdefault.jpg</thumbnail>
 </item>
 
 <item>
