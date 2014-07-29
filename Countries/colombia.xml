@@ -80,7 +80,21 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 
 <item>
 <title>RCN</title>
-<link>http://ooyalahd2-f.akamaihd.net/i/saleslatam_test06@180219/index_600_av-p.m3u8?sd=10&amp;rebase=on</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=23383&amp;wh=600&amp;ht=450&amp;r=cdn.chatytvgratis.me</page>
+<referer>http://cdn.chatytvgratis.me/rcn1.php?width=600&amp;height=450</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=23383&amp;wh=600&amp;ht=450&amp;r=cdn.chatytvgratis.me</page>
+<referer>http://cdn.chatytvgratis.me/rcn1.php?width=600&amp;height=450</referer>
+</regex>
+</link>
 <thumbnail>http://www.mediamoves.com/wp-content/uploads/2012/07/rcn.jpg</thumbnail>
 </item>
 
