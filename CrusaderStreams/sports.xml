@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Backup Links, Fixed Arabic Bein Channels[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Backup Links, 9Fixed Arabic Bein Channels[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -125,7 +125,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein1 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=1734 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=1b342 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -189,6 +189,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <link>
 <sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein8 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=8b916 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+</link>
 <thumbnail>http://i.imgur.com/cEpkyFy.jpg</thumbnail>
 </item>
 
@@ -222,7 +223,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 12 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
-<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=12829 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://173.192.200.79/flash playpath=19168 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=1</sublink>
 <sublink>rtmpe://46.246.124.30:1935/redirect/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=babahd_bein12 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_12hd.jpg</thumbnail>

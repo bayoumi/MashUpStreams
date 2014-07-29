@@ -11,14 +11,21 @@
 </item>
 
 <item>
-<title>TVM</title>
-<link>https://live.23video.com/live/amlst:mu9ulh4s572j7smnq1o666iqm7:8733521-291209fd73739a0d5956.mp4/manifest.f4m</link>
+<title>TVM  [COLOR=FFFF0000]XBMC Gotham Only[/COLOR]</title>
+<link>$doregex[hls]
+<regex>
+<name>hls</name>
+<expres>"hls_url": "([^"]*)</expres>
+<page>http://tvm.23video.com/api/concatenate?callback=visualplatformconcat_0&amp;format=json&amp;playersettings_0=/api/player/settings?player_id=0&amp;parameters=live_id=8733521&amp;source=embed&amp;autoPlay=1&amp;livelist_1=/api/live/list?live_id=8733521&amp;source=embed&amp;autoPlay=1&amp;upcoming_p=1&amp;ordering=streaming&amp;player_id=0&amp;photolist_2=/api/photo/list?size=10&amp;include_actions_p=1&amp;live_id=8733521&amp;source=embed&amp;autoPlay=1&amp;upcoming_p=1&amp;ordering=streaming&amp;player_id=0</page>
+<referer>http://tvm.23video.com/v.ihtml/player.html?live_id=8733521&amp;source=embed&amp;autoPlay=1</referer>
+</regex>
+</link>
 <thumbnail>http://www.tvm.com.mt/wp-content/themes/pbs/images/logo-tvm.png</thumbnail>
 </item>
 
 <item>
-<title>TVM 2  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>https://live.23video.com/live/amlst:mp3064t447tack5ec52ne2pt8:8733527-aeb4143013c13f2ad7cf.mp4/manifest.f4m</link>
+<title>TVM 2</title>
+<link>https://live.23video.com/live/amlst:97bljirsdvo354nr4312j9p32o:8733527-aeb4143013c13f2ad7cf.mp4/chunklist_b928000.m3u8</link>
 <thumbnail>http://www.tvm.com.mt/wp-content/themes/pbs/images/img-live-tvm2.jpg</thumbnail>
 </item>
 
