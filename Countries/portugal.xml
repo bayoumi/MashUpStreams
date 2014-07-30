@@ -12,14 +12,20 @@
 
 <item>
 <title>Sport 2</title>
-<link>rtmp://50.7.28.210/flash playpath=19090 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true timeout=15</link>
+<link>rtmp://50.7.28.82/flash playpath=19090 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/8/81/SportTV2.png</thumbnail>
 </item>
 
 <item>
 <title>Sport 3</title>
-<link>rtmp://50.7.28.130/flash playpath=19117 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true timeout=15</link>
+<link>rtmp://173.192.200.78/flash playpath=19117 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/8/8d/SportTV3.png</thumbnail>
+</item>
+
+<item>
+<title>Sport TV</title>
+<link>rtmpe://80.82.64.252:443/share playpath=live4-w04by swfurl=http://sharecast.to/player/player20.swf pageurl=http://sharecast.to/</link>
+<thumbnail>http://www.zapping-tv.com/wp-content/uploads/2013/07/Sport-TV-live.jpg</thumbnail>
 </item>
 
 <item>
@@ -66,7 +72,7 @@
 
 <item>
 <title>TVI</title>
-<link>rtmp://46.23.67.114/live playpath=TVI8282?id=16616 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf pageUrl=http://www.ezcast.tv/embedded/TVI8282/1/550/420 live=true timeout=15</link>
+<link>rtmp://5.63.149.180/live playpath=TVI8282?id=16616 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf pageUrl=http://www.ezcast.tv/embedded/TVI8282/1/550/420 live=true timeout=15</link>
 <thumbnail>http://img1.wikia.nocookie.net/__cb20100918105531/logopedia/images/b/b0/TVI_logo.png</thumbnail>
 </item>
 
