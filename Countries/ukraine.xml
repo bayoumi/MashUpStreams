@@ -6,13 +6,21 @@
 
 <item>
 <title>Kanal 5</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=TOAw3fldnfg</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>v/([^?]*)</expres>
+<page>http://www.5.ua/pryamij-efir</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-C9VRVX0p-JA/AAAAAAAAAAI/AAAAAAAAAAA/kA69xoDl50k/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 
 <item>
 <title>Zik</title>
-<link>rtmp://217.20.164.182:80/live playpath=zik392p.stream swfUrl=http://media.wnet.ua/zik/smp/StrobeMediaPlayback.swf live=true timeout=15 pageUrl=http://zik.ua/tv/teleprograma/</link>
+<link>rtmp://aloha.cdnvideo.ru:1935/aloha playpath=ziktv.sdp swfUrl=http://www.aloha.cdnvideo.ru/aloha/slon/SlonPlayer_stable.swf pageUrl-http://zik.ua/tv/teleprograma/ live=true timeout=15</link>
 <thumbnail>http://zik.ua/red/img/tv/logo.jpg</thumbnail>
 </item>
 
@@ -30,7 +38,15 @@
 
 <item>
 <title>Hromadske HD</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=l4HeKFy2U8k</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>embed/([^?]*)</expres>
+<page>http://www.hromadske.tv/air/efir/</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-p31Ot-UmPks/AAAAAAAAAAI/AAAAAAAAAAA/4bKlgSnfyOs/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 
@@ -42,7 +58,15 @@
 
 <item>
 <title>Espreso TV HD</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=HQEhZZWrEHk</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>embed/([^?]*)</expres>
+<page>http://espreso.tv/stream</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-bVnYWgZunWc/AAAAAAAAAAI/AAAAAAAAAAA/lscLbX2rp2A/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 

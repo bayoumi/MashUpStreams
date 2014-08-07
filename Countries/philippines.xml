@@ -5,34 +5,28 @@
 <thumbnail></thumbnail>
 
 <item>
-<title>ANC News</title>
+<title>GMA 7</title>
 <link>
-rtmp://cp106256.live.edgefcs.net/live?videoId=$doregex[url]&amp;lineUpId=&amp;pubId=$doregex[url1]&amp;playerId=$doregex[url2]&amp;affiliateId=/ playpath=iwantanc-600@44207?videoId=$doregex[url]&amp;lineUpId=&amp;pubId=$doregex[url1]&amp;playerId=$doregex[url2]&amp;affiliateId= swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.telebyuwers.ph/2013/08/abs-cbn-news-channel-live-stream.html
+rtmp://watch2.ilive.to:1935/edge/_definst_/ app=edge/_definst_/?xs=$doregex[appid] playpath=$doregex[path] token=$doregex[tok] swfUrl=http://cdn.ilive.to/player/player_ilive_2.swf pageUrl=http://www.ilive.to
 <regex>
-<name>url</name>
-<expres>videoId=([^&]*)</expres>
-<page>http://www.telebyuwers.ph/2013/08/abs-cbn-news-channel-live-stream.html</page>
-<referer> </referer>
+<name>appid</name>
+<expres>\?xs=([^"]*)</expres>
+<page>http://www.ilive.to/embedplayer.php?width=640&amp;height=480&amp;channel=9098&amp;autoplay=true</page>
+<referer>http://tvteleserye.blogspot.com/2013/01/gma-7-free-live-streaming.html</referer>
 </regex>
 <regex>
-<name>url1</name>
-<expres>pubId=([^&]*)</expres>
-<page>http://www.telebyuwers.ph/2013/08/abs-cbn-news-channel-live-stream.html</page>
-<referer> </referer>
+<name>path</name>
+<expres>.*file: "([^."]*)</expres>
+<page>http://www.ilive.to/embedplayer.php?width=640&amp;height=480&amp;channel=9098&amp;autoplay=true</page>
+<referer>http://tvteleserye.blogspot.com/2013/01/gma-7-free-live-streaming.html</referer>
 </regex>
 <regex>
-<name>url2</name>
-<expres>playerId=([^&]*)</expres>
-<page>http://www.telebyuwers.ph/2013/08/abs-cbn-news-channel-live-stream.html</page>
-<referer> </referer>
+<name>tok</name>
+<expres>t....":"([^."]*)</expres>
+<page>http://www.ilive.to/server2.php</page>
+<referer>http://www.ilive.to</referer>
 </regex>
 </link>
-<thumbnail>http://1.bp.blogspot.com/--dgB6m4uZRs/ThFlH7rntUI/AAAAAAAAAFA/QJjAx-tvO08/s1600/anc_abs_cbn_news_channel.png</thumbnail>
-</item>
-
-<item>
-<title>GMA</title>
-<link>rtmp://cp106256.live.edgefcs.net/ app=live?affiliateId=/ playpath=iwantbtv-600@50588 swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.telebyuwers.ph/p/gma-live-stream-tv.html</link>
 <thumbnail>http://whynotcoconut.com/wp-content/uploads/2012/04/Gma_network_logo.png</thumbnail>
 </item>
 
@@ -44,14 +38,8 @@ rtmp://cp106256.live.edgefcs.net/live?videoId=$doregex[url]&amp;lineUpId=&amp;pu
 
 <item>
 <title>Radyo 5</title>
-<link>http://103.11.114.132:8000/stream</link>
+<link>http://stream1.news5.ph:1935/live/radyo5/playlist.m3u8</link>
 <thumbnail>http://i1297.photobucket.com/albums/ag26/nieldc/Mashup/radyo5_zps1e4a8acb.png</thumbnail>
-</item>
-
-<item>
-<title>PTV</title>
-<link>rtmp://livestream.ptv.ph/oflaDemo playpath=live swfUrl=http://vidzptvc.ptv.ph/player.swf live=true timeout=15 pageUrl=http://vidzptvc.ptv.ph/livestreaming.php?h=420&w=720</link>
-<thumbnail>http://i1297.photobucket.com/albums/ag26/nieldc/Mashup/ptv_zps47909d31.png</thumbnail>
 </item>
 
 <item>
@@ -68,7 +56,7 @@ rtmp://cp106256.live.edgefcs.net/live?videoId=$doregex[url]&amp;lineUpId=&amp;pu
 
 <item>
 <title>TV Maria</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/13894897/streams/live/playlist.m3u8</link>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/10646391/streams/live/playlist.m3u8</link>
 <thumbnail>http://i1297.photobucket.com/albums/ag26/nieldc/Mashup/tvmaria_zps2c137688.png</thumbnail>
 </item>
 
@@ -92,19 +80,33 @@ rtmp://cp106256.live.edgefcs.net/live?videoId=$doregex[url]&amp;lineUpId=&amp;pu
 
 <item>
 <title>INCTV</title>
-<link>rtmp://live.incmediaservices.netdna-cdn.com/live/36350/streamname playpath=live swfUrl=http://incmedia.org/js/flowplayer.commercial-3.2.7-1.swf pageUrl=http://incmedia.org/liveweb.html live=1</link>
+<link>http://churchrus2-lh.akamaihd.net/z/COCTesting_1@57550/manifest.f4m</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/inc_tv_ph.jpg</thumbnail>
 </item>
 
 <item>
-<title>INCTV Media</title>
-<link>rtmp://live.incmediaservices.netdna-cdn.com/live/36350/streamname playpath=live swfUrl=http://incmedia.org/js/flowplayer.commercial-3.2.7-1.swf pageUrl=http://incmedia.org/liveweb.html live=1</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/inc_media_ph.jpg</thumbnail>
-</item>
-
-<item>
 <title>ABS-CBN</title>
-<link>rtmp://cp106256.live.edgefcs.net:443/live playpath=iwantabs-256@36979?videoId=1879066044001 conn=S:OK swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.pinoyshownow.net/2011/04/abs-cbn-live-streaming.html</link>
+<link>
+rtmp://watch2.ilive.to:1935/edge/_definst_/ app=edge/_definst_/?xs=$doregex[appid] playpath=$doregex[path] token=$doregex[tok] swfUrl=http://cdn.ilive.to/player/player_ilive_2.swf pageUrl=http://www.ilive.to
+<regex>
+<name>appid</name>
+<expres>\?xs=([^"]*)</expres>
+<page>http://www.ilive.to/embedplayer.php?width=535&amp;height=435&amp;channel=60365&amp;autoplay=true</page>
+<referer>http://streampinoy.net/stream/abs2stream.html</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>.*file: "([^."]*)</expres>
+<page>http://www.ilive.to/embedplayer.php?width=535&amp;height=435&amp;channel=60365&amp;autoplay=true</page>
+<referer>http://streampinoy.net/stream/abs2stream.html</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>t....":"([^."]*)</expres>
+<page>http://www.ilive.to/server2.php</page>
+<referer>http://www.ilive.to</referer>
+</regex>
+</link>
 <thumbnail>http://i1297.photobucket.com/albums/ag26/nieldc/Mashup/abs-cbn2_zps6305f072.png</thumbnail>
 </item>
 

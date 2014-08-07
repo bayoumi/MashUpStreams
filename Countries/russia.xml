@@ -12,18 +12,6 @@
 </item>
 
 <item>
-<title>Science</title>
-<link>http://hls.novotelecom.ru/streaming/nauka_20/tvrec/playlist.m3u8</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>Time</title>
-<link>http://hls.novotelecom.ru/streaming/time/tvrec/playlist.m3u8</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
 <title>1st Education</title>
 <link>http://hls.novotelecom.ru/streaming/1_obraz/tvrec/playlist.m3u8</link>
 <thumbnail> </thumbnail>
@@ -31,20 +19,16 @@
 
 <item>
 <title>Amazing Life</title>
-<link>http://hls.novotelecom.ru/streaming/amazing_life/tvrec/playlist.m3u8</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>embed/([^?]*)</expres>
+<page>http://www.amazinglife.tv/</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://live-tv-channels.net/pt-data/uploads/logo/amazing_life.jpg</thumbnail>
-</item>
-
-<item>
-<title>365 Dnei</title>
-<link>http://hls.novotelecom.ru/streaming/365_days/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/num/365_dnei_tv.png</thumbnail>
-</item>
-
-<item>
-<title>TV Browse</title>
-<link>http://hls.novotelecom.ru/streaming/interesnoe_tv/tvrec/playlist.m3u8</link>
-<thumbnail></thumbnail>
 </item>
 
 <item>
@@ -54,14 +38,7 @@
 </item>
 
 <item>
-<title>GTRK Volgograd</title>
-<link>http://hls.novotelecom.ru/streaming/russia_best/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gtrk_volgograd.png</thumbnail>
-</item>
-
-
-<item>
-<title>RBK</title>
+<title>RBK HD</title>
 <link>http://hls.novotelecom.ru/streaming/rbk/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rbk_tv_ru.png</thumbnail>
 </item>
@@ -70,12 +47,6 @@
 <title>Mir 24</title>
 <link>http://hls.novotelecom.ru/streaming/mir24/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mir_24_ru.png</thumbnail>
-</item>
-
-<item>
-<title>Strana</title>
-<link>http://hls.novotelecom.ru/streaming/strana/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/strana_tv.png</thumbnail>
 </item>
 
 <item>
@@ -93,13 +64,13 @@
 <item>
 <title>Friday</title>
 <link>http://hls.novotelecom.ru/streaming/friday/tvrec/playlist.m3u8</link>
-<thumbnail></thumbnail>
+<thumbnail> </thumbnail>
 </item>
 
 <item>
 <title>Live</title>
 <link>http://hls.novotelecom.ru/streaming/jv/tvrec/playlist.m3u8</link>
-<thumbnail></thumbnail>
+<thumbnail> </thumbnail>
 </item>
 
 <item>
@@ -109,39 +80,16 @@
 </item>
 
 <item>
-<title>Hunting & Fishing</title>
-<link>http://hls.novotelecom.ru/streaming/hafi/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/domashnie_zhivotnye.png</thumbnail>
-</item>
-
-<item>
-<title>Homestead</title>
-<link>http://hls.novotelecom.ru/streaming/usadba/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/domashnie_zhivotnye.png</thumbnail>
-</item>
-
-<item>
-<title>Nostalgia</title>
-<link>http://hls.novotelecom.ru/streaming/nostalgy/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nostalgia.jpg</thumbnail>
-</item>
-
-<item>
-<title>Autoplus</title>
-<link>http://hls.novotelecom.ru/streaming/auto_plus/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/auto_plus.png</thumbnail>
-</item>
-
-<item>
-<title>Oruzhie</title>
-<link>http://hls.novotelecom.ru/streaming/oruzhie/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/oo/oruzhie_telekanal.png</thumbnail>
-</item>
-
-<item>
-<title>Sundress</title>
-<link>http://hls.novotelecom.ru/streaming/sarafan/tvrec/playlist.m3u8</link>
-<thumbnail></thumbnail>
+<title>Охота и Рыбалка</title>
+rtmp://178.162.205.90:1936/beta/ playpath=ohota?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/ohota-i-rybalka</page>
+<referer> </referer>
+</regex>
+</link>
+<thumbnail>http://www.antenna.com.ru/images/channels/huntandfishing.jpg</thumbnail>
 </item>
 
 <item>
@@ -151,92 +99,56 @@
 </item>
 
 <item>
-<title>Diva Universal</title>
-<link>http://hls.novotelecom.ru/streaming/diva_universal/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/diva_universal_ru.png</thumbnail>
-</item>
-
-<item>
-<title>Russian Novel</title>
-<link>http://hls.novotelecom.ru/streaming/russian_roman/tvrec/playlist.m3u8</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
 <title>Discovery Russia</title>
-<link>http://hls.novotelecom.ru/streaming/discovery/tvrec/playlist.m3u8</link>
+<link>rtmp://188.138.9.234:1955/live playpath=natgeowild.stream swfUrl=http://iptvmnogotv.eu/pro_tivix/player.swf pageUrl=http://www.moskvatv.com/rad/discovery-1.html</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/discovery_international.png</thumbnail>
 </item>
 
 <item>
-<title>Discovery World</title>
-<link>http://hls.novotelecom.ru/streaming/discoveryworld/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/discovery_world.jpg</thumbnail>
-</item>
-
-<item>
-<title>Discovery Science</title>
-<link>http://hls.novotelecom.ru/streaming/discoveryscience/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/discovery_science_international.png</thumbnail>
-</item>
-
-<item>
-<title>Animal Planet</title>
-<link>http://hls.novotelecom.ru/streaming/animalplanet/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/animal_planet_us.png</thumbnail>
-</item>
-
-<item>
 <title>National Geographic</title>
-<link>http://hls.novotelecom.ru/streaming/natgeo/tvrec/playlist.m3u8</link>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=natgeo?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/national-geographic</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_us.png</thumbnail>
 </item>
 
 <item>
-<title>Nat Wild</title>
-<link>http://hls.novotelecom.ru/streaming/nat_geo_wild/tvrec/playlist.m3u8</link>
+<title>Nat Geo Wild</title>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=ngwild?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/nat-geo-wild</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://en.glaz.tv/images/logos/tv/big/nat-geo-wild.jpg</thumbnail>
 </item>
 
 <item>
-<title>Viasat Nature</title>
-<link>http://hls.novotelecom.ru/streaming/viasat_nature/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.tv-logo.com/pt-data/uploads/images/logo/viasat_nature.jpg</thumbnail>
-</item>
-
-<item>
-<title>Viasat History</title>
-<link>http://hls.novotelecom.ru/streaming/viasat_history/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.digitaltveurope.net/wp-content/uploads/2013/12/viasat-history-logo-rgb.jpg</thumbnail>
-</item>
-
-<item>
-<title>Viasat Explorer</title>
-<link>http://hls.novotelecom.ru/streaming/viasat_explorer/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/viasat_explorer_ru.png</thumbnail>
-</item>
-
-<item>
-<title>Teleputeshestviya</title>
-<link>http://hls.novotelecom.ru/streaming/rustravel/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rtg_russian_travel_guide.png</thumbnail>
-</item>
-
-<item>
-<title>My Planet</title>
-<link>http://hls.novotelecom.ru/streaming/my_planet/tvrec/playlist.m3u8</link>
-<thumbnail>http://en.bigdigit.ru/upload/2012/11/my-planet.png</thumbnail>
-</item>
-
-<item>
 <title>Travel + Adventure</title>
-<link>http://hls.novotelecom.ru/streaming/traveladventure/tvrec/playlist.m3u8</link>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=travel?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/travel-plus-adventure</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/travel_adventure_channel_ru.png</thumbnail>
 </item>
 
 <item>
 <title>Da Vinci Learning</title>
-<link>http://hls.novotelecom.ru/streaming/da_vinci/tvrec/playlist.m3u8</link>
+<link>mms://stream.smartcast.de/davinci-d</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/da_vinci_learning.png</thumbnail>
 </item>
 
@@ -290,7 +202,7 @@
 
 <item>
 <title>Россия 1</title>
-<link>rtmp://85.132.44.99:1935/turktv playpath=rossiya1.sdp swfUrl=http://www.livetv.az/static/player/player.swf live=true timeout=15 pageUrl=http://www.livetv.az/rossiya-1/</link>
+<link>rtmp://vgtrk.cdnvideo.ru:1935/ app=rr2?auth=vh&amp;cast_id=2961 playpath=rtp_r1_hq swfUrl=http://player.rutv.ru/flash2v/osmf.swf?i=34 pageUrl=http://player.rutv.ru/ live=true timeout=15</link>
 <thumbnail>http://toplogos.ru/images/logo-rossiya-1.png</thumbnail>
 </item>
 
@@ -308,13 +220,13 @@
 
 <item>
 <title>Юмор ТВ</title>
-<link>rtmp://n3.mos.cdn.online.ru/live-r playpath=udp://0.0.0.0:3081 swfUrl=http://www.corbina.tv/flash/swf/player.swf live=true timeout=15 pageUrl=http://www.corbina.tv/tv/humor</link>
-<thumbnail>http://www.musicboxtv.ru/var/channels/images/1345473557.png</thumbnail>
+<link>rtmp://musicbox.cdnvideo.ru:443/ app=musicbox-live playpath=humorbox.sdp swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf pageUrl=http://fpdownload.adobe.com/</link>
+<thumbnail>http://www.humor-tv.com/img/humor-tv.png</thumbnail>
 </item>
 
 <item>
 <title>Cyber Game HD</title>
-<link>rtmp://st.cyber-game.tv/iptvhd playpath=stream swfUrl=http://www.cyber-game.tv/MaxisonPlayer.swf?sd=fgh live=true timeout=15 pageUrl=http://www.cyber-game.tv/</link>
+<link>rtmp://stream1.cyber-game.tv/live/ playpath=cybergame_1 swfUrl=http://cyber-game.tv/player/uppod.swf pageUrl=http://www.cyber-game.tv/</link>
 <thumbnail>http://en.glaz.tv/images/logos/tv/big/cyber-game-tv.jpg</thumbnail>
 </item>
 
@@ -333,7 +245,7 @@
 <item>
 <title>RBC</title>
 <link>rtmp://n3.mos.cdn.online.ru/live-r playpath=udp://0.0.0.0:3091 swfUrl=http://www.corbina.tv/flash/swf/player.swf live=true timeout=15 pageUrl=http://www.corbina.tv/tv/rbc</link>
-<thumbnail>http://freestreamtv.ucoz.net/TVLOGOS/rbc.jpg</thumbnail>
+<thumbnail>http://pics.v2.rbctv.ru/rbctv_pics/skin/img/logo_tvrbc_main.png</thumbnail>
 </item>
 
 <item>
@@ -355,8 +267,8 @@
 </item>
 
 <item>
-<title>Union</title>
-<link>rtmp://n3.mos.cdn.online.ru/live-r playpath=rtmp://www.planeta-online.tv:1936/live/soyuz swfUrl=http://www.corbina.tv/flash/swf/player.swf live=true timeout=15 pageUrl=http://www.corbina.tv/tv/soyuz</link>
+<title>СОЮЗ</title>
+<link>rtmp://80.93.53.88:1935/live playpath=soyuz swfUrl=http://www.planeta-online.tv/planeta_player.swf?ver=331 pageUrl=http://www.planeta-online.tv/ live=true timeout=15</link>
 <thumbnail>http://tv-online.nashol.com/images/tv_online_kanali/soyuz_tv_onlain.jpg</thumbnail>
 </item>
 
@@ -373,7 +285,7 @@
 </item>
 
 <item>
-<title>Podmoskove</title>
+<title>Podmoskove HD</title>
 <link>rtmp://cdn.mosobltv.ru:1935/rtp-stream playpath=mosobltv.stream live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/pp/podmoskove_tv.png</thumbnail>
 </item>
@@ -382,12 +294,6 @@
 <title>1TV</title>
 <link>http://hls.novotelecom.ru/streaming/1kanal/tvrec/playlist.m3u8</link>
 <thumbnail>http://img2.1tv.ru/images/one/logo_txt.jpg</thumbnail>
-</item>
-
-<item>
-<title>Россия 1 (Link 2)</title>
-<link>http://hls.novotelecom.ru/streaming/rossija/tvrec/playlist.m3u8</link>
-<thumbnail>http://toplogos.ru/images/logo-rossiya-1.png</thumbnail>
 </item>
 
 <item>
@@ -415,12 +321,6 @@
 </item>
 
 <item>
-<title>Investigation Discovery</title>
-<link>http://hls.novotelecom.ru/streaming/investigationdiscovery/tvrec/playlist.m3u8</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/6/6d/Investigation-Discovery.png</thumbnail>
-</item>
-
-<item>
 <title>2x2</title>
 <link>http://hls.novotelecom.ru/streaming/2x2tv/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/telekanal_2x2_moskva.png</thumbnail>
@@ -440,56 +340,64 @@
 
 <item>
 <title>Eurosport 1</title>
-<link>http://hls.novotelecom.ru/streaming/eurosport/tvrec/playlist.m3u8</link>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=eurosport?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/eurosport</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/eurosport.png</thumbnail>
 </item>
 
 <item>
 <title>Eurosport 2</title>
-<link>http://hls.novotelecom.ru/streaming/eurosport2/tvrec/playlist.m3u8</link>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=eurosport2?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/eurosport-2</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/eurosport2.png</thumbnail>
 </item>
 
 <item>
-<title>Muz TV</title>
-<link>http://hls.novotelecom.ru/streaming/muz_tvnew/tvrec/playlist.m3u8</link>
+<title>МУЗ-ТВ Онлайн</title>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>embed/([^?]*)</expres>
+<page>http://muz-tv.ru/online/</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/muz_tv.png</thumbnail>
 </item>
 
 <item>
-<title>Mezzo</title>
-<link>http://hls.novotelecom.ru/streaming/mezzo/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mezzo.png</thumbnail>
-</item>
-
-<item>
-<title>A Minor</title>
-<link>http://hls.novotelecom.ru/streaming/la_minor/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/telekanal_la_minor.png</thumbnail>
-</item>
-
-<item>
 <title>Chansan</title>
-<link>http://hls.novotelecom.ru/streaming/shanson/tvrec/playlist.m3u8</link>
-<thumbnail> </thumbnail>
+<link>
+http://chanson.cdnvideo.ru/chanson/shansontv.sdp/playlist.m3u8?md5=$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>md5=([^"]*)</expres>
+<page>http://www.shanson.tv/</page>
+<referer>http://live-tv-channels.net/livetv/ru-shanson-tv.html</referer>
+</regex>
+</link>
+<thumbnail>http://www.stream2video.tv/images/streams/chanson_tv_russia.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bridge TV</title>
-<link>http://hls.novotelecom.ru/streaming/brigge/tvrec/playlist.m3u8</link>
+<link>rtmpt://n2.mos.cdn.online.ru/live-r playpath=udp://0.0.0.0:3092 swfUrl=http://www.corbina.tv/flash/swf/player.swf pageUrl=http://www.corbina.tv/tv/bridge</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bridge_tv_ru.png</thumbnail>
-</item>
-
-<item>
-<title>MCM Top</title>
-<link>http://hls.novotelecom.ru/streaming/mcmtop/tvrec/playlist.m3u8</link>
-<thumbnail>http://televizijainternete.lt/wp-content/uploads/2013/12/mcm_kanalbuyuk-120x120.jpg</thumbnail>
-</item>
-
-<item>
-<title>VH1</title>
-<link>http://hls.novotelecom.ru/streaming/vh1/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vh1_ru.png</thumbnail>
 </item>
 
 <item>
@@ -505,7 +413,7 @@
 </item>
 
 <item>
-<title>TV 3</title>
+<title>TB 3</title>
 <link>http://hls.novotelecom.ru/streaming/tv3/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv3_ru.png</thumbnail>
 </item>
@@ -523,37 +431,13 @@
 </item>
 
 <item>
-<title>TVC</title>
-<link>http://hls.novotelecom.ru/streaming/tvc/tvrec/playlist.m3u8</link>
-<thumbnail>http://old.lgz.ru/userfiles/image/logo/partners/tvc.jpg</thumbnail>
-</item>
-
-<item>
 <title>Pepper</title>
 <link>http://hls.novotelecom.ru/streaming/perec/tvrec/playlist.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-ckYUwg7Xmc8/TnSc1-fyYZI/AAAAAAAAAuI/4CpnnZxm4_o/s1600/57e85517ee2cde287b4a82694ba43164.png</thumbnail>
 </item>
 
 <item>
-<title>Disney</title>
-<link>http://hls.novotelecom.ru/streaming/disney/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_ru.png</thumbnail>
-</item>
-
-<item>
-<title>Union</title>
-<link>http://hls.novotelecom.ru/streaming/soyuz/tvrec/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Mir (Link 2)</title>
-<link>http://hls.novotelecom.ru/streaming/mir/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mir_ru.png</thumbnail>
-</item>
-
-<item>
-<title>OTV</title>
+<title>OTR</title>
 <link>http://hls.novotelecom.ru/streaming/otvrus/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.censorwatch.co.uk/images/logo_otp_russia_tv.jpg</thumbnail>
 </item>
@@ -577,27 +461,9 @@
 </item>
 
 <item>
-<title>Children's World</title>
-<link>http://hls.novotelecom.ru/streaming/detskij_mir/tvrec/playlist.m3u8</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>Nick</title>
+<title>Nick HD</title>
 <link>http://hls.novotelecom.ru/streaming/nickelodeon/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png</thumbnail>
-</item>
-
-<item>
-<title>Tiji</title>
-<link>http://hls.novotelecom.ru/streaming/tiji/tvrec/playlist.m3u8</link>
-<thumbnail>http://1.bp.blogspot.com/-8HYmk_RiJMg/T3IzTaSvHpI/AAAAAAAAEtQ/A7Pcc2PAdq4/s500/Tiji+ID+2012.jpg</thumbnail>
-</item>
-
-<item>
-<title>Jimjam</title>
-<link>http://hls.novotelecom.ru/streaming/jim_jam/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/jj/jim_jam_ru.png</thumbnail>
 </item>
 
 <item>
@@ -607,51 +473,31 @@
 </item>
 
 <item>
-<title>TLC</title>
-<link>http://hls.novotelecom.ru/streaming/tlc/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tlc_ru.png</thumbnail>
-</item>
-
-<item>
-<title>World Fashion (Link 2)</title>
-<link>http://hls.novotelecom.ru/streaming/fashion/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ww/world_fashion_channel_ru.png</thumbnail>
-</item>
-
-<item>
 <title>Comedy</title>
-<link>http://hls.novotelecom.ru/streaming/comedytv/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.ntkm.tv/files/img/ac8562e235592382bdd27bfe01ecef7f.jpg</thumbnail>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=comedytv?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/comedy-tv</page>
+<referer> </referer>
+</regex>
+</link>
+<thumbnail>http://en.glaz.tv/images/logos/tv/big/comedy-tv.jpg</thumbnail>
 </item>
 
 <item>
-<title>TV 1000</title>
-<link>http://hls.novotelecom.ru/streaming/tv1000/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/viasat_tv1000_megahit.png</thumbnail>
-</item>
-
-<item>
-<title>TV 1000 Action</title>
-<link>http://hls.novotelecom.ru/streaming/tv1000_action/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/viasat_tv1000_action_east.png</thumbnail>
-</item>
-
-<item>
-<title>1000 Russian Film</title>
-<link>http://hls.novotelecom.ru/streaming/tv_1000_rus_kino/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/viasat_tv1000_russkoe_kino.png</thumbnail>
-</item>
-
-<item>
-<title>Russian Illusion</title>
-<link>http://hls.novotelecom.ru/streaming/russian_illusion/tvrec/playlist.m3u8</link>
+<title>Русский иллюзион</title>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=rusillyuzion?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/russkiy-illyuzion</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://2.bp.blogspot.com/-Kzy3yVdjMQU/UEcPFAuEmXI/AAAAAAAAMpA/Z15TYcOnYxg/s1600/Russkiy+Illusion+logo+2012.png</thumbnail>
-</item>
-
-<item>
-<title>Cinema House</title>
-<link>http://hls.novotelecom.ru/streaming/dom_kino/tvrec/playlist.m3u8</link>
-<thumbnail></thumbnail>
 </item>
 
 <item>
@@ -662,30 +508,20 @@
 
 <item>
 <title>Set</title>
-<link>http://hls.novotelecom.ru/streaming/set/tvrec/playlist.m3u8</link>
+<link>
+rtmp://178.162.205.90:1936/beta/ playpath=set?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/set</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/set_eastern_europe.png</thumbnail>
 </item>
 
 <item>
-<title>Universal</title>
-<link>http://hls.novotelecom.ru/streaming/universal_channel/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/uu/universal_channel_ru.png</thumbnail>
-</item>
-
-<item>
-<title>Kinolyuks</title>
-<link>http://hls.novotelecom.ru/streaming/kinolux/tvrec/playlist.m3u8</link>
-<thumbnail>http://portal.2kom.ru/tvchannel_logo/220/kinolyuks.jpeg</thumbnail>
-</item>
-
-<item>
-<title>Россия 24</title>
-<link>http://hls.novotelecom.ru/streaming/vesti/tvrec/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rossiya_24.png</thumbnail>
-</item>
-
-<item>
-<title>Rain</title>
+<title>Rain HD</title>
 <link>http://hls.novotelecom.ru/streaming/rain/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.censorwatch.co.uk/images/logo_tv_rain_russia.jpg</thumbnail>
 </item>
