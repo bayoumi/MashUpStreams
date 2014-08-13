@@ -309,31 +309,71 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 
 <item>
 <title>CBC</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=bPEvkvbOEzc</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>embed/([^"]*)</expres>
+<page>http://www.cbc-eg.com/cbc/live-stream</page>
+<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+</regex>
+</link>
 <thumbnail>http://3.bp.blogspot.com/-bQhnaV_8KF4/T7ZPNiBq6zI/AAAAAAAADEY/p3VdxQEj1Ws/s1600/cbc.jpg</thumbnail>
 </item>
 
 <item>
 <title>CBC 2</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=wyBM93PG_wY</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>embed/([^"]*)</expres>
+<page>http://www.cbc-eg.com/two/live-stream</page>
+<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-NZi8n5mnEgs/AAAAAAAAAAI/AAAAAAAAAAA/rzVXyciExjI/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 
 <item>
 <title>CBC Extra</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=tfnz_ue-Sko</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>embed/([^"]*)</expres>
+<page>http://www.cbc-eg.com/extra/live-stream</page>
+<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-01YF5Z5-iko/AAAAAAAAAAI/AAAAAAAAAAA/lo6d1n4uaAg/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 
 <item>
 <title>CBC Drama</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=BZrd8Rua13s</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>embed/([^"]*)</expres>
+<page>http://www.cbc-eg.com/drama/live-stream</page>
+<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-tDe3PyadQnQ/AAAAAAAAAAI/AAAAAAAAAAA/rBmsY_5xshg/s88-c-k-no/photo.jpg</thumbnail>
 </item>
 
 <item>
 <title>CBC Sofra</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=vkzlfJm7X10</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>embed/([^"]*)</expres>
+<page>http://www.cbc-eg.com/sofra/live-stream</page>
+<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/256.gif</thumbnail>
 </item>
 

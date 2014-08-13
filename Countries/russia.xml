@@ -93,6 +93,19 @@ rtmp://178.162.205.90:1936/beta/ playpath=ohota?st=$doregex[st] swfUrl=http://ww
 </item>
 
 <item>
+<title>Ностальгия</title>
+rtmp://178.162.205.90:1936/beta/ playpath=nostalgiya?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+<regex>
+<name>st</name>
+<expres>st=([^&]*)</expres>
+<page>http://en.glaz.tv/online-tv/nostalgiya</page>
+<referer> </referer>
+</regex>
+</link>
+<thumbnail>http://en.glaz.tv/images/logos/tv/big/nostalgiya.jpg</thumbnail>
+</item>
+
+<item>
 <title>Fox Life</title>
 <link>http://hls.novotelecom.ru/streaming/foxlife/tvrec/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_life_ru.png</thumbnail>
