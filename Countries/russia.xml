@@ -82,10 +82,10 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <item>
 <title>Охота и Рыбалка</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=ohota?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st]
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/ohota-i-rybalka</page>
 <referer> </referer>
 </regex>
@@ -96,10 +96,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=ohota?st=$doregex[st] swfUrl=http://ww
 <item>
 <title>Ностальгия</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=nostalgiya?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/nostalgiya</page>
 <referer> </referer>
 </regex>
@@ -122,10 +122,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=nostalgiya?st=$doregex[st] swfUrl=http
 <item>
 <title>National Geographic</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=natgeo?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/national-geographic</page>
 <referer> </referer>
 </regex>
@@ -136,10 +136,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=natgeo?st=$doregex[st] swfUrl=http://w
 <item>
 <title>Nat Geo Wild</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=ngwild?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/nat-geo-wild</page>
 <referer> </referer>
 </regex>
@@ -150,10 +150,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=ngwild?st=$doregex[st] swfUrl=http://w
 <item>
 <title>Travel + Adventure</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=travel?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/travel-plus-adventure</page>
 <referer> </referer>
 </regex>
@@ -356,10 +356,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=travel?st=$doregex[st] swfUrl=http://w
 <item>
 <title>Eurosport 1</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=eurosport?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/eurosport</page>
 <referer> </referer>
 </regex>
@@ -370,10 +370,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=eurosport?st=$doregex[st] swfUrl=http:
 <item>
 <title>Eurosport 2</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=eurosport2?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/eurosport-2</page>
 <referer> </referer>
 </regex>
@@ -490,10 +490,10 @@ http://chanson.cdnvideo.ru/chanson/shansontv.sdp/playlist.m3u8?md5=$doregex[m3u8
 <item>
 <title>Comedy</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=comedytv?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/comedy-tv</page>
 <referer> </referer>
 </regex>
@@ -504,10 +504,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=comedytv?st=$doregex[st] swfUrl=http:/
 <item>
 <title>Русский иллюзион</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=rusillyuzion?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/russkiy-illyuzion</page>
 <referer> </referer>
 </regex>
@@ -524,10 +524,10 @@ rtmp://178.162.205.90:1936/beta/ playpath=rusillyuzion?st=$doregex[st] swfUrl=ht
 <item>
 <title>Set</title>
 <link>
-rtmp://178.162.205.90:1936/beta/ playpath=set?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
+$doregex[st] 
 <regex>
 <name>st</name>
-<expres>st=([^&]*)</expres>
+<expres>file=([^&]*)</expres>
 <page>http://en.glaz.tv/online-tv/set</page>
 <referer> </referer>
 </regex>
