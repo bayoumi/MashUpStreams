@@ -174,7 +174,7 @@
 
 <item>
 <title>Sport 1</title>
-<link>rtmp://213.163.74.20:1935/live playpath=sport1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sport1.html#tab2-tab live=true timeout=15</link>
+<link>rtmp://5.135.128.105:1935/live playpath=sport1.stream swfUrl=http://static.live-stream.tv/player/player.swf pageUrl=http://www.live-stream.tv/online/fernsehen/sport1.html#tab2-tab live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sport1_de.png</thumbnail>
 </item>
 

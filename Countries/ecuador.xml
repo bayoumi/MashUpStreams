@@ -6,13 +6,13 @@
 
 <item>
 <title>TC</title>
-<link>rtmp://174.127.72.140:1935/live/ playpath=10001_180p swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.ecuazonatv.com/envivo/tvdeecuador/tc1.html</link>
+<link>http://67.228.177.223/hls2/amlst:10003_ios/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tc_ec.png</thumbnail>
 </item>
 
 <item>
 <title>Univision Deportes</title>
-<link>rtmp://46.165.210.32/live playpath=gfdmikoklfasuj9?id=201682 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/gfdmikoklfasuj9/1/600/440</link>
+<link>rtmp://50.7.28.146/live playpath=piuyf swfUrl=http://p.castamp.com/cplayer.swf pageUrl=http://www.castamp.com/ live=true timeout=15</link>
 <thumbnail>http://corporate.univision.com/wp-content/uploads/2012/01/UnivisionDeportes_Hero_780x439.jpg</thumbnail>
 </item>
 
@@ -24,11 +24,18 @@
 
 <item>
 <title>Ecuavisa</title>
-<link>rtmp://173.193.233.148/live playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/ live=true timeout=15
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/ live=true timeout=15
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=13685&amp;wh=600&amp;ht=400&amp;r=primiux.com</page>
+<referer>http://primiux.com/tvec/ecuavisa.htm</referer>
+</regex>
 <regex>
 <name>file</name>
 <expres>'file': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=13685&wh=600&ht=400&r=primiux.com</page>
+<page>http://castalba.tv/embed.php?cid=13685&amp;wh=600&amp;ht=400&amp;r=primiux.com</page>
 <referer>http://primiux.com/tvec/ecuavisa.htm</referer>
 </regex>
 </link>
@@ -37,13 +44,13 @@
 
 <item>
 <title>Teleamazonas</title>
-<link>rtmp://50.7.28.194/flash playpath=16295 swfUrl=http://static2.sawlive.tv/player.swf live=true timeout=15 pageUrl=http://sawlive.tv</link>
+<link>rtmp://50.7.28.162/flash playpath=16295 swfUrl=http://static3.sawlive.tv/player.swf live=true timeout=15 pageUrl=http://sawlive.tv</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/teleamazonas.png</thumbnail>
 </item>
 
 <item>
 <title>ECTV</title>
-<link>rtmp://38.96.148.216:1935/live/ playpath=ecuadortvn3 swfUrl=http://www.ecuadortv.ec/mod_video/player.swf live=true timeout=15 pageUrl=http://getwealthyschool.com/pop/ecuatvpop.html</link>
+<link>rtmp://38.96.148.216:1935/live/ playpath=internacional swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.ecuadortv.ec/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/ecuador_tv.png</thumbnail>
 </item>
 

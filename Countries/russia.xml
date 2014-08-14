@@ -94,6 +94,7 @@ rtmp://178.162.205.90:1936/beta/ playpath=ohota?st=$doregex[st] swfUrl=http://ww
 
 <item>
 <title>Ностальгия</title>
+<link>
 rtmp://178.162.205.90:1936/beta/ playpath=nostalgiya?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
 <regex>
 <name>st</name>
