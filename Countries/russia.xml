@@ -81,6 +81,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 
 <item>
 <title>Охота и Рыбалка</title>
+<link>
 rtmp://178.162.205.90:1936/beta/ playpath=ohota?st=$doregex[st] swfUrl=http://www.glaz.tv/playerup.swf pageUrl=http://en.glaz.tv/ live=true timeout=15
 <regex>
 <name>st</name>
