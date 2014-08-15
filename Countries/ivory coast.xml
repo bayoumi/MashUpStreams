@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>Ivory Coast TV Channels</name>
+<thumbnail></thumbnail>
+
+<item>
+<title>RTI  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
+<link>
+$doregex[rtmp] swfurl=http://lb.streamakaci.com/streamakaci/library/VideoPlayerStreamakaci.swf live=true timeout=15 pageurl=http://lb.streamakaci.com/
+<regex>
+<name>rtmp</name>
+<expres>file=([^&]*)</expres>
+<page>http://lb.streamakaci.com/rti/</page>
+<referer>http://www.rti.ci/direct_rti1.html</referer>
+</regex>
+</link>
+<thumbnail>http://www.rti.ci/images/logo_tv1.png</thumbnail>
+</item>
+
+</channel>
