@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Updated A Couple Channels[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Aljadeed[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -542,7 +542,15 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>Aljadeed  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>rtmp://livestreaming.itworkscdn.net/ app=aljadeedlive playpath=aljadeed_360p pageurl=http://www.itworks-me.net/aljadeed/aljadeed.smil</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.itworks-me.net/aljadeed/</page>
+<referer>http://www.aljadeed.tv/livetv.html?Id=1007</referer>
+</regex>
+</link>
 <thumbnail>http://1.bp.blogspot.com/-W1Ry_s_c5-k/UAw9jeMFGoI/AAAAAAAANlY/SJ_JbZV8W5E/s400/aljadeed%2Btv.jpeg</thumbnail>
 </item>
 

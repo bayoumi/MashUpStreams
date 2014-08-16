@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Everything Again & Added Bein News Arabic[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein USA & Spanish[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -38,18 +38,39 @@ http://110751-f.akamaihd.net/ajswebch332_1_500@s13810?reportingKey=eventId-94849
 
 <item>
 <title>Bein Sports Spanish</title>
-<link>rtmp://174.36.146.69/stream playpath=as3sdadafsd?id=1412 conn=S:OK swfUrl=http://www.liveflash.tv/resources/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.liveflash.tv/embedplayer/as3sdadafsd/1/650/400</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=15754&amp;wh=600&amp;ht=380&amp;r=www.day.to</page>
+<referer>http://www.day.to/watch/live/streaming/online/free/en-vivo/5/63824/august-16-2014/bein-espanol.html</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=15754&amp;wh=600&amp;ht=380&amp;r=www.day.to</page>
+<referer>http://www.day.to/watch/live/streaming/online/free/en-vivo/5/63824/august-16-2014/bein-espanol.html</referer>
+</regex>
+</link>
 <thumbnail>http://www.tv-envivo.com.ar/wp-content/uploads/2013/10/bein-sport.png</thumbnail>
 </item>
 
 <item>
 <title>Bein USA</title>
-<link>rtmp://173.193.46.109/live playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 pageUrl=http://castalba.tv/embed.php?cid=15495&amp;wh=650&amp;ht=480&amp;r=www.stream2watch.me
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=15495&amp;wh=600&amp;ht=380&amp;r=www.day.to</page>
+<referer>http://www.day.to/watch/live/streaming/online/free/en-vivo/5/41256/august-17-2014/bein-sport-us.html</referer>
+</regex>
 <regex>
 <name>file</name>
 <expres>'file': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=15495&amp;wh=650&amp;ht=480&amp;r=www.stream2watch.me</page>
-<referer>http://www.stream2watch.me/showstream.php?id=42520&amp;stream=1</referer>
+<page>http://castalba.tv/embed.php?cid=15495&amp;wh=600&amp;ht=380&amp;r=www.day.to</page>
+<referer>http://www.day.to/watch/live/streaming/online/free/en-vivo/5/41256/august-17-2014/bein-sport-us.html</referer>
 </regex>
 </link>
 <thumbnail>http://media.meltybuzz.fr/article-1013280-ajust_930/bein-sport.jpg</thumbnail>
