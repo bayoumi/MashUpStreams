@@ -6,37 +6,37 @@
 
 <item>
 <title>Sky Sports 1</title>
-<link>rtmp://31.220.0.194:1935/live playpath=s1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.194:1935/live playpath=sskk1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://3.bp.blogspot.com/-b3q2g-UxZwI/UVWzFcsgA_I/AAAAAAAAFY8/nmBHsWYdLCM/s1600/sky_sports1.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports 2</title>
-<link>rtmp://31.220.0.194:1935/live playpath=s2  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.194:1935/live playpath=sskk2  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports2.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports 3</title>
-<link>rtmp://31.220.0.194:1935/live playpath=s3  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.194:1935/live playpath=sskk3  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports3.jpg</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports F1</title>
-<link>rtmp://31.220.0.196:1935/live playpath=sf1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.196:1935/live playpath=skksnf1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.tv-live.org.uk/wp/media/skysports/2012/023.jpg</thumbnail>
 </item>
 
 <item>
 <title>Eurosport 2</title>
-<link>rtmp://31.220.0.195:1935/live playpath=e1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.195:1935/live playpath=eurs2  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://2.bp.blogspot.com/-I3h_uI0cILc/ULt8sd4tWxI/AAAAAAAAAg0/6F40MH-1Qmk/s1600/eurosport+2+chaine+live.jpg</thumbnail>
 </item>
 
 <item>
 <title>Eurosport 1</title>
-<link>rtmp://31.220.0.195:1935/live playpath=e1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.195:1935/live playpath=eurs1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://3.bp.blogspot.com/-q691zK90t9Y/TlUbSSLiicI/AAAAAAAAAHY/zGGW_LfRuIU/s1600/EuroSport-izle.png</thumbnail>
 </item>
 
@@ -48,7 +48,7 @@
 
 <item>
 <title>Sky Sports News</title>
-<link>rtmp://31.220.0.194:1935/live playpath=sn  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.194:1935/live playpath=skksnews  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://hub.tv-ark.org.uk/images/skytv/sky_images/skysportsnews/skysportsnews_open1_2003b.jpg</thumbnail>
 </item>
 
