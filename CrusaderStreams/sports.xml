@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein USA & Spanish[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sports, Fixed Bein USA & Spanish[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -147,8 +147,8 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc1 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmpe://185.56.28.203:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=bein1fu649 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc1 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmp://80.82.64.90:443/liverepeater playpath=20 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -156,7 +156,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc2 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc2 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=21 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/G8aSwIJ.jpg</thumbnail>
@@ -165,8 +165,8 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 3 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=xsbein3 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc3 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmp://80.82.78.85:443/liverepeater playpath=23 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc3 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -175,7 +175,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 4 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=24 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc4 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc4 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/MCi8WTD.jpg</thumbnail>
 </item>
@@ -184,7 +184,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 5 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=25 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc5 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc5 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/eKtzUc4.jpg</thumbnail>
 </item>
@@ -192,8 +192,8 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 6 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=xsbein6 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc6 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmp://80.82.78.85:443/liverepeater playpath=26 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc6 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/by9j5N2.jpg</thumbnail>
 </item>
@@ -201,7 +201,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 7 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc7 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc7 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=27 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/cHNlLaQ.jpg</thumbnail>
@@ -210,7 +210,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 8 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc8 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc8 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=28 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/cEpkyFy.jpg</thumbnail>
@@ -219,7 +219,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 9 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc9 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc9 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=29 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_9hd.jpg</thumbnail>
@@ -228,7 +228,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc10 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc10 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=30 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
 </link>
 <thumbnail>http://scrat.hellocoton.fr/img/classic/bein-sport-10hd-live-regarder-bein-sport-10-hd-en-direct-gratuit-11334154.jpg</thumbnail>
@@ -237,8 +237,8 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 11 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
-<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=bein11hd398 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc11 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmp://80.82.78.85:443/liverepeater playpath=31 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc11 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_11hd.jpg</thumbnail>
 </item>
@@ -247,7 +247,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 12 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=32 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc12 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc12 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_12hd.jpg</thumbnail>
 </item>
@@ -255,7 +255,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=w-sp.tv-b1fr token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=w-sp.tv-b1fr token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -263,7 +263,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=w-sp.tv-b2fr token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=w-sp.tv-b2fr token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://i.imgur.com/G8aSwIJ.jpg</thumbnail>
 </item>
@@ -271,8 +271,8 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 13 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmpe://5.153.233.106:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=bein13hd865 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc13 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink></link>
+<sublink>rtmp://80.82.78.85:443/liverepeater playpath=33 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc13 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink></link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_13hd.jpg</thumbnail>
 </item>
 
@@ -280,15 +280,15 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 14 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
 <sublink>rtmp://80.82.78.85:443/liverepeater playpath=34 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc14 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink></link>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc14 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink></link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_14hd.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 15 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=34 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.27:1935/live/ app=redirect/ swfUrl=http://player.hdcast.org/player.swf pageUrl=http://www.hdcast.org/ playpath=jsc15 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+<sublink>rtmp://80.82.78.85:443/liverepeater playpath=35 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc15 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_15hd.jpg</thumbnail>
 </item>
