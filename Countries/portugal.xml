@@ -72,13 +72,19 @@
 
 <item>
 <title>TVI</title>
-<link>rtmp://5.63.149.180/live playpath=TVI8282?id=16616 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf pageUrl=http://www.ezcast.tv/embedded/TVI8282/1/550/420 live=true timeout=15</link>
+<link>rtmp://173.193.227.91/live playpath=tvijkk?id=210882 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/tvijkk/1/600/450 live=true timeout=15</link>
 <thumbnail>http://img1.wikia.nocookie.net/__cb20100918105531/logopedia/images/b/b0/TVI_logo.png</thumbnail>
 </item>
 
 <item>
+<title>Sporting TV</title>
+<link>rtmp://109.123.126.34/live playpath=sportingtvdrex?id=72176 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/sportingtvdrex/1/670/470 live=true timeout=15</link>
+<thumbnail>http://cdn.nexttv.sapo.pt/user/channels/5e/69f/5275/logof558c9df8d53ff4a4f94f365b14a23b4-200x200.png</thumbnail>
+</item>
+
+<item>
 <title>A Bola</title>
-<link>rtmp://5.63.149.180/live playpath=bolatv4?id=16354 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/eplayer.swf pageUrl=http://www.ezcast.tv/embedded/bolatv4/1/550/420 live=true timeout=15</link>
+<link>rtmp://109.123.116.154/live playpath=BOLATV6?id=72179 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/BOLATV6/1/550/420 live=true timeout=15</link>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20131129194554/logopedia/images/b/b2/A_Bola_TV_logo.png</thumbnail>
 </item>
 
@@ -108,7 +114,7 @@
 
 <item>
 <title>SIC</title>
-<link>rtmp://206.190.150.8/live playpath=efsicv900?id=13251 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/efsicv900/1/650/500 live=true timeout=15</link>
+<link>rtmp://5.63.151.44/live playpath=sicisj?id=210883 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/sicisj/1/600/450 live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/pt/8/8c/Sic_logo.png</thumbnail>
 </item>
 

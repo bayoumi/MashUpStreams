@@ -313,7 +313,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>embed/([^"]*)</expres>
+<expres>embed/([^?]*)</expres>
 <page>http://www.cbc-eg.com/cbc/live-stream</page>
 <referer>http://www.cbc-eg.com/cbc/presenters</referer>
 </regex>
@@ -327,7 +327,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>embed/([^"]*)</expres>
+<expres>embed/([^?]*)</expres>
 <page>http://www.cbc-eg.com/two/live-stream</page>
 <referer>http://www.cbc-eg.com/cbc/presenters</referer>
 </regex>
@@ -341,7 +341,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>embed/([^"]*)</expres>
+<expres>embed/([^?]*)</expres>
 <page>http://www.cbc-eg.com/extra/live-stream</page>
 <referer>http://www.cbc-eg.com/cbc/presenters</referer>
 </regex>
@@ -355,7 +355,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>embed/([^"]*)</expres>
+<expres>embed/([^?]*)</expres>
 <page>http://www.cbc-eg.com/drama/live-stream</page>
 <referer>http://www.cbc-eg.com/cbc/presenters</referer>
 </regex>
@@ -369,7 +369,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>embed/([^"]*)</expres>
+<expres>embed/([^?]*)</expres>
 <page>http://www.cbc-eg.com/sofra/live-stream</page>
 <referer>http://www.cbc-eg.com/cbc/presenters</referer>
 </regex>
@@ -385,7 +385,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 
 <item>
 <title>Dream 1</title>
-<link>rtmp://85.91.143.23/87521// playpath=87521.stream swfUrl=http://www.watchfomny.net/jwplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.watchfomny.net/Video/Arabic/03/Dream/pop-1.php</link>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/18127105/streams/live/playlist.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/24.gif</thumbnail>
 </item>
 
@@ -530,7 +530,7 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>MTV Lebanon  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>rtmp://livestreaming1.itworkscdn.net/mtvlive playpath=murrtelevision_360p swfUrl=http://mtv.com.lb/Player/451/jwplayer.flash.swf pageUrl=http://mtv.com.lb/Player/654/451 live=1 swfVfy=1 timeout=15</link>
+<link>http://livestreaming1.itworkscdn.net/mtvlive/smil:mtvmob.smil/playlist.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-v7Q1icQUJD0/Tm5vrpPY1gI/AAAAAAAAAGs/640s_zySbsQ/s200/MTV+1.png</thumbnail>
 </item>
 

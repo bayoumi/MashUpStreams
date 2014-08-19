@@ -11,6 +11,12 @@
 </item>
 
 <item>
+<title>Canal 5</title>
+<link>rtmp://109.123.126.66/live playpath=zincoago?id=72164 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/zincoago/1/590/390 live=true timeout=15</link>
+<thumbnail>http://www.xejtv.com/InicioV/images/V.png</thumbnail>
+</item>
+
+<item>
 <title>Televisa</title>
 <link>rtmp://46.28.50.116/live playpath=starago014?id=71582 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/starago014/1/590/400 live=true timeout=15</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2013/02/Watch-Live-Online-Televisa-en-Vivo-Logo.jpg</thumbnail>
