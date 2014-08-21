@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sports, Fixed Bein USA & Spanish[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sports Again[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -144,11 +144,37 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <thumbnail>http://www.diahc.ae/$Common/Image/Logo/dubai-racing_logo.jpg</thumbnail>
 </item>
 
+
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc1 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmp://80.82.64.90:443/liverepeater playpath=20 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=20&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-1-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=20&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-1-live-stream.php</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
+<title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc1&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein1.html</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -156,17 +182,67 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc2 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=21 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-2-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=21&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-2-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/G8aSwIJ.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc2&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein2.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 3 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=23 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc3 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=23&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-3-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=23&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-3-live-stream.php</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
+<title>Bein 3 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc3&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein3.html</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -174,88 +250,319 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 4 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=24 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc4 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=24&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-4-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=24&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-4-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/MCi8WTD.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 4 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc4&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein4.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 5 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=25 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc5 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=25&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-5-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=25&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-5-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/eKtzUc4.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 5 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc5&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein5.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 6 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=26 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc6 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=26&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-6-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=26&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-6-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/by9j5N2.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 6 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc6&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein6.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 7 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc7 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=27 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=27&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-7-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=27&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-7-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/cHNlLaQ.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 7 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc7&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein7.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 8 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc8 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=28 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=28&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-8-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=28&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-8-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/cEpkyFy.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 8 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc8&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein8.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 9 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc9 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=29 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=29&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-9-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=29&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-9-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_9hd.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 9 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc9&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein9.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc10 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=30 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=30&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-10-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=30&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-10-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://scrat.hellocoton.fr/img/classic/bein-sport-10hd-live-regarder-bein-sport-10-hd-en-direct-gratuit-11334154.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc10&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein10.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 11 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=31 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc11 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=31&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-11-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=31&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-11-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_11hd.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 11 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc11&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein11.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 12 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=32 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc12 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=32&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-12-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=32&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-12-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_12hd.jpg</thumbnail>
 </item>
 
 <item>
+<title>Bein 12 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc12&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein12.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=w-sp.tv-b1fr token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=w-sp.tv-b1fr&amp;vw=600&amp;vh=500&amp;domain=w-sp.tv</page>
+<referer>http://w-sp.tv/embeds/f1.php?W=600&amp;H=500</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -263,7 +570,13 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=w-sp.tv-b2fr token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=w-sp.tv-b2fr&amp;vw=600&amp;vh=500&amp;domain=w-sp.tv</page>
+<referer>http://w-sp.tv/embeds/f2.php?W=600&amp;H=500</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/G8aSwIJ.jpg</thumbnail>
 </item>
@@ -271,25 +584,101 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 13 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=33 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc13 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink></link>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=33&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-13-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=33&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-13-live-stream.php</referer>
+</regex>
+</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_13hd.jpg</thumbnail>
+</item>
+
+<item>
+<title>Bein 13 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc13&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein13.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 14 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=34 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc14 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink></link>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=34&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-14-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=34&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-14-live-stream.php</referer>
+</regex>
+</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_14hd.jpg</thumbnail>
+</item>
+
+<item>
+<title>Bein 14 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: French[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc14&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein14.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
 <item>
 <title>Bein 15 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR]</title>
 <link>
-<sublink>rtmp://80.82.78.85:443/liverepeater playpath=35 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://filotv.pw/ live=1</sublink>
-<sublink>rtmpe://46.246.124.26:1935/live/ app=redirect/ swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ playpath=jsc15 token=#yw%tt#w@kku swfVfy=true live=true timeout=15</sublink>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
+<regex>
+<name>streamer</name>
+<expres>'streamer':...........'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=35&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-15-live-stream.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file':...............'([^']*)</expres>
+<page>http://xxcast.pm/player3.php?id=35&amp;width=640&amp;height=460</page>
+<referer>http://hdfoots.com/live/beinsports-15-live-stream.php</referer>
+</regex>
 </link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2014/01/jport_15hd.jpg</thumbnail>
 </item>
 
+<item>
+<title>Bein 15 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: English[/COLOR] (Link 2)</title>
+<link>
+$doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
+<regex>
+<name>src</name>
+<expres>file:'([^']*)</expres>
+<page>http://www.hdcast.org/embedlive2.php?u=jsc15&amp;vw=640&amp;vh=460&amp;domain=www.footyfree.tv</page>
+<referer>http://www.footyfree.tv/bein15.html</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>

@@ -6,51 +6,26 @@
 
 <item>
 <title>NRK1  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>http://nrk1us-f.akamaihd.net/z/nrk1us_0@102847/manifest.f4m</link>
+<link>http://nrk1us-f.akamaihd.net/z/nrk1us_0@102847/manifest.f4m?ma=on</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nrk1.jpg</thumbnail>
 </item>
 
 <item>
 <title>NRK2  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>http://nrk2us-f.akamaihd.net/z/nrk2us_0@107231/manifest.f4m</link>
+<link>http://nrk2us-f.akamaihd.net/z/nrk2us_0@107231/manifest.f4m?ma=on</link>
 <thumbnail>http://www.tv14.net/wp-content/uploads/2010/10/NRK2.jpg</thumbnail>
 </item>
 
 <item>
+<title>NRK3  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
+<link>http://nrk3us-f.akamaihd.net/z/nrk3us_0@107233/manifest.f4m?ma=on</link>
+<thumbnail>http://www.tv14.net/wp-content/uploads/2010/10/NRK3.jpg</thumbnail>
+</item>
+
+<item>
 <title>NRK Super  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>http://nrksuper-lh.akamaihd.net/z/nrksupertvus_0@108447/manifest.f4m</link>
+<link>http://nrksuper-lh.akamaihd.net/z/nrksupertvus_0@108447/manifest.f4m?ma=on</link>
 <thumbnail>http://www.speiding.no/innleggsbilder/grafikk/2009/Nyheter/April/nrksuper.png</thumbnail>
 </item>
-
-<item>
-<title>TV2</title>
-<link>http://195.250.60.41:9987/udp/239.100.202.27:3001</link>
-<thumbnail>http://4.bp.blogspot.com/-Z3Yrre0s7rE/UQkxnL8qi4I/AAAAAAAAXD4/bGlovuo8Yfs/s320/TV+2+logo+2013.png</thumbnail>
-</item>
-
-<item>
-<title>TV2 Bliss</title>
-<link>http://195.250.60.41:9987/udp/239.100.202.26:3001</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/tt/tv2_bliss.png</thumbnail>
-</item>
-
-<item>
-<title>TV2 News</title>
-<link>http://195.250.60.41:9987/udp/239.100.202.25:3001</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_nyhets_kanalen_no.png</thumbnail>
-</item>
-
-<item>
-<title>TV2 Zebra</title>
-<link>http://195.250.60.41:9987/udp/239.100.202.28:3001</link>
-<thumbnail>http://www.it-stud.hiof.no/~jslarsen/din_dag/grafikk/tvguide_grafikk/logo/tv2zebra_logo.jpg</thumbnail>
-</item>
-
-<item>
-<title>TV3</title>
-<link>http://195.250.60.41:9987/udp/239.100.202.24:3001</link>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/0/05/TV3_logo_2011.png</thumbnail>
-</item>
-
 
 </channel>
