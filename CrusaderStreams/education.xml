@@ -15,3 +15,11 @@
 <link>rtmp://37.58.52.100/live playpath=fgfdbfdbfbvcbvcbvbc?id=201716 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/fgfdbfdbfbvcbvcbvbc/1/600/380live=true timeout=15</link>
 <thumbnail>http://www.livetv.tn/images/icons/271.gif</thumbnail>
 </item>
+
+
+
+<item>
+<title>test</title>
+<link>http://cf.c.ooyala.com/M2Z2xybzpYo6ocJZB7yYP2zwoLsYQLVM/M2Z2xybzpYo6ocJZB7yYP2zwoLsYQLVM_1.f4m</link>
+<thumbnail>http://www.livetv.tn/images/icons/271.gif</thumbnail>
+</item>
