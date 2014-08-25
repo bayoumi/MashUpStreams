@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sports Again[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sports 1HD[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -144,24 +144,9 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <thumbnail>http://www.diahc.ae/$Common/Image/Logo/dubai-racing_logo.jpg</thumbnail>
 </item>
 
-
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
-<link>
-$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://xxcast.pm/
-<regex>
-<name>streamer</name>
-<expres>'streamer':...........'([^']*)</expres>
-<page>http://xxcast.pm/player3.php?id=20&amp;width=640&amp;height=460</page>
-<referer>http://hdfoots.com/live/beinsports-1-live-stream.php</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>'file':...............'([^']*)</expres>
-<page>http://xxcast.pm/player3.php?id=20&amp;width=640&amp;height=460</page>
-<referer>http://hdfoots.com/live/beinsports-1-live-stream.php</referer>
-</regex>
-</link>
+<link>rtmp://173.192.200.77/flash playpath=19151 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/</link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
