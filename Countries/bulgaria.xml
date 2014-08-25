@@ -12,7 +12,7 @@
 
 <item>
 <title>Nova TV</title>
-<link>rtmp://206.190.129.12/live playpath=NoWaTv?id=186173 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/NoWaTv/1/500/380</link>
+<link>rtmp://e1.cdn.bg:2060/fls playpath=ntv_1.stream swfUrl=http://i.cdn.bg/eflash/jwNTV/player.swf pageUrl=http://i.cdn.bg/live/0OmMKJ4SgY live=true timeout=15</link>
 <thumbnail>http://static1.novatv.bg/layout/novatv/img/logo_big.jpg</thumbnail>
 </item>
 

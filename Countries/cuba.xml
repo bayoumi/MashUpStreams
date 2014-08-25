@@ -13,7 +13,15 @@
 
 <item>
 <title>America Teve</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/3704670/streams/live/playlist.m3u8</link>
+<link>
+$doregex[url]
+<regex>
+<name>url</name>
+<expres>rtsp_url":"([^"]*)</expres>
+<page>http://new.livestream.com/accounts/5730046/events/2966225</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/america_teve.png</thumbnail>
 </item>
 

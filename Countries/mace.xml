@@ -10,7 +10,6 @@
 <thumbnail>http://www.tv-logo.com/pt-data/uploads/images/logo/k_15_music.jpg</thumbnail>
 </item>
 
-
 <item>
 <title>HUTEL</title>
 <link>http://fms.zulu.mk:1935/zulu/shutel_1/playlist.m3u8</link>
@@ -62,12 +61,6 @@
 <item>
 <title>Kanal 5</title>
 <link>http://fms.zulu.mk:554/zulu/kanal5_1/playlist_b125000_w1132785237.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/kk/kanal5_mk.png</thumbnail>
-</item>
-
-<item>
-<title>Kanal 5 (Link 2)</title>
-<link>http://live.kanal5.com.mk:80/kanal5</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/kk/kanal5_mk.png</thumbnail>
 </item>
 

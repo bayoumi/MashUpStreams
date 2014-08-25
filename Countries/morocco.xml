@@ -11,15 +11,15 @@
 </item>
 
 <item>
-<title>Al Oula</title>
+<title>Arryadia</title>
 <link>rtmp://206.190.153.70/live playpath=alaoula?id=12371 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.janjua.tv/embedplayer/alaoula/1/500/400</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/snrt_1_tvm.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/snrt_3_arriadya.png</thumbnail>
 </item>
 
 <item>
-<title>Arryadia</title>
+<title>Al Oula </title>
 <link>rtmp://206.190.151.8/live playpath=arryadia?id=12387 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.janjua.tv/embedplayer/arryadia/1/500/400</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/snrt_3_arriadya.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/snrt_1_tvm.png </thumbnail>
 </item>
 
 <item>

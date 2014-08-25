@@ -5,22 +5,21 @@
 
 <item>
 <title>TV3</title>
-<link>http://baik.layarku.tv/live/sz%3DIMN%3Dtv37495872537483943746583462384952/playlist.m3u8?wowzasessionid=370460574</link>
+<link>http://uniliveflash-lh.akamaihd.net/z/unilive_1@86102/manifest.f4m</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/tt/tv3_my.png</thumbnail>
 </item>
 
 <item>
-<title>TV9</title>
-<link>http://baik.layarku.tv/live/sz%3DIMN%3Dtv9232543785632696896784568743483467835 24/playlist.m3u8?wowzasessionid=90494488</link>
+<title>TV9  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
+<link>http://tv9liveflash-lh.akamaihd.net/z/tv9live_9@86094/manifest.f4m</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/tt/tv9_my.png</thumbnail>
 </item>
 
 <item>
 <title>Parlimen Malaysia</title>
-<link>rtmp://stream.rtm.swiftserve.com/live/rtm/rtm-ch009</link>
-<thumbnail>http://mystream.rtm.gov.my/images/parlimen.png</thumbnail>
+<link>http://supercharged.stream.my/live/ngrp:rtm-ch009.stream_all/playlist.m3u8</link>
+<thumbnail>http://rtmparlimen.rtm.gov.my/images/header.png</thumbnail>
 </item>
-
 
 <item>
 <title>Astro Awani</title>

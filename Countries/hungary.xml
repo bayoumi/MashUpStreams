@@ -74,7 +74,7 @@ $doregex[file]
 
 <item>
 <title>BP TV</title>
-<link>rtmpt://91.82.85.44:1935/ app=relay20 playpath=bptv.sdp swfUrl=http://wdsonline.gdsinfo.com/itplayer/player.swf live=true timeout=15 pageUrl=http://wdsonline.gdsinfo.com/itplayer/bptv_inc.php</link>
+<link>http://91.82.85.44:1935/relay20/bptv.sdp/playlist.m3u8</link>
 <thumbnail>http://static.ipaustralia.com.au/store3/14/52/1452450.1.high.jpg</thumbnail>
 </item>
 

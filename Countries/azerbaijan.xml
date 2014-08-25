@@ -6,20 +6,14 @@
 
 <item>
 <title>ATV Baku</title>
-<link>rtmp://85.132.71.4:1935/bakutv playpath=atv.sdp swfUrl=http://www.livetv.az/static/player/player.swf live=ture timeout=15 pageUrl=http://www.livetv.az/atv/</link>
+<link>http://85.132.81.184:8080/atvlive/atv/index.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/azad_tv_az.jpg</thumbnail>
 </item>
 
 <item>
 <title>GunAz TV</title>
-<link>http://gtv.live.cdn.bitgravity.com/gtv/live/feed01</link>
+<link>http://gtv.live.cdn.bitgravity.com/gtv/live/feed03</link>
 <thumbnail>http://wwitv.com/tvlogos/b1477.jpg</thumbnail>
-</item>
-
-<item>
-<title>Ictimai TV  [COLOR=FFFF0000]Try Twice For Video[/COLOR]</title>
-<link>rtmp://85.132.44.99:80/bakutv playpath=itv.sdp swfUrl=http://www.livetv.az/static/player/player.swf live=true timeout=15 pageUrl=http://www.livetv.az/itv-wt-ads/</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/ictimai_tv.jpg</thumbnail>
 </item>
 
 <item>
@@ -30,55 +24,55 @@
 
 <item>
 <title>Az TV</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsAZTV_750.stream</link>
+<link>rtmp://85.132.44.105:1935/limited playpath=aztv.sdp swfUrl=http://www.livetv.az/static/player/player.swf pageUrl=http://www.livetv.az/aztv/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/azerbaycan_tv.png</thumbnail>
 </item>
 
 <item>
-<title>Ictimai TV (Link 2)</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsIctimai_750.stream</link>
+<title>Ictimai TV</title>
+<link>rtmp://85.132.53.51:1935/bakutv playpath=itv.sdp swfUrl=http://www.livetv.az/static/player/player.swf pageUrl=http://www.livetv.az/itv-wt-ads/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/ictimai_tv.png</thumbnail>
 </item>
 
 <item>
 <title>Idman Azerbaycan</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsIdman_1500.stream</link>
+<link>http://origin07.az.myvideo.az/hls-live/livepkgr/idman/idman/idman.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/idman_azerbaycan.png</thumbnail>
 </item>
 
 <item>
 <title>Medeniyyet</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsMedaniyat_1500.stream</link>
+<link>http://origin04.az.myvideo.az/hls-live/livepkgr/medeniyet/medeniyet/medeniyet.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/medeniyyet_tv.png</thumbnail>
 </item>
 
 <item>
 <title>InterAz</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsInterAz_512.stream</link>
+<link>rtmp://stream.video.az/live/ playpath=interaz swfUrl=http://www.video.az/assets/player/player.swf pageUrl=http://www.interaztv.com/live/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/inter_az.png</thumbnail>
 </item>
 
 <item>
 <title>Lider TV</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsLider_750.stream</link>
+<link>rtmp://85.132.48.75:1935/livepkgr playpath=livestream3 swfUrl=http://www.lidertv.com/swfs/StrobeMediaPlayback.swf pageUrl=http://www.lidertv.com/az/onlinetv.html?live=750 live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lider_tv.png</thumbnail>
 </item>
 
 <item>
 <title>Space TV</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsSpace_750.stream</link>
+<link>rtmp://edge03-08.az.myvideo.az/ app=dvrh264/space playpath=mp4:space swfUrl=http://www.myvideo.az/dvr/dvrStretch2.swf?v=1.91 pageUrl=http://www.myvideo.az/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/space_tv_az.png</thumbnail>
 </item>
 
 <item>
 <title>Xezer</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsHazar_750.stream</link>
+<link>rtmp://edge04-01.az.myvideo.az/ app=dvrh264/xazer playpath=mp4:xazer swfUrl=http://www.myvideo.az/flv_player/j/playerl.swf pageUrl=http://www.myvideo.az/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/xx/xezer_tv_az.png</thumbnail>
 </item>
 
 <item>
 <title>CBC</title>
-<link>rtmp://live.mediabay.tv/live//mpegtsCBC_Az_512.stream</link>
+<link>rtmp://edge04-06.az.myvideo.az/ app=dvrh264/cbcaz playpath=mp4:cbcaz swfUrl=http://www.myvideo.az/flv_player/j/playerl.swf pageUrl=http://www.myvideo.az/flv_player/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cbc_tv_az.png</thumbnail>
 </item>
 
