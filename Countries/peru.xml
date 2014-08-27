@@ -12,13 +12,13 @@
 
 <item>
 <title>Panamericana</title>
-<link>http://stream-l3-4.vty.dmcdn.net/19/dm/1/x18w5up/live.isml/live.f4m</link>
+<link>http://stream-ak.vty.dmcdn.net/05/dm/1/x18w5up/live.isml/live.f4m</link>
 <thumbnail>http://www.panamericana.pe/imagenes/cabecera/panamericana-2013.png</thumbnail>
 </item>
 
 <item>
 <title>America Television</title>
-<link>rtmp://149.255.34.122/live playpath=soldado021?id=210550 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/soldado032/1/620/400 live=true timeout=15</link>
+<link>rtmp://109.123.126.34/live playpath=soldado053?id=72733 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/soldado032/1/620/400 live=true timeout=15</link>
 <thumbnail>http://1.bp.blogspot.com/-s0trtn50v28/URbZZkIqGYI/AAAAAAAAC-8/jERp8mmTRck/s1600/logoameric.jpg</thumbnail>
 </item>
 
@@ -30,7 +30,7 @@
 
 <item>
 <title>ATV</title>
-<link>rtmp://173.193.223.149/live playpath=fgsdfsss?id=210563 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/zeyuatv70/1/620/400 live=true timeout=15</link>
+<link>rtmp://108.59.14.229/live playpath=soldado982?id=211684 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/zeyuatv70/1/620/400 live=true timeout=15</link>
 <thumbnail>http://4.bp.blogspot.com/-pSHGTkx9ttA/URbZa4B39WI/AAAAAAAAC_Q/MKH-NvUoAa4/s1600/logoatv.jpg</thumbnail>
 </item>
 
