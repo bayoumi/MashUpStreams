@@ -30,13 +30,13 @@
 
 <item>
 <title>Swaranavahini</title>
-<link>rtsp://wowza.eapdns.com/live/swrlive</link>
+<link>http://wowza.eapdns.com/live/swrlive/playlist.m3u8</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/3/32/Swarnavahini_logo.png</thumbnail>
 </item>
 
 <item>
 <title>Rupavahini</title>
-<link>rtsp://dammika.flashwebtown.com:1935/slrc/myStream.sdp</link>
+<link>http://dammikartmp.tulix.tv/slrc1/slrc1/playlist.m3u8</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/8/8e/Sri_Lanka_Rupavahini_Corporation-Logo.png</thumbnail>
 </item>
 

@@ -24,13 +24,29 @@
 
 <item>
 <title>RTS 1</title>
-<link>rtmp://67.213.217.205:1935/8180 playpath=8386lll swfUrl=http://www.sunu-tv.com/online/swf/player1.l6.swf pageUrl=http://www.sunu-tv.com/</link>
+<link>
+rtsp://acanlinks.com:1935/securelive/rtssecure1.stream_SD/?token=$doregex[token]
+<regex>
+<name>token</name>
+<expres>token=([^']*)</expres>
+<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</page>
+<referer>http://www.rts.sn/televisions/directs/rts1-en-direct.html</referer>
+</regex>
+</link>
 <thumbnail>http://www.rts.sn/images/Logo_rts1.png</thumbnail>
 </item>
 
 <item>
 <title>TFM</title>
-<link>rtmp://live.mouridetv.net:1935/live playpath=dametfm swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf pageUrl=http://fpdownload.adobe.com/</link>
+<link>
+$doregex[url]
+<regex>
+<name>url</name>
+<expres>rtsp_url":"([^"]*)</expres>
+<page>http://new.livestream.com/accounts/9468787/events/3275627</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.gfm.sn/wp-content/uploads/2014/05/logoigfm.png</thumbnail>
 </item>
 

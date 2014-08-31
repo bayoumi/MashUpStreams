@@ -12,19 +12,19 @@
 
 <item>
 <title>TNU - Televisión Nacional</title>
-<link>http://live.cdn.antel.net.uy/auth_1_8byyop2p/hls/auth_1_8byyop2p.m3u8</link>
+<link>rtmp://flash2.antel.net.uy/liveedge playpath=canal5atv swfUrl=http://www.freewebtvlive.com/player.swf pageUrl=http://www.freewebtvlive.com/tv/tnu-tv-nacional-de-uruguay-674.html live=true timeout=15</link>
 <thumbnail>http://1.bp.blogspot.com/_04JCiHE-JWs/SpFpQqKLbnI/AAAAAAAAAY0/HRWz_H-8mwg/s320/TNU_Logo_320.jpg</thumbnail>
 </item>
 
 <item>
 <title>Tevé Ciudad</title>
-<link>http://live.cdn.antel.net.uy/auth_1_h1d73c2l/hls/auth_1_h1d73c2l.m3u8</link>
+<link>mms://multimedia.montevideo.com.uy/tvciudad</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/teve_ciudad.png</thumbnail>
 </item>
 
 <item>
 <title>Canal A + V</title>
-<link>http://live.cdn.antel.net.uy/auth_0_hy7fqfuw/hls/auth_0_hy7fqfuw.m3u8</link>
+<link>http://flive.cdn.antel.net.uy/hds-live/livepkgr/auth_0_hy7fqfuw/liveevent/2.f4m</link>
 <thumbnail>https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/295914_340741382682782_38452627_n.jpg</thumbnail>
 </item>
 

@@ -12,13 +12,13 @@
 
 <item>
 <title>Canal 5</title>
-<link>rtmp://109.123.126.66/live playpath=zincoago?id=72164 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/zincoago/1/590/390 live=true timeout=15</link>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/17249601/streams/live/playlist.m3u8</link>
 <thumbnail>http://www.xejtv.com/InicioV/images/V.png</thumbnail>
 </item>
 
 <item>
 <title>Televisa</title>
-<link>rtmp://212.7.209.17/live playpath=starago014?id=71582 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/starago014/1/590/400 live=true timeout=15</link>
+<link>rtmp://5.63.147.124/zenex playpath=teteris1?id=8008 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/fplayer.swf pageUrl=http://www.zenex.tv/embedplayer/teteris1/1/590/400 live=true timeout=15</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2013/02/Watch-Live-Online-Televisa-en-Vivo-Logo.jpg</thumbnail>
 </item>
 
@@ -36,14 +36,8 @@
 
 <item>
 <title>Monte Maria TV</title>
-<link>rtmp://50.7.98.234/montem playpath=videomontem swfUrl=http://conceptoweb-studio.com/radio/video/playerpro/player.swf live=true timeout=15 pageUrl=http://montemaria.org/envivo.html</link>
+<link>rtmp://50.7.98.234:1935/ app=montem/_definst_ playpath=mp4:videomontem2 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://montemaria.org/amor/ live=true timeout=15</link>
 <thumbnail>http://www.tv14.net/wp-content/uploads/2010/10/Monte-Maria.jpg</thumbnail>
-</item>
-
-<item>
-<title>NRM</title>
-<link>http://4303.live.streamtheworld.com/NRMWEBTV?streamtheworld_user=1&amp;amp;nobuf=1393001980089</link>
-<thumbnail>http://www.crozcast.com/images/logos/1597.jpg</thumbnail>
 </item>
 
 <item>
@@ -60,7 +54,7 @@
 
 <item>
 <title>Nuestravision</title>
-<link>http://video.stream.mx:1935/8060/8060/playlist.m3u8</link>
+<link>rtmp://159.16.243.10/ app=live/canal5/ playpath=canal5 swfUrl=http://video7.stream.mx/system/misc/jwplayer6/jwplayer.flash.swf pageUrl=http://www.nuestravision.com.mx/ live=true timeout=15</link>
 <thumbnail>http://tvtvtv.ru/icons/logo_5751.png</thumbnail>
 </item>
 
@@ -86,7 +80,7 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 
 <item>
 <title>Telemundo</title>
-<link>rtmp://149.255.37.163/live playpath=Telemundo69?id=4557 conn=S:OK swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf pageUrl=http://www.streamify.tv/embedplayer/Telemundo69/1/580/380 live=true timeout=15</link>
+<link>rtmp://149.255.37.164/live playpath=Telemundo69?id=4557 conn=S:OK swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf pageUrl=http://www.streamify.tv/embedplayer/Telemundo69/1/580/380 live=true timeout=15</link>
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/telemar6_320.jpg</thumbnail>
 </item>
 
@@ -116,25 +110,25 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 
 <item>
 <title>Canal 24 Horas</title>
-<link>rtmp://video.stream.mx/8058/ playpath=8058 swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/18.html</link>
+<link>http://168.255.107.6/canal24/</link>
 <thumbnail>http://www.tvn.cl/comercial/incoming/article609677.ece/BINARY/logo+canal+24h.jpg</thumbnail>
 </item>
 
 <item>
 <title>Canal 44</title>
-<link>rtmp://unirtmp.tulix.tv:1935/canal44/ playpath=myStream.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/16.html</link>
+<link>http://odna.octoshape.net/p9b7g9i7/cds/smil:canal44/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canal44_mx.png</thumbnail>
 </item>
 
 <item>
 <title>Canal 66</title>
-<link>rtmp://unirtmp.tulix.tv:1935/canal66/ playpath=myStream.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/17.html</link>
+<link>http://odna.octoshape.net/p9b7g9i7/cds/smil:mexicali/playlist.m3u8</link>
 <thumbnail>https://lh3.googleusercontent.com/-TwWQf6I4Q9c/TYqeIc1b-KI/AAAAAAAAANE/tN8kRJksSYw/s1600/xhila-canal-66.jpg</thumbnail>
 </item>
 
 <item>
 <title>CB Television</title>
-<link>rtmp://189.199.90.164:1935/live playpath=myStreamHD.sdp swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://www.stream2video.tv/getStream/132/1</link>
+<link>rtmp://189.199.90.164:1935/live playpath=mexico.sdp swfUrl=http://www.cbtelevision.com.mx/envivo/hdmx2.swf pageUrl=http://www.cbtelevision.com.mx/envivo/mexico.php live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cb_tv_mexico.png</thumbnail>
 </item>
 
@@ -145,14 +139,14 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 </item>
 
 <item>
-<title>Milenio Centro</title>
-<link>http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956</link>
-<thumbnail> </thumbnail>
+<title>Milenio</title>
+<link>http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956?videoId=1389353763001&amp;lineUpId=&amp;pubId=57828478001&amp;playerId=86401898001&amp;affiliateId=&amp;bandwidthEstimationTest=true&v=3.3.0&amp;fp=WIN%2014,0,0,177&amp;r=UWMJT&amp;g=JDRGDNVSFIML</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/6/62/Milenio_Television_Logo.jpg</thumbnail>
 </item>
 
 <item>
 <title>MULTIMEDIOS TV</title>
-<link>http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=ChelTV_m3u8</link>
+<link>http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=multimedios_tv_612k@55732&start=0&amp;id=undefined&amp;client=FLASH%20WIN%2014,0,0,177&amp;version=4.1.60</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/mm/multimedios_tv.png</thumbnail>
 </item>
 
@@ -166,12 +160,6 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 <title>Canal 10</title>
 <link>rtmp://www.oncetvmexicolive.tv:1935/livepkgr2 playpath=int3 swfUrl=http://www.oncetvmexicolive.tv/StrobeMediaPlayback.swf</link>
 <thumbnail>https://pbs.twimg.com/profile_images/378800000572089647/30ddd7ad971de79b157068e2dcc510cd.png</thumbnail>
-</item>
-
-<item>
-<title>Nuestravision</title>
-<link>rtmp://video.stream.mx/8058/8058</link>
-<thumbnail>http://www.nuestravision.com.mx/images/logo1.png</thumbnail>
 </item>
 
 <item>
