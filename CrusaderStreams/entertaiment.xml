@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Aljadeed[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed A Lot Of Channels[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -17,34 +17,41 @@
 </info>
 
 <item>
+<title>Cairo Cinema</title>
+<link>http://38.99.146.43:7777/CairoCinema/CairoCinema_Low.m3u8</link>
+<thumbnail>http://www.cairocinema.net/wp-content/uploads/2014/02/Comp-1-0-00-01-00-222x300.png</thumbnail>
+</item>
+
+<item>
 <title>Cario Drama</title>
-<link>
-rtmp://iptv3.web-medias.net:8080/live/ playpath=cairo_drama?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=cairo_drama</page>
-<referer>http://www.tele-live.net/cairo-drama-en-direct-live-streaming-%d9%82%d9%86%d8%a7%d8%a9-%d9%83%d8%a7%d9%8a%d8%b1%d9%88-%d8%af%d8%b1%d8%a7%d9%85%d8%a7-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_ce540b284.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=cairo_drama</page>
-<referer>http://www.tele-live.net/cairo-drama-en-direct-live-streaming-%d9%82%d9%86%d8%a7%d8%a9-%d9%83%d8%a7%d9%8a%d8%b1%d9%88-%d8%af%d8%b1%d8%a7%d9%85%d8%a7-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_ce540b284.html</referer>
-</regex>
-</link>
+<link>http://38.99.146.43:7777/CairoDrama.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/64.gif</thumbnail>
 </item>
 
 <item>
 <title>Al Kahera Wal Nas</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ahDnepO4RYE</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://freetv247.com/content/al-kahera-wal-nas-tv-live</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.alkaherawalnas.com/images/logo-02.png</thumbnail>
 </item>
 
 <item>
 <title>Al Kahera Wal Nas 2</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=_Zd0lkWYlCA</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://freetv247.com/content/al-kahera-wal-nas-2-tv-live</page>
+<referer>http://freetv247.com/content/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D8%B3%D9%8A%D9%86%D9%85%D8%A7</referer>
+</regex>
+</link>
 <thumbnail>http://www.alkaherawalnas.com/images/TNTV-02-01.png</thumbnail>
 </item>
 
@@ -67,14 +74,15 @@ rtmp://iptv3.web-medias.net:8080/live/ playpath=cairo_drama?e=$doregex[e]&amp;st
 </item>
 
 <item>
-<title>Al Nahar Drama 2 </title>
-<link>rtmp://50.7.180.18/nahar1 playpath=alnahar2.stream_720p swfUrl=http://demos.streamtrix.com/swf/flowplayer.commercial-3.2.15.swf live=true timeout=15 pageUrl=http://demos.streamtrix.com/alnahar2/</link>
-<thumbnail>http://www.alnaharlive.net/wp-content/uploads/2013/01/alnahar2.png</thumbnail>
+<title>Al Nahar Today</title>
+<link>rtmp://50.7.180.18/nahar_tv playpath=nahar_youm.stream swfUrl=http://demos.streamtrix.com/swf/flowplayer.cluster-3.2.10.swf pageUrl=http://demos.streamtrix.com/alnahar2/ live=true timeout=15</link>
+<thumbnail>http://alnaharlive.net/ramadan/wp-content/uploads/2014/07/alyoum.png</thumbnail>
 </item>
 
 <item>
 <title>Abu Dubai  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>$doregex[url]
+<link>
+$doregex[url]
 <regex>
 <name>url</name>
 <expres>file: "([^"]*)</expres>
@@ -106,22 +114,20 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 </item>
 
 <item>
+<title>Al Hayat Series</title>
+<link>http://38.99.146.43:7777/AlHayatMousalsalat.m3u8</link>
+<thumbnail>http://3.bp.blogspot.com/_u_DZ8l_MLu4/S_glybpzWpI/AAAAAAAAGPs/Abf_A2RLTNg/s400/54.gif</thumbnail>
+</item>
+
+<item>
+<title>Al Hayat 2</title>
+<link>http://38.99.146.43:7777/Alhayat2.m3u8</link>
+<thumbnail>http://www.arabictvnetwork.com/images/MediaBox/Arabic/Al-Hayat/AlHayat2.png</thumbnail>
+</item>
+
+<item>
 <title>Al Hayat Cinema</title>
-<link>
-rtmp://iptv2.web-medias.net:8080/live/ playpath=alhayat_cinema?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=alhayat_cinema</page>
-<referer>http://www.web-medias.net/al-hayat-cinema-en-direct-live-streaming-%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d8%b3%d9%8a%d9%86%d9%85%d8%a7-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-video_bcbf336e4.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=alhayat_cinema</page>
-<referer>http://www.web-medias.net/al-hayat-cinema-en-direct-live-streaming-%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d8%b3%d9%8a%d9%86%d9%85%d8%a7-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-video_bcbf336e4.html</referer>
-</regex>
-</link>
+<link>http://38.99.146.43:7777/AlHayatCinema/AlHayatCinema_Low.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/alhayat_cinema.png</thumbnail>
 </item>
 
@@ -132,28 +138,20 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=alhayat_cinema?e=$doregex[e]&amp
 </item>
 
 <item>
+<title>LBC SAT</title>
+<link>http://38.99.146.43:7777/LBC.m3u8</link>
+<thumbnail>http://fikrconferences.org/sites/default/files/lbc-logo.jpg?1352659193</thumbnail>
+</item>
+
+<item>
 <title>MTV (Link 2)</title>
-<link>http://85.91.143.20:1935/54682/54682.stream/playlist.m3u8</link>
+<link>http://38.99.146.43:7777/MTVLebanon.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-v7Q1icQUJD0/Tm5vrpPY1gI/AAAAAAAAAGs/640s_zySbsQ/s200/MTV+1.png</thumbnail>
 </item>
 	
 <item>
 <title>MBC Drama</title>
-<link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_drama?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_drama</page>
-<referer>http://www.tele-live.net/mbc-drama-en-direct-live-%D9%82%D9%86%D8%A7%D8%A9-%D8%A5%D9%85%D8%A8%D9%8A%D8%B3%D9%8A-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_729b51e16.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_drama</page>
-<referer>http://www.tele-live.net/mbc-drama-en-direct-live-%D9%82%D9%86%D8%A7%D8%A9-%D8%A5%D9%85%D8%A8%D9%8A%D8%B3%D9%8A-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_729b51e16.html</referer>
-</regex>
-</link>
+<link>http://38.99.146.43:7777/MBCDrama.m3u8</link>
 <thumbnail>http://www.tv-arab.net/Logos/logo_tv_mm_mbc_drama_ae.jpg</thumbnail>
 </item>
 
@@ -177,27 +175,13 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_drama?e=$doregex[e]&amp;st=$
 
 <item>
 <title>Fox Movies</title>
-<link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=fox_movies?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=fox_movies</page>
-<referer>http://www.web-medias.net/mbc-max-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%a7%d9%83%d8%b3-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_0a915c1da.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=fox_movies</page>
-<referer>http://www.web-medias.net/mbc-max-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%a7%d9%83%d8%b3-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_0a915c1da.html</referer>
-</regex>
-</link>
+<link>http://38.99.146.43:7777/FoxMovies.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/27.gif</thumbnail>
 </item>
 
 <item>
-<title>Moga Comedy  [COLOR=FFFF0000]Works On Gotham Only[/COLOR]</title>
-<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=20satttt&amp;play=true</link>
+<title>Moga Comedy</title>
+<link>rtmp://video.uvlog.com/ app=uvlog_video/4227 playpath=stream swfUrl=http://www.uvlog.com/embed.swf pageUrl=http://www.uvlog.com/embed/4227/650/460/FALSE/true/false live=true timeout=15</link>
 <thumbnail>http://www.livetv.tn/images/icons/67.gif</thumbnail>
 </item>
 
@@ -233,21 +217,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=fox_movies?e=$doregex[e]&amp;st=
 
 <item>
 <title>MBC MAX</title>
-<link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_max</page>
-<referer>http://www.web-medias.net/mbc-max-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%a7%d9%83%d8%b3-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_0a915c1da.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_max</page>
-<referer>http://www.web-medias.net/mbc-max-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%a7%d9%83%d8%b3-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_0a915c1da.html</referer>
-</regex>
-</link>
+<link>http://38.99.146.37:7777/MBCMaser_HD.m3u8</link>
 <thumbnail>http://alghaslan.net/wp-content/uploads/MBC-MAX-300x115.jpg</thumbnail>
 </item>
  	
@@ -265,33 +235,19 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_max?e=$doregex[e]&amp;st=$do
 
 <item>
 <title>MBC Maser</title>
-<link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_maser</page>
-<referer>http://www.tele-live.net/mbc-masr-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%b5%d8%b1-%d8%a8%d8%ab-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_010846d61.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_maser</page>
-<referer>http://www.tele-live.net/mbc-masr-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-%d9%85%d8%b5%d8%b1-%d8%a8%d8%ab-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_010846d61.html</referer>
-</regex>
-</link>
+<link>http://38.99.146.37:7777/MBCMaser_HD/MBCMaser_High.m3u8</link>
 <thumbnail>http://jazarah.net/ar/wp-content/uploads/2012/10/MBC-MASR-logo.jpg</thumbnail>
 </item>
 
 <item>
 <title>Al Nahar Drama</title>
-<link>rtmp://50.7.180.18/nahar1 playpath=alnahardrama.stream_720p swfUrl=http://demos.streamtrix.com/swf/flowplayer.commercial-3.2.15.swf live=true timeout=15 pageUrl=http://demos.streamtrix.com/alnahardrama/</link>
+<link>rtmp://50.7.180.18/nahar_tv playpath=nahar_drama.stream swfUrl=http://demos.streamtrix.com/swf/flowplayer.cluster-3.2.10.swf pageUrl=http://demos.streamtrix.com/alnahardrama/ live=true timeout=15</link>
 <thumbnail>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel4.png</thumbnail>
 </item>
 
 <item>
 <title>Al Nahar</title>
-<link>rtmp://50.7.180.18/nahar1 playpath=nahar1.stream_720p swfUrl=http://demos.streamtrix.com/swf/flowplayer.commercial-3.2.15.swf live=true timeout=15 pageUrl=http://demos.streamtrix.com/Alnahar/</link>
+<link>rtmp://50.7.180.18/nahar_tv playpath=nahar_tv.stream swfUrl=http://demos.streamtrix.com/swf/flowplayer.cluster-3.2.10.swf pageUrl=http://demos.streamtrix.com/Alnahar/ live=true timeout=15</link>
 <thumbnail>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel1.png</thumbnail>
 </item>
 
@@ -310,7 +266,7 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_maser?e=$doregex[e]&amp;st=$
 <item>
 <title>CBC</title>
 <link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
 <expres>embed/([^?]*)</expres>
@@ -324,7 +280,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <item>
 <title>CBC 2</title>
 <link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
 <expres>embed/([^?]*)</expres>
@@ -338,7 +294,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <item>
 <title>CBC Extra</title>
 <link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
 <expres>embed/([^?]*)</expres>
@@ -352,7 +308,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <item>
 <title>CBC Drama</title>
 <link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
 <expres>embed/([^?]*)</expres>
@@ -366,7 +322,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <item>
 <title>CBC Sofra</title>
 <link>
-plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
 <expres>embed/([^?]*)</expres>
@@ -426,6 +382,12 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 </item>
 
 <item>
+<title>NBN (Link 2)</title>
+<link>http://38.99.146.43:7777/NBNLebanon.m3u8</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/1/14/Nbn_lebanon.png</thumbnail>
+</item>
+
+<item>
 <title>Rotana Cinema</title>
 <link>
 rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
@@ -433,11 +395,13 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 <name>url</name>
 <expres>"low".*rtmp:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2615</page>
+<referer> </referer>
 </regex>
 <regex>
 <name>key</name>
 <expres>"low".*rtmp[^?]*(\?id=[^"]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2615</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.web-medias.net/uploads/thumbs/4d623b58a-1.jpg</thumbnail>
@@ -445,16 +409,19 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>Rotana Aflam</title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2618.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
+<link>
+rtmp://$doregex[url] app=live/$doregex[key] playpath=2618.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
 <regex>
 <name>url</name>
 <expres>"low".*rtmp:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2618</page>
+<referer> </referer>
 </regex>
 <regex>
 <name>key</name>
 <expres>"low".*rtmp[^?]*(\?id=[^"]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2618</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.web-medias.net/uploads/thumbs/3c06e1980-1.jpg</thumbnail>
@@ -462,16 +429,19 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>Rotana Masriya</title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2612.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
+<link>
+rtmp://$doregex[url] app=live/$doregex[key] playpath=2612.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
 <regex>
 <name>url</name>
 <expres>"low".*rtmp:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2612</page>
+<referer> </referer>
 </regex>
 <regex>
 <name>key</name>
 <expres>"low".*rtmp[^?]*(\?id=[^"]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2612</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.web-medias.net/uploads/thumbs/df2b3d314-1.jpg</thumbnail>
@@ -479,16 +449,19 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>Rotana Clip</title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2603.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
+<link>
+rtmp://$doregex[url] app=live/$doregex[key] playpath=2603.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
 <regex>
 <name>url</name>
 <expres>"low".*rtmp:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2603</page>
+<referer> </referer>
 </regex>
 <regex>
 <name>key</name>
 <expres>"low".*rtmp[^?]*(\?id=[^"]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2603</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.web-medias.net/uploads/thumbs/47b902f57-1.jpg</thumbnail>
@@ -496,16 +469,19 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 
 <item>
 <title>Rotana Khalijia</title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2606.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
+<link>
+rtmp://$doregex[url] app=live/$doregex[key] playpath=2606.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15
 <regex>
 <name>url</name>
 <expres>"low".*rtmp:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2606</page>
+<referer> </referer>
 </regex>
 <regex>
 <name>key</name>
 <expres>"low".*rtmp[^?]*(\?id=[^"]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2606</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.web-medias.net/uploads/thumbs/221525aa7-1.jpg</thumbnail>
@@ -518,11 +494,13 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http
 <name>url</name>
 <expres>"low".*rtmp:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=367</page>
+<referer> </referer>
 </regex>
 <regex>
 <name>key</name>
 <expres>"low".*rtmp[^?]*(\?id=[^"]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=367</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.ilcode.com/photos/www.ilcode.com-mdubdqlswkxrchiaarxirdk-mbc.jpg</thumbnail>
@@ -556,31 +534,31 @@ $doregex[m3u8]
 
 <item>
 <title>MBC</title>
-<link>rtmp://174.36.1.51/live playpath=cvnvcnvcnccncv?id=201719 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/cvnvcnvcnccncv/1/600/380</link>
+<link>rtmp://46.165.196.36/live playpath=cvnvcnvcnccncv?id=201719 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/cvnvcnvcnccncv/1/600/380</link>
 <thumbnail>http://www.ilcode.com/photos/www.ilcode.com-mdubdqlswkxrchiaarxirdk-mbc.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC Action</title>
-<link>rtmp://173.193.227.91/live playpath=wvcvcxvcxvcxvcx?id=201721 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/wvcvcxvcxvcxvcx/1/600/380</link>
+<link>rtmp://199.115.114.221/live playpath=wvcvcxvcxvcxvcx?id=201721 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/wvcvcxvcxvcxvcx/1/600/380</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/ar/3/37/MBC-Action.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC 2</title> 
-<link>rtmp://46.165.210.32/live playpath=aflam4youfff?id=152673 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/aflam4youfff/1/600/380</link> 
+<link>rtmp://46.165.196.36/live playpath=aflam4youfff?id=152673 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/aflam4youfff/1/600/380</link> 
 <thumbnail>http://www.lyngsat-logo.com/hires/mm/mbc2_ae.png</thumbnail>
 </item>
 
 <item>
 <title>MBC 3</title>
-<link>rtmp://173.193.46.104/live playpath=sfsgfdgfdgfdgg?id=201711 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/sfsgfdgfdgfdgg/1/610/380</link>
+<link>http://38.99.146.43:7777/MBC3.m3u8</link>
 <thumbnail>http://www.watchtv.co/wp-content/themes/broadcast/thumb.php?src=http://www.watchtv.co/wp-content/uploads/2012/07/mbc3-channel-streaming1.jpg&w=581&h=252&zc=1&q=100</thumbnail>
 </item>
 
 <item>
 <title>MBC 4</title>
-<link>rtmp://198.105.217.36/live playpath=sdhdfhhdffhdddhh?id=201717 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/sdhdfhhdffhdddhh/1/600/380</link>
+<link>http://38.99.146.43:7777/MBC4.m3u8</link>
 <thumbnail>http://aflam4you.tv/uploads/thumbs/71-1.jpg</thumbnail>
 </item>
 
@@ -656,19 +634,43 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_4?e=$doregex[e]&amp;st=$dore
 
 <item>
 <title>Melody Drama</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=HwFmY34qZAc</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://freetv247.com/content/melody-drama-channel</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://4.bp.blogspot.com/_ayWC2KUhMqw/TJ04otUC4mI/AAAAAAAACds/mCsD_c_kqfU/s1600/melody%2Bdrama%2Blogo%255B1%255D.JPG</thumbnail>
 </item>
 
 <item>
 <title>Melody Hits</title>
-<link>rtmp://38.96.148.206/ app=Melody/ playpath=MHitsWeb swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://freetv247.com/content/melody-hits-channel</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://freetv247.com/content/melody-hits-channel</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/mm/melody_hits.png</thumbnail>
 </item>
 
 <item>
 <title>Melody Classic</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=JUPtgRnY6I8</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://freetv247.com/content/melody-classic-channel</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://i.ytimg.com/vi/b-e5GQrqu8I/hqdefault.jpg</thumbnail>
 </item>
 
@@ -680,12 +682,20 @@ rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_4?e=$doregex[e]&amp;st=$dore
 
 <item>
 <title>Melody Aflam</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=WpGRO2SKmBw</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://freetv247.com/content/melody-aflam-channel</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://i.ytimg.com/vi/QqRmPIDkBrM/hqdefault.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC Bollywood</title>
-<link>rtmp://46.165.210.32/live playpath=aflam4youddd?id=152675 conn=S:OK swfUrl=http://mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://mips.tv/embedplayer/aflam4youddd/1/600/380</link>
+<link>rtmp://46.165.196.36/live playpath=aflam4youddd?id=152675 conn=S:OK swfUrl=http://mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://mips.tv/embedplayer/aflam4youddd/1/600/380</link>
 <thumbnail>http://www.waleg.com/images/mbc-bollywood.jpg</thumbnail>
 </item>

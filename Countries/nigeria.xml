@@ -43,14 +43,7 @@
 
 <item>
 <title>Hip TV</title>
-<link>$doregex[h]
-<regex>
-<name>h</name>
-<expres>fv1='([^;]*)</expres>
-<page>http://hiphopworldmagazine.com/hiptv/</page>
-<referer> </referer>
-</regex>
-</link>
+<link>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8</link>
 <thumbnail>http://hiphopworldmagazine.com/hiptv/wp-content/uploads/2013/11/hiptv-logo-dstv-gotv.png</thumbnail>
 </item>
 

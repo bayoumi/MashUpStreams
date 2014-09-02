@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sports 1HD Again[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Al Nahar Sport[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -84,7 +84,7 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 
 <item>
 <title>Al Nahar Sports</title>
-<link>rtmp://50.7.180.18/nahar1 playpath=naharsports.stream_720p swfUrl=http://demos.streamtrix.com/swf/flowplayer.commercial-3.2.15.swf live=true timeout=15  pageUrl=http://demos.streamtrix.com/alnaharsport/</link>
+<link>rtmp://50.7.180.18/nahar_tv playpath=nahar_sport.stream swfUrl=http://demos.streamtrix.com/swf/flowplayer.cluster-3.2.10.swf pageUrl=http://demos.streamtrix.com/alnaharsport/ live=true timeout=15</link>
 <thumbnail>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel2.png</thumbnail>
 </item>
 
