@@ -6,19 +6,13 @@
 ##############################################################################################################################
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): [/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Nat Geo [/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
 <item>
 <title>Nat Geo AD</title>
-<link>rtmp://37.58.52.100/live playpath=fgfdbfdbfbvcbvcbvbc?id=201716 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/fgfdbfdbfbvcbvcbvbc/1/600/380live=true timeout=15</link>
+<link>http://38.99.146.43:7777/ADNatGeo.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/271.gif</thumbnail>
 </item>
 
-
-<item>
-<title>test2</title>
-<link>http://cf.c.ooyala.com/Eza3FybzpEFHS7Lrw4NZoSAGsqTC7MTC/Eza3FybzpEFHS7Lrw4NZoSAGsqTC7MTC_1.f4m</link>
-<thumbnail>http://www.livetv.tn/images/icons/271.gif</thumbnail>
-</item>

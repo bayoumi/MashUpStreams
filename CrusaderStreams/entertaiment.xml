@@ -157,14 +157,8 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 
 <item>
 <title>Al Sumaria</title>
-<link>http://livestreaming2.itworkscdn.net/sumarialive/smil:sumariamob.smil/playlist.m3u8</link>
+<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live_720p swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live</link>
 <thumbnail>http://www.livetv.tn/images/icons/87.gif</thumbnail>
-</item>	
-
-<item>
-<title>Egypt 1</title>
-<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUCH1 playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf pageUrl=http://onlinehorizons.net/livestreaming/ertu/indexch1.html timeout=15</link>
-<thumbnail>http://www.tv14.net/images/ERTU_TV_Satellite.JPG</thumbnail>
 </item>	
 
 <item>

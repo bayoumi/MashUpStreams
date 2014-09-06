@@ -6,14 +6,14 @@
 ##############################################################################################################################
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Everything[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Updated Qatar TV & Al Masria[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
 
 <item>
 <title>Al Masria</title>
-<link>rtmp://38.111.46.93:1935/ app=masriya playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf live=true timeout=15 pageUrl=http://onlinehorizons.net/livestreaming/ertu/index.html</link>
+<link>rtmp://85.91.143.23:1935/78911 playpath=78911.stream swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 pageUrl=http://www.freetv247.com/ timeout=15</link>
 <thumbnail>http://i82.servimg.com/u/f82/17/28/12/40/egypti10.png</thumbnail>
 </item>
 
@@ -42,13 +42,7 @@
 </item>
 
 <item>
-<title>AL SUMARIYA</title>
-<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live_360p swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live</link>
-<thumbnail>http://www.linktv.org/sitecontent/mosaic_broadcasters/alsumariya.jpg</thumbnail>
-</item>
-
-<item>
-<title>AL Rai</title>
+<title>Al Rai</title>
 <link>mms://62.215.216.130/wmtencoder/alrai350.wmv</link>
 <thumbnail>http://www.kooora.com/images/channel_/alrai_tv.jpg</thumbnail>
 </item>
@@ -97,7 +91,15 @@
 
 <item>
 <title>Qatar TV HD</title>
-<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_38s16.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>src: escape\("([^"]*)</expres>
+<page>http://www.qtv.qa/qtv/live.php</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/01/Qatar_TV_Logo.png</thumbnail>
 </item>
 
