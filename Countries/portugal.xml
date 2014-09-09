@@ -17,6 +17,12 @@
 </item>
 
 <item>
+<title>Sport 4</title>
+<link>rtmp://204.45.157.234/flash playpath=19116 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true timeout=15</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/commons/8/81/SportTV4.png</thumbnail>
+</item>
+
+<item>
 <title>Sport 3</title>
 <link>rtmpe://37.203.209.34:443/share playpath=live3-qszlx swfUrl=http://sharecast.to/player/player20.swf pageUrl=http://sharecast.to/ live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/8/8d/SportTV3.png</thumbnail>
@@ -30,13 +36,13 @@
 
 <item>
 <title>Benfica TV</title>
-<link>rtmp://109.123.116.154/live playpath=slbcanal?id=69595 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ucaster.eu/embedded/slbcanal/1/555/435</link>
+<link>rtmp://109.123.126.34/live playpath=slbcanal?id=69595 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.ucaster.eu/embedded/slbcanal/1/555/435</link>
 <thumbnail>http://files.baixapirata.webnode.com.pt/system_preview_200000105-74c1875bb7/benfica1.png</thumbnail>
 </item>
 
 <item>
 <title>Tpai</title>
-<link>rtmp://fml.6F53.edgecastcdn.net/206F53 playpath=tpai512 swfUrl=http://www.tpai.tv/swf/jwplayer/player.swf live=true timeout=15 pageUrl=http://www.tpai.tv/live</link>
+<link>rtmp://fml.6F53.edgecastcdn.net/206F53 playpath=tpai128 swfUrl=http://www.tpai.tv/swf/jwplayer/player.swf live=true timeout=15 pageUrl=http://www.tpai.tv/live</link>
 <thumbnail>http://3.bp.blogspot.com/_e-BTQ4A8Vvs/TBCAp0wJQ3I/AAAAAAAACg0/wowN6ZIfHeg/s1600/tpainternacional.jpg</thumbnail>
 </item>
 
@@ -72,7 +78,7 @@
 
 <item>
 <title>TVI</title>
-<link>rtmp://173.193.227.91/live playpath=tvijkk?id=210882 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://www.mips.tv/embedplayer/tvijkk/1/600/450 live=true timeout=15</link>
+<link>rtmp://46.28.50.124/live playpath=TVI119?id=72779 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu/embedded/TVI119/1/550/420 live=true timeout=15</link>
 <thumbnail>http://img1.wikia.nocookie.net/__cb20100918105531/logopedia/images/b/b0/TVI_logo.png</thumbnail>
 </item>
 
@@ -84,13 +90,13 @@
 
 <item>
 <title>A Bola</title>
-<link>rtmp://109.123.116.154/live playpath=BOLATV6?id=72179 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/BOLATV6/1/550/420 live=true timeout=15</link>
+<link>rtmp://46.28.49.156/live playpath=BOLATV12?id=17370 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/fplayer.swf pageUrl=http://www.ezcast.tv/embedded/BOLATV12/1/550/420 live=true timeout=15</link>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20131129194554/logopedia/images/b/b2/A_Bola_TV_logo.png</thumbnail>
 </item>
 
 <item>
 <title>CM TV</title>
-<link>rtmp://46.28.50.124/live playpath=m1cmtv?id=71241 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/m1cmtv/1/650/500 live=true timeout=15</link>
+<link>rtmpe://94.242.228.44:443/loadbalance playpath=cmtv88 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://flexstream.net/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cm_tv_pt.png</thumbnail>
 </item>
 
@@ -126,7 +132,7 @@
 
 <item>
 <title>TVI24</title>
-<link>rtmp://173.192.209.69/live playpath=tvi24nouvelles?id=61609 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/tvi24nouvelles/1/555/435 swfVfy=true live=true timeout=15</link>
+<link>rtmp://46.23.67.114/live playpath=tvi24heures?id=72479 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/eplayer.swf pageUrl=http://www.ucaster.eu/embedded/tvi24nouvelles/1/555/435 swfVfy=true live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tvi_24.jpg </thumbnail>
 </item>
 

@@ -151,12 +151,6 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 <item>
 <title>IBN Lokmat</title>
 <link>http://ibn_lokmat_hls-lh.akamaihd.net/i/ibn_lokmat_hls_n_1@178974/index_3_av-p.m3u8?sd=10&play-only=primary&rebase=on</link>
-<thumbnail>http://www.indiatvnews.com/images/intv-logo.png</thumbnail>
-</item>
-
-<item>
-<title>IBN</title>
-<link>http://ibn_lokmat_hls-lh.akamaihd.net/i/ibn_lokmat_hls_n_1@178974/index_3_av-p.m3u8?sd=10&play-only=primary&rebase=on</link>
 <thumbnail>http://static.ibnlive.in.com/ibnlive/pix/ibnhome/ibnlokmat-logo.gif</thumbnail>
 </item>
 
@@ -164,36 +158,6 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 <title>P7 News</title>
 <link>rtmp://edge-ind.inapcdn.in:1935/vivo playpath=semacb4.stream_aac swfUrl=http://smartstream.in/primusplayer/primus-3.2.12.swf live=true timeout=15 pageUrl=http://smartstream.in/p7news/</link>
 <thumbnail>http://www.p7news.tv/templates/news/images/P7_logo.png</thumbnail>
-</item>
-
-<item>
-<title>Kiran</title>
-<link>http://50.7.102.195:1935/httplayback/kirantv/playlist.m3u8</link>
-<thumbnail>http://newskerala.com/files/2013/07/Kiran-TV-Newskerala.jpg</thumbnail>
-</item>
-
-<item>
-<title>ETV Tenglu</title>
-<link>http://50.7.102.195:1935/httplayback/etvtelugu/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ee/etv_telugu.png</thumbnail>
-</item>
-
-<item>
-<title>Telugu 4U Movies</title>
-<link>http://50.7.102.195:1935/minnal2/telugu4umovies2/playlist.m3u8</link>
-<thumbnail>http://watchsuntv.com/channellogo/tel_tv.png</thumbnail>
-</item>
-
-<item>
-<title>MNRMA</title>
-<link>http://50.7.102.195:1935/httplayback/mnrma/playlist.m3u8</link>
-<thumbnail>https://csa.dishnetwork.com/images/logos/mnrma.png</thumbnail>
-</item>
-
-<item>
-<title>Gemini Comedy</title>
-<link>http://50.7.102.195:1935/httplayback/gcomedy/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/ss/sun_gemini_comedy.png</thumbnail>
 </item>
 
 <item>
@@ -216,7 +180,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>ABP Ananda</title>
-<link>rtmp://54.251.165.11/live/unrestricted app=live/unrestricted playpath=463.sdp  swfUrl=http://abpananda.abplive.in/resources/flash/flowplayer-3.2.16.swf  pageUrl=http://abpananda.abplive.in/livetv/</link>
+<link>http://bengaliabp-lh.akamaihd.net/z/abpbanglanew_1@192108/manifest.f4m</link>
 <thumbnail>http://tv.onlinemoviesportsandtv.com/wp-content/uploads/2012/10/abp_ananda.jpg</thumbnail>
 </item>
 
@@ -353,7 +317,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>Bindass TV</title>
-<link>http://yupptvrtmp-lh.akamaihd.net/i/nwk_zeetelpacific@180285/master.m3u8</link>
+<link>http://live-ak2.liverelay.com/Bindass/01.m3u8</link>
 <thumbnail>http://blacktvlive.com/logo/utv_bindass.png</thumbnail>
 </item>
 
@@ -436,7 +400,7 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 </item>
 
 <item>
-<title>ETV 2</title>
+<title>ETV</title>
 <link>http://cdn.m.yupptv.tv/liveorigin/smil:etv2.smil/playlist.m3u8</link>
 <thumbnail>http://www.newtvworld.com/Images/etv2.gif</thumbnail>
 </item>
