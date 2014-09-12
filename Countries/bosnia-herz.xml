@@ -17,12 +17,6 @@
 </item>
 
 <item>
-<title>TV Južni Vetar HD</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=BVAE36X3Ank</link>
-<thumbnail>http://www.rtvbox.com/tvjv.jpg</thumbnail>
-</item>
-
-<item>
 <title>RTCG SAT</title>
 <link>mms://195.252.114.172/tvcg</link>
 <thumbnail>http://2.bp.blogspot.com/-j3GTf0MzVWQ/UALzTr5rSII/AAAAAAAAIlo/czAl1XZmZw8/s1600/RTCG+logo+2012.png</thumbnail>
@@ -30,19 +24,21 @@
 
 <item>
 <title>BN Music</title>
-<link>http://4.31.30.142:9225/</link>
+<link>http://149.255.39.122/aasd/8850/index.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bn_music.png</thumbnail>
 </item>
 
 <item>
-<title>Bostel 2</title>
-<link>http://4.31.30.142:9216</link>
-<thumbnail>http://www.serbiaplus.com/wp-content/uploads/2013/11/BOSTEL-2.jpg</thumbnail>
-</item>
-
-<item>
 <title>Pink TV</title>
-<link>rtmp://198.105.209.124/zenex playpath=tash102?id=465 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.zenex.tv/embedplayer/tash102/1/610/470</link>
+<link>
+$doregex[target]
+<regex>
+<name>target</name>
+<expres>target="([^"]*)" type=</expres>
+<page>http://mali-ekrani.blogspot.com/2013/07/pink.html</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://tv-place.net/images/thumbs/pinktv.jpg</thumbnail>
 </item>
 
@@ -55,32 +51,33 @@
 <page>http://mali-ekrani.blogspot.com/2013/07/balkanika-tv.html</page>
 <referer> </referer>
 </regex>
-</item>
 </link>
 <thumbnail>http://3.bp.blogspot.com/-YXqyXzOlM-4/Upjfl8wjtoI/AAAAAAAABck/_0zLBQ_gjME/s1600/happy+tv.jpeg</thumbnail>
 </item>
 
 <item>
 <title>Arena Sport 1</title>
-<link>rtmp://199.189.110.172/zenex playpath=tash1?id=3461 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.zenex.tv/embedplayer/tash1/1/610/470</link>
+<link>
+$doregex[target]
+<regex>
+<name>target</name>
+<expres>target="([^"]*)" ></embed></expres>
+<page>http://mali-ekrani.blogspot.com/2013/07/paranormalna-iskustva-i-sramotna-tijela.html</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://static.politika.co.rs/uploads/rubrike/240071/i/1/TV-Arena-Sport.jpg</thumbnail>
 </item>
 
 <item>
 <title>Sport Klub</title>
-<link>http://176.61.160.11:8180</link>
+<link>rtmp://89.248.168.21:443/liveedge/ playpath=tash01RH1 swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf pageUrl=http://micast.tv/gen7.php?ch=tash01RH1 live=true timeout=15</link>
 <thumbnail>http://www.hteronet.ba/upload/novosti/sport_klub_13265.jpg</thumbnail>
 </item>
 
 <item>
-<title>Arena Sport 4</title>
-<link>http://176.61.160.11:8183</link>
-<thumbnail>http://www.miskobobic.com/wp-content/uploads/2010/09/arena-sport-4.jpg</thumbnail>
-</item>
-
-<item>
 <title>Bel Kanal</title>
-<link>http://fibereu1.com:8002/bel_web/stream/?channel=rtvtrend&amp;stream=1mb&amp;MSWMExt=.asf</link>
+<link>http://web.multimediaiptv.net:8002/bel_web/stream/?channel=rtvtrend&amp;stream=1mb&amp;MSWMExt=.asf</link>
 <thumbnail>http://www.profreetv.com/logoa/belkanalba.jpg</thumbnail>
 </item>
 
@@ -104,7 +101,15 @@
 
 <item>
 <title>FTV</title>
-<link>http://4.31.30.142:9214/</link>
+<link>
+$doregex[target]
+<regex>
+<name>target</name>
+<expres>target="([^"]*)" ></embed></expres>
+<page>http://mali-ekrani.blogspot.com/2013/07/ftv-bih.html</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/ftv_ba.png</thumbnail>
 </item>
 
@@ -116,19 +121,29 @@
 
 <item>
 <title>Hayat BiH</title>
-<link>http://149.255.39.122/aasd/8838/index.m3u8</link>
+<link>
+$doregex[target]
+<regex>
+<name>target</name>
+<expres>target="([^"]*)" ></embed></expres>
+<page>http://mali-ekrani.blogspot.com/2013/07/hayat-bih.html</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hayat_ba.png</thumbnail>
 </item>
 
 <item>
-<title>Valentino Etno</title>
-<link>http://77.74.231.14:5002</link>
-<thumbnail>http://livestreamhunter.org/images/logos/vetno.jpg</thumbnail>
-</item>
-
-<item>
 <title>NTV Jata</title>
-<link>mms://109.175.31.2:1755/</link>
+<link>
+$doregex[target]
+<regex>
+<name>target</name>
+<expres>target="([^"]*)" ></embed></expres>
+<page>http://mali-ekrani.blogspot.com/2013/07/rtcg-2.html</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.profreetv.com/logoa/ntvjataba.jpg</thumbnail>
 </item>
 
