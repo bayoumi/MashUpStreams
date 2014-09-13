@@ -6,13 +6,21 @@
 
 <item>
 <title>Tolo News HD</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=Su_fIt0LQlk</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://www.tolonews.com/en/tolonews-live-stream</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>https://yt3.ggpht.com/-bn1yErkuAgU/AAAAAAAAAAI/AAAAAAAAAAA/M7TMGUrGVBk/s900-c-k-no/photo.jpg</thumbnail>
 </item>
 
 <item>
 <title>Tolo</title>
-<link>rtmp://198.105.209.116/zenex playpath=6tol5tv1?id=112 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/6tol5tv1/1/670/410</link>
+<link>rtmp://media.mohabat.tv/ app=live_transcoder/_definst_/ playpath=mp4:mohabat.stream_480p swfUrl=http://www.afghanplay.com/big/flash/flowplayer-3.2.18.swf pageUrl=http://www.afghanplay.com/big/tolo2.html live=true timeout=15</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/0/01/Tolo.jpg</thumbnail>
 </item>
 

@@ -102,7 +102,7 @@ rtmp://dittotv.live-s.cdn.bitgravity.com/ app=cdn-live/_definst_ playpath=$doreg
 
 <item>
 <title>Manoranjan Tv</title>
-<link>rtmp://50.7.175.253:1939/base2 playPath=maha20.stream token=Vu4KaBzaxa pageUrl=http://desilivetv.net/manoranjan-tv/ swfUrl=http://desilivetv.net/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf</link>
+<link>http://live-ak1.liverelay.com/ManoranjanTV/index.m3u8</link>
 <thumbnail>http://desilivetv.net/wp-content/uploads/2014/01/Manoranjan-TV-India-Logo.jpg</thumbnail>
 </item>
 
@@ -126,25 +126,27 @@ rtmp://dittotv.live-s.cdn.bitgravity.com/ app=cdn-live/_definst_ playpath=$doreg
 
 <item>
 <title>Saam Tv Marathi</title>
-<link>
-rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-emea-uk.webmobilive.com/player/liveplayer.swf live=true timeout=15 pageUrl=http://newsaamtv.mplt20.com/new13/
-<regex>
-<name>video</name>
-<expres>video=([^&]*)</expres>
-<page>http://newsaamtv.mplt20.com/new13/</page>
-<referer> </referer>
-</regex>
-</link>
+<link>rtsp://cdn.m.yuppcdn.net/liveorigin/channel2900.stream1</link>
 <thumbnail>http://www.bharatchannels.com/images/serials/marathi/saam.jpg</thumbnail>
 </item>
+
 
 <title>Aastha</title>
 <link>rtmp://50.7.175.253:1939/base2 playpath=dd6.stream token=Vu4KaBzaxa swfUrl=http://desilivetv.net/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf live=true timeout=15 pageUrl=http://desilivetv.net/aastha-tv/</link>
 <thumbnail>http://kabelmax.tv/files/logopack/aastha%20tv.png</thumbnail>
 </item>
 
+<item>
 <title>UFX</title>
-<link>http://68.235.37.93:1935/chliveios/ufx/playlist.m3u8</link>
+<link>
+rtmp://live.wmncdn.net/ufx/ playpath=$doregex[file] swfUrl=http://player-emea-uk.webmobilive.com/player/liveplayer.swf live=true timeout=15 pageUrl=http://www.bhoomtv.com/
+<regex>
+<name>file</name>
+<expres>video=([^&]*)</expres>
+<page>http://www.bhoomtv.com/channelufxtv.html</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/0/07/Logo_of_Channel_UFX.jpg</thumbnail>
 </item>
 
@@ -251,8 +253,16 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 </item>
 
 <item>
-<title>TEZ</title>
-<link>http://d1vfuy3zwrxiut.cloudfront.net/live/_definst_/sweetbcha1novD79_W_150.sdp/playlist.m3u8</link>
+<title>TEZ News</title>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>www.youtube.com/embed/([^"]*)</expres>
+<page>http://aajtak.intoday.in/teztv.php</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://ing-sat.what.hu/images/logo-insert/satlogos/india/375-Aaj-Tak-Tez[1].jpg</thumbnail>
 </item>
 
@@ -270,7 +280,15 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>Studio N News</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=AKLqZ0x6qDw</link>
+<link>
+plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
+<regex>
+<name>id</name>
+<expres>http://www.youtube.com/v/([^?]*)</expres>
+<page>http://www.studiononline.com/beta2/?page_id=1723</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/studio_n.png</thumbnail>
 </item>
 
@@ -468,10 +486,8 @@ rtmp://live.wmncdn.net/saamtv/ playpath=$doregex[video] swfUrl=http://player-eme
 
 <item>
 <title>Star Movies</title>
-<link>http://154.57.145.41/flv/53ff7e255dbf0/testat123?0.3468301622197032</link>
+<link>http://117.103.206.24:1935/live/_definst_/StarMovieHD/StarMovieHD_live.smil/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/star_movies_tw_hd.png</thumbnail>
-</item>
-</channel>
 </item>
 
 <item>
