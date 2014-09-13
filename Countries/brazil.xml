@@ -48,7 +48,7 @@ f<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>O Globo RJ</title>
-<link>rtmp://94.242.228.102/liverepeat playpath=c swfUrl=http://www.curtirtv.net/playercanal.swf live=true timeout=15 pageUrl=http://abcast.biz/ary.php?file=c&width=468&height=387</link>
+<link>rtmp://cdn2.flexstream.net/loadbalance/ playpath=bobo978 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://flexstream.net/embed2.php?file=bobo978&width=468&height=380 live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rede_globo.jpg</thumbnail>
 </item>
 

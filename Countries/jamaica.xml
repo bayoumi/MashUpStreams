@@ -20,4 +20,16 @@
 <thumbnail>http://www.jamaicanewsnetwork.com/sites/default/files/jnn_logo.png</thumbnail>
 </item>
 
+<item>
+<title>MTM</title>
+<link>rtmp://media.btbn.tv/mtmtv playpath=mp4:live swfUrl=http://www.bibleteachers.com/wc2011/player.swf pageUrl=http://www.mercyandtruth.tv/?q=live live=true timeout=15</link>
+<thumbnail>http://www.mercyandtruth.tv/sites/default/files/header_0.png</thumbnail>
+</item>
+
+<item>
+<title>Choice TV</title>
+<link>rtmp://edge2.tikilive.com:1935/ app=rtmp_tikilive/34526/ playpath=mainstream swfUrl=http://www.tikilive.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.11 pageUrl=http://www.tikilive.com/ live=true timeout=15</link>
+<thumbnail>http://static.wixstatic.com/media/7c9069_bef58e17ba960740ee950fca58ef52be.png_srz_p_291_95_75_22_0.50_1.20_0.00_png_srz</thumbnail>
+</item>
+
 </channel>
