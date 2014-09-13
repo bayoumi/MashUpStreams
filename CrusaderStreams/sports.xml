@@ -17,6 +17,12 @@
 </info>
 
 <item>
+<title>PPV HD</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=5AI1QHejUsw</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>MBC Pro 1</title>
 <link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live/stream1.m3u8</link>
 <thumbnail>http://prosports.mbc.net/dms/Promos/Dawry/live1.jpg</thumbnail>
