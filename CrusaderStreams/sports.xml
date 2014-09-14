@@ -41,6 +41,38 @@
 </item>
 
 <item>
+<title>PPV 5</title>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=23783&amp;wh=600&amp;ht=390&amp;r=intsports.net</page>
+<referer>http://intsports.net/embed/str2.html</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=23783&amp;wh=600&amp;ht=390&amp;r=intsports.net</page>
+<referer>http://intsports.net/embed/str2.html</referer>
+</link>
+</regex>
+</item>
+
+<item>
+<title>PPV 6</title>
+<link>rtmpe://strm.dcast.tv/redirect/boxnationchannels23 pageurl=http://www.dcast.tv/</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>PPV 7</title>
+<link>rtmpe://strm.dcast.tv/redirect/going1 pageurl=http://www.dcast.tv/</link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
 <title>MBC Pro 1</title>
 <link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live/stream1.m3u8</link>
 <thumbnail>http://prosports.mbc.net/dms/Promos/Dawry/live1.jpg</thumbnail>
