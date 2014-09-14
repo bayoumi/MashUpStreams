@@ -22,8 +22,23 @@
 <thumbnail></thumbnail>
 </item>
 
-http://www.ukcast.co/embedold.php?u=zfgs&vw=640&vh=460
+<item>
+<title>PPV 3</title>
+<link>rtmpe://strm.ukcast.tv/redirect playpath=tuga1 swfUrl=http://ukcast.tv/player/player.swf pageUrl=http://www.ukcast.tv live=true swfVfy=true timeout=15</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>PPV 4</title>
+<link>rtmp://50.7.28.162/flash playpath=12066 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>PPV 2</title>
+<link>rtmp://50.7.28.114/flash playpath=18971 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</link>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 <title>MBC Pro 1</title>
