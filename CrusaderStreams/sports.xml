@@ -30,13 +30,13 @@
 
 <item>
 <title>PPV 4</title>
-<link>rtmp://50.7.28.162/flash playpath=12066 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</link>
+<link>rtmpe://strm.dcast.tv/redirect/usa_usa1 pageurl=http://www.dcast.tv/</link>
 <thumbnail> </thumbnail>
 </item>
 
 <item>
 <title>PPV 2</title>
-<link>rtmp://50.7.28.114/flash playpath=18971 swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv/ live=true swfVfy=true timeout=15</link>
+<link>rtmp://31.220.0.103:1935/live playpath=ch7 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true swfVfy=true timeout=15</link>
 <thumbnail> </thumbnail>
 </item>
 
@@ -55,8 +55,8 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/play
 <expres>'file': '([^']*)</expres>
 <page>http://castalba.tv/embed.php?cid=23783&amp;wh=600&amp;ht=390&amp;r=intsports.net</page>
 <referer>http://intsports.net/embed/str2.html</referer>
-</link>
 </regex>
+</link>
 <thumbnail> </thumbnail>
 </item>
 
