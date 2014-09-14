@@ -17,10 +17,13 @@
 </info>
 
 <item>
-<title>PPV HD</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=5AI1QHejUsw</link>
+<title>PPV</title>
+<link>rtmpe://strm.ukcast.tv/redirect playpath=zfgs swfUrl=http://ukcast.tv/player/player.swf pageUrl=http://www.ukcast.tv live=true swfVfy=true timeout=15</link>
 <thumbnail></thumbnail>
 </item>
+
+http://www.ukcast.co/embedold.php?u=zfgs&vw=640&vh=460
+
 
 <item>
 <title>MBC Pro 1</title>
