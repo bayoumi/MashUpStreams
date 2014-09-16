@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sport 1-5[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sport 1[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -15,63 +15,6 @@
 <message>[COLOR=FFFF0000]Important: Make Sure Your Librtmp Is Updated[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
-
-<item>
-<title>PPV</title>
-<link>rtmpe://strm.ukcast.tv/redirect playpath=zfgs swfUrl=http://ukcast.tv/player/player.swf pageUrl=http://www.ukcast.tv live=true swfVfy=true timeout=15</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>PPV 3</title>
-<link>rtmpe://strm.ukcast.tv/redirect playpath=tuga1 swfUrl=http://ukcast.tv/player/player.swf pageUrl=http://www.ukcast.tv live=true swfVfy=true timeout=15</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>PPV 4</title>
-<link>rtmpe://strm.dcast.tv/redirect/usa_usa1 pageurl=http://www.dcast.tv/</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>PPV 2</title>
-<link>rtmp://31.220.0.103:1935/live playpath=ch7 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true swfVfy=true timeout=15</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>PPV 5</title>
-<link>
-$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/
-<regex>
-<name>streamer</name>
-<expres>'streamer': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=23783&amp;wh=600&amp;ht=390&amp;r=intsports.net</page>
-<referer>http://intsports.net/embed/str2.html</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>'file': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=23783&amp;wh=600&amp;ht=390&amp;r=intsports.net</page>
-<referer>http://intsports.net/embed/str2.html</referer>
-</regex>
-</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>PPV 6</title>
-<link>rtmpe://strm.dcast.tv/redirect/boxnationchannels23 pageurl=http://www.dcast.tv/</link>
-<thumbnail> </thumbnail>
-</item>
-
-<item>
-<title>PPV 7</title>
-<link>rtmpe://strm.dcast.tv/redirect/going1 pageurl=http://www.dcast.tv/</link>
-<thumbnail> </thumbnail>
-</item>
-
 
 <item>
 <title>MBC Pro 1</title>
@@ -228,7 +171,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmp://198.105.209.116/zenex playpath=nidal1?id=8461 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/fplayer.swf pageUrl=http://www.zenex.tv/embedplayer/nidal1/1/600/450 live=1</sublink>
+<sublink>rtmp://146.185.22.186/stream playpath=cks1_4?id=5314 conn=S:OK swfUrl=http://www.liveflash.tv/resources/scripts/fplayer.swf pageUrl=http://www.liveflash.tv/embedplayer/cks1_4/1/646/468 live=1</sublink>
 <sublink>rtmp://31.220.0.103:1935/live playpath=bn1 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
