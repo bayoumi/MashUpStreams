@@ -12,13 +12,19 @@
 
 <item>
 <title>Canal 5</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/17249601/streams/live/playlist.m3u8</link>
+<link>rtmp://212.7.212.25/live playpath=sincoa3?id=73078 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu/embedded/sincoa3/1/590/400 live=true timeout=15</link>
 <thumbnail>http://www.xejtv.com/InicioV/images/V.png</thumbnail>
 </item>
 
 <item>
+<title>MTV</title>
+<link>rtmp://77.92.76.182/live playpath=mtv2016?id=14102 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/mtv2016/1/620/385 live=true timeout=15</link>
+<thumbnail>http://www.freelogovector.com/gallery/m/MTV%20logo.jpg</thumbnail>
+</item>
+
+<item>
 <title>Televisa</title>
-<link>rtmp://5.63.147.124/zenex playpath=teteris1?id=8008 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/fplayer.swf pageUrl=http://www.zenex.tv/embedplayer/teteris1/1/590/400 live=true timeout=15</link>
+<link>rtmp://212.7.212.27/live playpath=stajasjo?id=73432 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu/embedded/stajasjo/1/590/400 live=true timeout=15</link>
 <thumbnail>http://nowwatchtvlive.com/wp-content/uploads/2013/02/Watch-Live-Online-Televisa-en-Vivo-Logo.jpg</thumbnail>
 </item>
 

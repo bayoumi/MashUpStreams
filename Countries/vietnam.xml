@@ -6,7 +6,7 @@
 
 <item>
 <title>PhoViet HD</title>
-<link>rtmp://unirtmp.tulix.tv:1935/globaltv9 playpath=myStream.sdp swfUrl=http://www.streamwebtown.com/mediaplayer/player.swf live=true timeout=15 pageUrl=http://phoviet.tv/</link>
+<link>http://69.178.181.93:1935/phoviettv/myStream/playlist.m3u8</link>
 <thumbnail>http://phoviet.tv/images/vietnamesehead.jpg</thumbnail>
 </item>
 
@@ -66,7 +66,7 @@
 
 <item>
 <title>SET TV</title>
-<link>http://198.105.217.29/liveStream/set_2/playlist.m3u8</link>
+<link>http://206.190.130.141/liveStream/set_1/playlist.m3u8</link>
 <thumbnail>http://set574.com/setbanner971x150.jpg</thumbnail>
 </item>
 

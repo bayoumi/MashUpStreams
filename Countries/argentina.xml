@@ -5,8 +5,44 @@
 <thumbnail></thumbnail>
 
 <item>
+<title>Argentinisima</title>
+<link>http://transmisionargtv.com.ar:8207/</link>
+<thumbnail>http://www.argentinisimatv.com.ar/templates/template_argtv/images/logo_argtv.gif</thumbnail>
+</item>
+
+<item>
+<title>Kiss TV</title>
+<link>rtmp://tst.es.flash.glb.ipercast.net/ app=tst.es-live/ playpath=live swfUrl=http://www.kisstelevision.es/flowplayer-3.2.16.swf pageUrl=http://www.sintelevisor.com/tv/canales/kisstv.php live=true timeout=15</link>
+<thumbnail>http://www.sintelevisor.com/tv/imagenes/kisstv.jpg</thumbnail>
+</item>
+
+<item>
+<title>El Rural</title>
+<link>rtmp://streamrural.cmd.com.ar/ app=liverural/crural playpath=rural1 swfUrl=http://www.elrural.com/sites/default/files/jwplayermodule/player/player.swf pageUrl=http://www.elrural.com/canal_rural/vivo live=true timeout=15</link>
+<thumbnail>http://www.elrural.com/sites/default/files/elrural_favicon.png</thumbnail>
+</item>
+
+<item>
+<title>Fashion TV</title>
+<link>http://stream-ak.vty.dmcdn.net/10/dm/1/x12o8so/live.isml/live.f4m</link>
+<thumbnail>http://www.sintelevisor.com/tv/imagenes/ftv.jpg</thumbnail>
+</item>
+
+<item>
+<title>Magazine TV</title>
+<link>rtmp://stream.mgzn.tv/live/mgzntv playpath=mgzntv swfUrl=http://www.magazinetv.com/sites/all/themes/magazine/images/player.swf pageUrl=http://www.magazinetv.com/vivo live=true timeout=15</link>
+<thumbnail>http://www.magazinetv.com/sites/default/files/styles/logo_mgzn/public/logo-mgzn_0.jpg</thumbnail>
+</item>
+
+<item>
+<title>Cine Canal</title>
+<link>rtmp://77.92.76.192/live playpath=space2021?id=15843 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/space2021/1/600/385 live=true timeout=15</link>
+<thumbnail>http://www.sintelevisor.com/tv/imagenes/cinecanal.jpg</thumbnail>
+</item>
+
+<item>
 <title>TV Pública</title>
-<link>http://prepublish.f.qaotic.net/epa/ngrp:c7live02Internacional-20034_all/manifest.f4m</link>
+<link>rtmp://186.153.1.35/ app=live/_definst_/5daaqami5qccazqcqyjiedniyzqiu2eg playpath=livestream swfUrl=http://www.peliculasonlineflv.net/mega/player.swf pageUrl=http://peliculasonlineflv.net/iframe.html live=true timeout=15</link>
 <thumbnail>http://www.tv14.net/wp-content/uploads/2010/09/TV-P%C3%BAblica.jpg</thumbnail>
 </item>
 

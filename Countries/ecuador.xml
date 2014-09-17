@@ -12,7 +12,7 @@
 
 <item>
 <title>Univision Deportes</title>
-<link>rtmp://50.7.28.146/live playpath=piuyf swfUrl=http://p.castamp.com/cplayer.swf pageUrl=http://www.castamp.com/ live=true timeout=15</link>
+<link>rtmp://162.253.130.162/ app=edge/univision123 playpath=univision123 swfUrl=http://www.pirlotv.me/players/player2.swf pageUrl=http://www.boxlivetv.net/ live=true timeout=15</link>
 <thumbnail>http://corporate.univision.com/wp-content/uploads/2012/01/UnivisionDeportes_Hero_780x439.jpg</thumbnail>
 </item>
 
@@ -24,27 +24,13 @@
 
 <item>
 <title>Ecuavisa</title>
-<link>
-$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/ live=true timeout=15
-<regex>
-<name>streamer</name>
-<expres>'streamer': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=13685&amp;wh=600&amp;ht=400&amp;r=primiux.com</page>
-<referer>http://primiux.com/tvec/ecuavisa.htm</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>'file': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=13685&amp;wh=600&amp;ht=400&amp;r=primiux.com</page>
-<referer>http://primiux.com/tvec/ecuavisa.htm</referer>
-</regex>
-</link>
+<link>rtmp://5.79.72.3/ app=vl/_definst_ playpath=prim11 swfUrl=http://www.veemi.com/player/player-licensed.swf pageUrl=http://www.veemi.com/ live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/ecuavisa.png</thumbnail>
 </item>
 
 <item>
 <title>Teleamazonas</title>
-<link>rtmp://50.7.28.162/flash playpath=16295 swfUrl=http://static3.sawlive.tv/player.swf live=true timeout=15 pageUrl=http://sawlive.tv</link>
+<link>rtmp://212.7.209.17/live playpath=teleamazonaspop?id=73168 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu/embedded/teleamazonaspop/1/600/400 live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/teleamazonas.png</thumbnail>
 </item>
 
