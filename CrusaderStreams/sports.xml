@@ -169,26 +169,6 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 </item>
 
 <item>
-<title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
-<link>
-$doregex[streamer] playpath=$doregex[file] swfUrl=http://cdn.goodcast.me/players.swf pageUrl=http://goodcast.me/ token=Fo5_n0w?U.rA6l3-70w47ch
-<regex>
-<name>streamer</name>
-<expres>streamer=([^&]*)</expres>
-<page>http://goodcast.me/streamd.php?id=164455&amp;width=600&amp;height=450</page>
-<referer>http://nidal.tv/embeds/kora2.html</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>"file=([^&]*)</expres>
-<page>http://goodcast.me/streamd.php?id=164455&amp;width=600&amp;height=450</page>
-<referer>http://nidal.tv/embeds/kora2.html</referer>
-</regex>
-</link>
-<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
-</item>
-
-<item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 2)</title>
 <link>
 $doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku swfVfy=true live=true timeout=15
@@ -225,8 +205,19 @@ $doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://
 <item>
 <title>Bein 3 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://185.56.28.203:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=3b426 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
-<sublink>rtmp://31.220.0.103:1935/live playpath=bn3 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://cdn.goodcast.me/players.swf pageUrl=http://goodcast.me/ token=Fo5_n0w?U.rA6l3-70w47ch
+<regex>
+<name>streamer</name>
+<expres>streamer=([^&]*)</expres>
+<page>http://goodcast.me/streamd.php?id=164455&amp;width=600&amp;height=450</page>
+<referer>http://nidal.tv/embeds/kora2.html</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>"file=([^&]*)</expres>
+<page>http://goodcast.me/streamd.php?id=164455&amp;width=600&amp;height=450</page>
+<referer>http://nidal.tv/embeds/kora2.html</referer>
+</regex>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
