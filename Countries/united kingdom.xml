@@ -3,28 +3,43 @@
 <channel>
 <name>United Kingdom TV Channels</name>
 <thumbnail></thumbnail>
+rtmp://173.193.219.179:443/liverepeater<playpath>165916 <swfUrl>http://bernardotv.club/atdedead.swf <pageUrl>http://biggestplayer.me/streamcr.php?id=165916&width=620&height=490
 
 <item>
 <title>Sky Sports 1</title>
-<link>rtmp://31.220.0.194:1935/live playpath=sskk1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://bernardotv.club/atdedead.swf pageUrl=http://biggestplayer.me/ token=Fo5_n0w?U.rA6l3-70w47ch
+<regex>
+<name>streamer</name>
+<expres>streamer=([^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=165916&amp;width=620&amp;height=490</page>
+<referer>http://theactionlive.com/livegamecr.php?id=sky1&amp;width=620&amp;height=490&amp;stretching=</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>"file=([^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=165916&amp;width=620&amp;height=490</page>
+<referer>http://theactionlive.com/livegamecr.php?id=sky1&amp;width=620&amp;height=490&amp;stretching=</referer>
+</regex>
+</link>
 <thumbnail>http://3.bp.blogspot.com/-b3q2g-UxZwI/UVWzFcsgA_I/AAAAAAAAFY8/nmBHsWYdLCM/s1600/sky_sports1.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports 2</title>
-<link>rtmp://31.220.0.194:1935/live playpath=sskk2  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://50.7.149.18:1935/live playpath=ss2  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports2.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports 3</title>
-<link>rtmp://31.220.0.194:1935/live playpath=sskk3  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://88.86.125.177:1935/live playpath=ss3  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports3.jpg</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports F1</title>
-<link>rtmp://31.220.0.196:1935/live playpath=skksnf1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.86:1935/live playpath=ssf1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.tv-live.org.uk/wp/media/skysports/2012/023.jpg</thumbnail>
 </item>
 
@@ -42,13 +57,13 @@
 
 <item>
 <title>Sky Sports 4</title>
-<link>rtmp://31.220.0.194:1935/live playpath=s4  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.103:1935/live playpath=ss4  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://www.watchlivetvstreaming.com/wp-content/uploads/2012/02/Sky-Sport-4-TV-Watch-Online.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports News</title>
-<link>rtmp://31.220.0.194:1935/live playpath=skksnews  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://31.220.0.103:1935/live playpath=ssn  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
 <thumbnail>http://hub.tv-ark.org.uk/images/skytv/sky_images/skysportsnews/skysportsnews_open1_2003b.jpg</thumbnail>
 </item>
 
