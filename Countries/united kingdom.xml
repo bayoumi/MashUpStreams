@@ -3,12 +3,11 @@
 <channel>
 <name>United Kingdom TV Channels</name>
 <thumbnail></thumbnail>
-rtmp://173.193.219.179:443/liverepeater<playpath>165916 <swfUrl>http://bernardotv.club/atdedead.swf <pageUrl>http://biggestplayer.me/streamcr.php?id=165916&width=620&height=490
 
 <item>
 <title>Sky Sports 1</title>
 <link>
-$doregex[streamer] playpath=$doregex[file] swfUrl=http://bernardotv.club/atdedead.swf pageUrl=http://biggestplayer.me/ token=Fo5_n0w?U.rA6l3-70w47ch
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://bernardotv.club/atdedead.swf pageUrl=http://biggestplayer.me/ token=#atd%#$ZH
 <regex>
 <name>streamer</name>
 <expres>streamer=([^&]*)</expres>
