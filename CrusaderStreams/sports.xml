@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Some Bein Sport Streams [/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Sport Streams [/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -170,26 +170,9 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 
 <item>
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
-<link>http://212.29.216.8:1935/live/live1/playlist.m3u8</link>
-<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
-</item>
-
-<item>
-<title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-$doregex[streamer] playpath=$doregex[file] swfUrl=http://cdn.goodcast.me/players.swf pageUrl=http://goodcast.me/ token=Fo5_n0w?U.rA6l3-70w47ch
-<regex>
-<name>streamer</name>
-<expres>streamer=([^&]*)</expres>
-<page>http://goodcast.me/streamd.php?id=164455&amp;width=600&amp;height=450</page>
-<referer>http://nidal.tv/embeds/kora2.html</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>"file=([^&]*)</expres>
-<page>http://goodcast.me/streamd.php?id=164455&amp;width=600&amp;height=450</page>
-<referer>http://nidal.tv/embeds/kora2.html</referer>
-</regex>
+<sublink>rtmp://88.86.125.177:1935/live playpath=bn1 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15</sublink>
+<sublink>rtmpe://5.153.233.114:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=1b342 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -210,7 +193,10 @@ $doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://
 
 <item>
 <title>Bein 2 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
-<link>rtmp://109.123.114.162/live playpath=fdgdfhdfh?id=17787 conn=S:OK swfUrl=http://www.ezcast.tv/static/scripts/fplayer.swf pageUrl=http://www.ezcast.tv/embedded/fdgdfhdfh/1/590/440  live=true timeout=15</link>
+<link>
+<sublink>rtmpe://5.153.233.82:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=2b878 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://31.220.25.177:1935/live playpath=bn2 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
+</link>
 <thumbnail>http://i.imgur.com/G8aSwIJ.jpg</thumbnail>
 </item>
 
@@ -258,7 +244,16 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://cdn.goodcast.me/players
 <page>http://goodcast.me/streamd.php?id=164456&amp;width=728&amp;height=460</page>
 <referer>http://nidal.tv/embeds/live3.html</referer>
 </regex>
-</link>s
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
+</item>
+
+<item>
+<title>Bein 4 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
+<link>
+<sublink>rtmpe://5.153.233.82:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=4b206 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://31.220.25.177:1935/live playpath=bn4 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
+</link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
@@ -279,7 +274,7 @@ $doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://
 <item>
 <title>Bein 5 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
-<sublink>rtmpe://185.56.28.203:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=5b981 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmpe://5.153.233.82:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=3b426 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
 <sublink>rtmp://31.220.0.103:1935/live playpath=bn5 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
 </link>
 <thumbnail>http://i.imgur.com/eKtzUc4.jpg</thumbnail>
@@ -301,7 +296,10 @@ $doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://
 
 <item>
 <title>Bein 6 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
-<link>rtmp://46.165.230.40/live playpath=cks3_9?id=213390 conn=S:OK swfUrl=http://mips.tv/content/scripts/fplayer.swf pageUrl=http://mips.tv/embedplayer/cks3_9/1/646/468 live=true timeout=15</link>
+<link>
+<sublink>rtmpe://5.153.233.82:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=6b660 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://31.220.0.103:1935/live playpath=bn6 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
+</link>
 <thumbnail>http://i.imgur.com/by9j5N2.jpg</thumbnail>
 </item>
 
