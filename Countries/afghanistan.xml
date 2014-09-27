@@ -31,20 +31,17 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 </item>
 
 <item>
-<title>Ariana International Link 1 </title>
-<link>rtsp://50.97.117.4/AFG-AINT-PACIFIC</link>
+<title>Ariana International</title>
+<link>
+<sublink>rtsp://50.97.117.4/AFG-AINT-PACIFIC</sublink>
+<sublink>rtsp://50.97.117.4/AFG-AINT-MAIN</sublink>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/ariana_tv_network_international.png</thumbnail>
 </item>
 
 <item>
-<title>Ariana International Link 2</title>
-<link>rtsp://50.97.117.4/AFG-AINT-MAIN</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/aa/ariana_tv_network_international.png</thumbnail>
-</item>
-
-<item>
-<title>ATV News</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=AssVJI-cVcw</link>
+<title>ATN News</title>
+<link>http://uni2rtmp.tulix.tv:1935/ariana/ariana/playlist.m3u8</link>
 <thumbnail>http://ariananews.af/wp-content/themes/newsworld-1.0.0/images/logo1.png</thumbnail>
 </item>
 
@@ -55,13 +52,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 </item>
 
 <item>
-<title>RTA Milli Link 1</title>
-<link>rtsp://50.97.117.4/AFG-RTA-EUROPE</link>
-<thumbnail>http://livetv.liveafghantv.com/images/tv/tv_rta.jpg</thumbnail>
-</item>
-
-<item>
-<title>RTA Milli Link 2</title>
+<title>RTA Milli</title>
 <link>rtsp://50.97.117.4/AFG-RTA-MAIN</link>
 <thumbnail>http://livetv.liveafghantv.com/images/tv/tv_rta.jpg</thumbnail>
 </item>
