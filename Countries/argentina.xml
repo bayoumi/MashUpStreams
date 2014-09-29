@@ -90,7 +90,7 @@
 
 <item>
 <title>Fox Sports</title>
-<link>rtmp://198.105.217.36/live playpath=mercado?id=208250 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/a3asdfsdfasdf/1/600/450</link>
+<link>rtmp://37.58.52.100/live playpath=embed3?id=213691 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/a3asdfsdfasdf/1/600/450</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_lam_ar.png</thumbnail>
 </item>
 

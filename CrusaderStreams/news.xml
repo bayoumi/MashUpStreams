@@ -35,8 +35,8 @@
 </item>
 
 <item>
-<title>AL SHARQIYA NEWS</title>
-<link>rtmp://ns9.indexforce.com/home playpath=mystream swfUrl=http://www.alsharqiyatv.com/player.swf live=true timeout=15</link>
+<title>Al Sharqiya News</title>
+<link>http://ns8.indexforce.com:1935/alsharqiyalive/mystream/playlist.m3u8</link>
 <thumbnail>http://fs01.androidpit.info/ali/x92/6996092-1374584789569-144x144.png</thumbnail>
 </item>
 
@@ -48,6 +48,6 @@
 
 <item>
 <title>Alalam</title>
-<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/alalam/ls_fiber/b_,828,528,264,.m3u8</link>
+<link>http://wpc.c1a9.edgecastcdn.net/hds-live/20C1A9/alalam/ls_fiber/b_828.f4m</link>
 <thumbnail>http://www.724.tv/Eserler/Resim/Alalam.jpg</thumbnail>
 </item>

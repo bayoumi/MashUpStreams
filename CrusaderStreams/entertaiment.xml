@@ -18,7 +18,7 @@
 
 <item>
 <title>Cairo Cinema</title>
-<link>http://38.99.146.43:7777/CairoCinema/CairoCinema_Low.m3u8</link>
+<link>http://38.99.146.44:7777/CairoDrama/CairoDrama_Low.m3u8</link>
 <thumbnail>http://www.cairocinema.net/wp-content/uploads/2014/02/Comp-1-0-00-01-00-222x300.png</thumbnail>
 </item>
 
@@ -115,25 +115,25 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 
 <item>
 <title>Al Hayat Series</title>
-<link>http://38.99.146.43:7777/AlHayatMousalsalat.m3u8</link>
+<link>http://38.99.146.36:7777/AlHayatMousalsalat_HD.m3u8</link>
 <thumbnail>http://3.bp.blogspot.com/_u_DZ8l_MLu4/S_glybpzWpI/AAAAAAAAGPs/Abf_A2RLTNg/s400/54.gif</thumbnail>
 </item>
 
 <item>
 <title>Al Hayat 2</title>
-<link>http://38.99.146.43:7777/Alhayat2.m3u8</link>
+<link>http://38.99.146.36:7777/Alhayat2_HD.m3u8</link>
 <thumbnail>http://www.arabictvnetwork.com/images/MediaBox/Arabic/Al-Hayat/AlHayat2.png</thumbnail>
 </item>
 
 <item>
 <title>Al Hayat Cinema</title>
-<link>http://38.99.146.43:7777/AlHayatCinema/AlHayatCinema_Low.m3u8</link>
+<link>http://38.99.146.36:7777/AlHayatCinema_HD/AlHayatCinema_HD.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/alhayat_cinema.png</thumbnail>
 </item>
 
 <item>
 <title>Aljadeed (Link 2)</title>
-<link>rtsp://212.83.150.28/channel12</link>
+<link>http://38.99.146.36:7777/AlJadeed_HD/AlJadeed_HD.m3u8</link>
 <thumbnail>http://1.bp.blogspot.com/-W1Ry_s_c5-k/UAw9jeMFGoI/AAAAAAAANlY/SJ_JbZV8W5E/s400/aljadeed%2Btv.jpeg</thumbnail>
 </item>
 
@@ -145,19 +145,27 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 
 <item>
 <title>MTV (Link 2)</title>
-<link>http://38.99.146.43:7777/MTVLebanon.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/al-lubnaniya-tv</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://4.bp.blogspot.com/-v7Q1icQUJD0/Tm5vrpPY1gI/AAAAAAAAAGs/640s_zySbsQ/s200/MTV+1.png</thumbnail>
 </item>
 	
 <item>
 <title>MBC Drama</title>
-<link>http://38.99.146.43:7777/MBCDrama.m3u8</link>
+<link>rtmp://176.58.79.15:1936/live/ playpath=MBCDRAMA swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://www.freetv247.com/content/mbc-2-movies-live-tv live=true timeout=15</link> 
 <thumbnail>http://www.tv-arab.net/Logos/logo_tv_mm_mbc_drama_ae.jpg</thumbnail>
 </item>
 
 <item>
 <title>Al Sumaria</title>
-<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live_720p swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live</link>
+<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live live=true timeout=15</link>
 <thumbnail>http://www.livetv.tn/images/icons/87.gif</thumbnail>
 </item>	
 
@@ -169,31 +177,55 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 
 <item>
 <title>Fox Movies</title>
-<link>http://38.99.146.43:7777/FoxMovies.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/fox-movies-tv</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/27.gif</thumbnail>
 </item>
 
 <item>
 <title>Moga Comedy</title>
-<link>rtmp://video.uvlog.com/ app=uvlog_video/4227 playpath=stream swfUrl=http://www.uvlog.com/embed.swf pageUrl=http://www.uvlog.com/embed/4227/650/460/FALSE/true/false live=true timeout=15</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://freetv247.com/content/moga-comedy-tv-live</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/67.gif</thumbnail>
 </item>
 
 <item>
 <title>Zee Alwen</title>
-<link>rtmp://206.190.140.20/live playpath=zeealwan?id=12389 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/zeealwan/1/500/400 live=true  timeout=15</link>
+<link>http://38.99.146.36:7777/ZeeAlwan_HD.m3u8</link>
 <thumbnail>http://www.livetv.tn/images/icons/48.gif</thumbnail>
 </item>
 
 <item>
 <title>Zee Aflam</title>
-<link>http://38.99.146.43:7777/ZeeAflam.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://freetv247.com/content/zee-aflam-live</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/74.gif</thumbnail>
 </item>
 
 <item>
 <title>Panorama Drama 2</title>
-<link>http://38.99.146.42:7777/PanoramaDrama2.m3u8</link>
+<link>http://38.99.146.36:7777/PanoramaDrama2_HD.m3u8</link>
 <thumbnail>http://www.etfarag.com/ChannelsImages/Panorama%20Drama%202black.gif</thumbnail>
 </item>
 
@@ -205,13 +237,21 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 
 <item>
 <title>Al Hayat</title>
-<link>rtmp://206.190.140.20/live playpath=gto548?id=10373 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/gto548/1/600/450 live=true timeout=15</link>
+<link>http://38.99.146.36:7777/Hayat_HD/Hayat_High.m3u8</link>
 <thumbnail>http://bo7.net/images/2/_%D8%AA%D8%B1%D8%AF%D8%AF_%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9_AL_.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC MAX</title>
-<link>http://38.99.146.37:7777/MBCMaser_HD.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/max-tv</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://alghaslan.net/wp-content/uploads/MBC-MAX-300x115.jpg</thumbnail>
 </item>
  	
@@ -229,7 +269,15 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 
 <item>
 <title>MBC Maser</title>
-<link>http://38.99.146.37:7777/MBCMaser_HD/MBCMaser_High.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/masr-tv</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://jazarah.net/ar/wp-content/uploads/2012/10/MBC-MASR-logo.jpg</thumbnail>
 </item>
 
@@ -263,9 +311,9 @@ rtmp://iptv2.web-medias.net:8080/live/ playpath=abu_dhabi_drama?e=$doregex[e]&am
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
-<expres>embed/([^?]*)</expres>
+<expres>embed/([^"]*)</expres>
 <page>http://www.cbc-eg.com/cbc/live-stream</page>
-<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://3.bp.blogspot.com/-bQhnaV_8KF4/T7ZPNiBq6zI/AAAAAAAADEY/p3VdxQEj1Ws/s1600/cbc.jpg</thumbnail>
@@ -277,9 +325,9 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
-<expres>embed/([^?]*)</expres>
+<expres>embed/([^"]*)</expres>
 <page>http://www.cbc-eg.com/two/live-stream</page>
-<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>https://yt3.ggpht.com/-NZi8n5mnEgs/AAAAAAAAAAI/AAAAAAAAAAA/rzVXyciExjI/s88-c-k-no/photo.jpg</thumbnail>
@@ -291,9 +339,9 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
-<expres>embed/([^?]*)</expres>
+<expres>embed/([^"]*)</expres>
 <page>http://www.cbc-eg.com/extra/live-stream</page>
-<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>https://yt3.ggpht.com/-01YF5Z5-iko/AAAAAAAAAAI/AAAAAAAAAAA/lo6d1n4uaAg/s88-c-k-no/photo.jpg</thumbnail>
@@ -305,9 +353,9 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
-<expres>embed/([^?]*)</expres>
+<expres>embed/([^"]*)</expres>
 <page>http://www.cbc-eg.com/drama/live-stream</page>
-<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>https://yt3.ggpht.com/-tDe3PyadQnQ/AAAAAAAAAAI/AAAAAAAAAAA/rBmsY_5xshg/s88-c-k-no/photo.jpg</thumbnail>
@@ -319,9 +367,9 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 <regex>
 <name>id</name>
-<expres>embed/([^?]*)</expres>
+<expres>embed/([^"]*)</expres>
 <page>http://www.cbc-eg.com/sofra/live-stream</page>
-<referer>http://www.cbc-eg.com/cbc/presenters</referer>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://www.livetv.tn/images/icons/256.gif</thumbnail>
@@ -335,20 +383,30 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 
 <item>
 <title>Dream 1</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/18127105/streams/live/playlist.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/dream-1-live-tv</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://www.livetv.tn/images/icons/24.gif</thumbnail>
 </item>
 
 <item>
 <title>Dream 2</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/18117128/streams/live/playlist.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/dream-tv</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://bell-vs-rogers.com/channellogos/cid599dream2.png</thumbnail>
-</item>
-
-<item>
-<title>Dream 2 +2</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/18117128/streams/live/playlist.m3u8</link>
-<thumbnail>http://en.kingofsat.net/jpg/dream2plus.jpg</thumbnail>
 </item>
 
 <item>
@@ -365,7 +423,7 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 
 <item>
 <title>Baghdadiya</title>
-<link>http://albag1.groovygecko.edge01.streammatrix.tv/livealbag1/smil:albag1.smil/playlist.m3u8</link>
+<link>http://albaghdadiahds-lh.akamaihd.net/z/albaghdadia_1@199052/manifest.f4m</link>
 <thumbnail>http://www.livetv.tn/images/icons/112.gif</thumbnail>
 </item>
 
@@ -377,7 +435,15 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 
 <item>
 <title>NBN (Link 2)</title>
-<link>http://38.99.146.43:7777/NBNLebanon.m3u8</link>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/nbn-tv-live</page>
+<referer> </referer>
+</regex>
+</link>
 <thumbnail>http://upload.wikimedia.org/wikipedia/en/1/14/Nbn_lebanon.png</thumbnail>
 </item>
 
@@ -514,83 +580,43 @@ rtmp://$doregex[url] app=live/$doregex[key] playpath=2606.low.stream swfUrl=http
 
 <item>
 <title>Aljadeed  [COLOR=FFFF0000]Geo Blocked In Some Areas[/COLOR]</title>
-<link>
-$doregex[m3u8]
-<regex>
-<name>m3u8</name>
-<expres>file: "([^"]*)</expres>
-<page>http://www.itworks-me.net/aljadeed/</page>
-<referer>http://www.aljadeed.tv/livetv.html?Id=1007</referer>
-</regex>
-</link>
+<link>rtmp://livestreaming.itworkscdn.net/ app=aljadeedlive playpath=aljadeed_360p swfurl=http://www.itworks-me.net/aljadeed/jwplayer.flash.swf pageurl=http://www.itworks-me.net/ live=true timeout=15</link>
 <thumbnail>http://1.bp.blogspot.com/-W1Ry_s_c5-k/UAw9jeMFGoI/AAAAAAAANlY/SJ_JbZV8W5E/s400/aljadeed%2Btv.jpeg</thumbnail>
 </item>
 
 <item>
 <title>MBC</title>
-<link>rtmp://46.165.196.36/live playpath=cvnvcnvcnccncv?id=201719 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/cvnvcnvcnccncv/1/600/380</link>
+<link>rtmp://176.58.79.15:1936/ app=live?~achams.com@192.185.11.131 playpath=mbc1 swfUrl=http://achams.com/swf/playerdw.swf pageUrl=http://achams.com/tv/mbc1.php live=true timeout=15</link>
 <thumbnail>http://www.ilcode.com/photos/www.ilcode.com-mdubdqlswkxrchiaarxirdk-mbc.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC Action</title>
-<link>rtmp://199.115.114.221/live playpath=wvcvcxvcxvcxvcx?id=201721 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/wvcvcxvcxvcxvcx/1/600/380</link>
+<link>rtmp://176.58.79.15:1936/live/ playpath=MBCAction swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://www.freetv247.com/content/mbc-2-movies-live-tv live=true timeout=15</link> 
 <thumbnail>http://upload.wikimedia.org/wikipedia/ar/3/37/MBC-Action.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC 2</title> 
-<link>rtmp://46.165.196.36/live playpath=aflam4youfff?id=152673 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://www.mips.tv/embedplayer/aflam4youfff/1/600/380</link> 
+<link>rtmp://176.58.79.15:1936/live/ playpath=mbc2 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://www.freetv247.com/content/mbc-2-movies-live-tv live=true timeout=15</link> 
 <thumbnail>http://www.lyngsat-logo.com/hires/mm/mbc2_ae.png</thumbnail>
 </item>
 
 <item>
 <title>MBC 3</title>
-<link>http://38.99.146.43:7777/MBC3.m3u8</link>
+<link>rtmp://176.58.79.15:1936/live/ playpath=mbc3 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://www.freetv247.com/content/mbc-2-movies-live-tv live=true timeout=15</link> 
 <thumbnail>http://www.watchtv.co/wp-content/themes/broadcast/thumb.php?src=http://www.watchtv.co/wp-content/uploads/2012/07/mbc3-channel-streaming1.jpg&w=581&h=252&zc=1&q=100</thumbnail>
 </item>
 
 <item>
 <title>MBC 4</title>
-<link>http://38.99.146.43:7777/MBC4.m3u8</link>
-<thumbnail>http://aflam4you.tv/uploads/thumbs/71-1.jpg</thumbnail>
-</item>
-
-<item>
-<title>MBC 3  (Link 2)</title>
 <link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_3?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
+$doregex[m3u8]
 <regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_3</page>
-<referer>http://www.web-medias.net/mbc-3-en-direct-live-%d9%82%d9%86%d8%a7%d8%a9-%d8%a5%d9%85%d8%a8%d9%8a%d8%b3%d9%8a-3-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_43d5f93f1.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_3</page>
-<referer>http://www.web-medias.net/mbc-3-en-direct-live-%d9%82%d9%86%d8%a7%d8%a9-%d8%a5%d9%85%d8%a8%d9%8a%d8%b3%d9%8a-3-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_43d5f93f1.html</referer>
-</regex>
-</link>
-<thumbnail>http://www.watchtv.co/wp-content/themes/broadcast/thumb.php?src=http://www.watchtv.co/wp-content/uploads/2012/07/mbc3-channel-streaming1.jpg&w=581&h=252&zc=1&q=100</thumbnail>
-</item>
-
-<item>
-<title>MBC 4  (Link 2)</title>
-<link>
-rtmp://iptv1.web-medias.net:8080/live/ playpath=mbc_4?e=$doregex[e]&amp;st=$doregex[st] swfUrl=http://www.web-medias.net/jwplayer.swf live=true timeout=15 pageUrl=http://www.web-medias.net/
-<regex>
-<name>e</name>
-<expres>e=([^&]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_4</page>
-<referer>http://www.web-medias.net/mbc-4-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-4-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_afae7466f.html</referer>
-</regex>
-<regex>
-<name>st</name>
-<expres>st=([^<]*)</expres>
-<page>http://www.web-medias.net/iptv/?ch=mbc_4</page>
-<referer>http://www.web-medias.net/mbc-4-en-direct-live-%d8%a7%d9%85-%d8%a8%d9%8a-%d8%b3%d9%8a-4-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_afae7466f.html</referer>
+<name>m3u8</name>
+<expres>file:"([^?]*)</expres>
+<page>http://www.freetv247.com/content/entertainment-tv</page>
+<referer> </referer>
 </regex>
 </link>
 <thumbnail>http://aflam4you.tv/uploads/thumbs/71-1.jpg</thumbnail>
@@ -690,6 +716,6 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 
 <item>
 <title>MBC Bollywood</title>
-<link>rtmp://46.165.196.36/live playpath=aflam4youddd?id=152675 conn=S:OK swfUrl=http://mips.tv/content/scripts/eplayer.swf live=true timeout=15 pageUrl=http://mips.tv/embedplayer/aflam4youddd/1/600/380</link>
+<link>rtmp://176.58.79.15:1936/live/ playpath=MBCBollywood swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf pageUrl=http://www.freetv247.com/content/mbc-2-movies-live-tv live=true timeout=15</link> 
 <thumbnail>http://www.waleg.com/images/mbc-bollywood.jpg</thumbnail>
 </item>

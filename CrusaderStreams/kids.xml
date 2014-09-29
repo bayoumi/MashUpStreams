@@ -6,7 +6,7 @@
 ##############################################################################################################################
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Added Cartoon Network [/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Updated Spacetoon [/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -30,6 +30,6 @@
 
 <item>
 <title>Spacetoon</title>
-<link>rtmp://85.91.143.21/35985/ playpath=35985.stream swfUrl=http://www.watchfomny.net/jwplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.watchfomny.net/Video/Arabic/03/spaces-toon/pop.php</link>
+<link>rtmp://www.arabic-toons.com/animetv playpath=spacetoon?code=w_4e954b3510ac580 swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf pageUrl=http://www.arabic-toons.com/Space-Toon-en-direct-live.html</link>
 <thumbnail>http://www.livetv.tn/images/icons/49.gif</thumbnail>
 </item>
