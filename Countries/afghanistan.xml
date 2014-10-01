@@ -40,12 +40,6 @@ plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]
 </item>
 
 <item>
-<title>ATN News</title>
-<link>http://uni2rtmp.tulix.tv:1935/ariana/ariana/playlist.m3u8</link>
-<thumbnail>http://ariananews.af/wp-content/themes/newsworld-1.0.0/images/logo1.png</thumbnail>
-</item>
-
-<item>
 <title>Gem Dari</title>
 <link>rtmp://iriptv.com/iriptvserver3 playpath=29.stream swfUrl=http://iriptv.com/player/player.swf live=ture timeout=60 pageUrl=http://iriptv.com/web/index.php</link>
 <thumbnail>http://www.gemdari.tv/images/logo_gemtv.png</thumbnail>
