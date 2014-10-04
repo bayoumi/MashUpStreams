@@ -6,25 +6,53 @@
 
 <item>
 <title>Sky Sports 1</title>
-<link>rtmp://94.102.56.157:443/liverepeater playpath=166407 token=#atd%#$ZH swfUrl=http://bernardotv.club/atdedead.swf pageUrl=http://biggestplayer.me/</link>
+<link>rtmp://62.210.187.70:443/liverepeater playpath=166524 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://biggestplayer.me/</link>
 <thumbnail>http://3.bp.blogspot.com/-b3q2g-UxZwI/UVWzFcsgA_I/AAAAAAAAFY8/nmBHsWYdLCM/s1600/sky_sports1.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports 2</title>
-<link>rtmp://50.7.149.18:1935/live playpath=ss2  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z
+<regex>
+<name>streamer</name>
+<expres>'streamer','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ss442&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skys2.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ss442&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skys2.php</referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports2.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports 3</title>
-<link>rtmp://88.86.125.177:1935/live playpath=ss3  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>rtmp://89.248.168.86:443/liverepeater playpath=166530 swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://biggestplayer.me/</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports3.jpg</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports F1</title>
-<link>rtmp://31.220.0.86:1935/live playpath=ssf1  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z
+<regex>
+<name>streamer</name>
+<expres>'streamer','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ssf1&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skysf1.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ssf1&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skysf1.php</referer>
+</regex>
+</link>
 <thumbnail>http://www.tv-live.org.uk/wp/media/skysports/2012/023.jpg</thumbnail>
 </item>
 
@@ -42,13 +70,41 @@
 
 <item>
 <title>Sky Sports 4</title>
-<link>rtmp://31.220.0.103:1935/live playpath=ss4  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z
+<regex>
+<name>streamer</name>
+<expres>'streamer','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ss444&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skys4.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ss444&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skys4.php</referer>
+</regex>
+</link>
 <thumbnail>http://www.watchlivetvstreaming.com/wp-content/uploads/2012/02/Sky-Sport-4-TV-Watch-Online.png</thumbnail>
 </item>
 
 <item>
 <title>Sky Sports News</title>
-<link>rtmp://31.220.0.103:1935/live playpath=ssn  swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z
+<regex>
+<name>streamer</name>
+<expres>'streamer','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ssn&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/news.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ssn&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/news.php</referer>
+</regex>
+</link>
 <thumbnail>http://hub.tv-ark.org.uk/images/skytv/sky_images/skysportsnews/skysportsnews_open1_2003b.jpg</thumbnail>
 </item>
 
