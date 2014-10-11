@@ -172,7 +172,7 @@ http://alkass-i.akamaihd.net/hls/live/205534/kassHD/$doregex[url]20.m3u8
 <title>Bein 1 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR]</title>
 <link>
 <sublink>rtmp://88.86.125.177:1935/live playpath=bns1 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15</sublink>
-<sublink>rtmpe://5.153.233.114:443/ app=c0be82e1442e7169a9a358db47fcafcb playpath=1b342 swfurl=http://xuscacamusca.se/jwplayer/jwplayer.flash.swf pageUrl=http://xuscacamusca.se/ live=1</sublink>
+<sublink>rtmp://93.174.93.50:443/liveedge/ playpath=live8 swfUrl=http://www.micast.tv/jwplayer/jwplayer.flash.swf pageUrl=http://www.micast.tv/gen5.php?ch=live8</sublink>
 </link>
 <thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
@@ -413,6 +413,26 @@ $doregex[src] swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf pageUrl=http://
 <sublink>rtmp://31.220.0.103:1935/live playpath=bn10 token=%ZZri(nKa@#Z swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/</sublink>
 </link>
 <thumbnail>http://scrat.hellocoton.fr/img/classic/bein-sport-10hd-live-regarder-bein-sport-10-hd-en-direct-gratuit-11334154.jpg</thumbnail>
+</item>
+
+<item>
+<title>Bein 10 HD  [COLOR=FFFF0000]Updated Daily[/COLOR]  [COLOR=FF00FF00]Language: Arabic[/COLOR] (Link 3)</title>
+<link>
+$doregex[streamer] playpath=$doregex[file] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://cdn.goodcast.me/players.swf pageUrl=http://goodcast.me/ live=true timeout=15
+<regex>
+<name>streamer</name>
+<expres>streamer=([^&]*)</expres>
+<page>http://goodcast.me/stream.php?id=176439&amp;width=650&amp;height=480&amp;stretching=</page>
+<referer>http://www.fifaembed.com/embed/beinsports10.php?width=650&amp;height=480</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>"file=([^&]*)</expres>
+<page>http://goodcast.me/stream.php?id=176439&amp;width=650&amp;height=480&amp;stretching=</page>
+<referer>http://www.fifaembed.com/embed/beinsports10.php?width=650&amp;height=480</referer>
+</regex>
+</link>
+<thumbnail>http://i.imgur.com/r3A1LIO.jpg</thumbnail>
 </item>
 
 <item>
