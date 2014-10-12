@@ -23,18 +23,6 @@
 </item>
 
 <item>
-<title>Channel 5 TV</title>
-<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/320 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/channel-5tv</link>
-<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/320-540x304-000000.jpg</thumbnail>
-</item>
-
-<item>
-<title>MULTI TV</title>
-<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/186 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/multitv</link>
-<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/186-540x304-000000.jpg</thumbnail>
-</item>
-
-<item>
 <title>Amansan TV New York</title>
 <link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/307 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 pageUrl=http://www.myliveafricatv.com/show/amansantvnewyork</link>
 <thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/307-540x304-000000.jpg</thumbnail>
@@ -42,8 +30,44 @@
 
 <item>
 <title>GTV</title>
-<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/184 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/gtv</link>
+<link>rtmp://ams001.pointcdn.net playpath=skylite/ams/ghanatv swfUrl=http://www.ghanalive.tv/secure-player/player.swf pageUrl=http://www.ghanalive.tv/gtv/ live=true timeout=15</link>
 <thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/184-540x304-000000.jpg</thumbnail>
+</item>
+
+<item>
+<title>Capital TV</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/326/ playpath=mainstream swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://live.ramalin.com/gh/capitaltv.html live=true timeout=15</link>
+<thumbnail>http://www.mycapitaltv.com/images/logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>BTA</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/334/ playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf pageUrl=http://www.myliveafricatv.com/show/bta live=true timeout=15</link>
+<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/334-160x120-C7C7C7.jpg</thumbnail>
+</item>
+
+<item>
+<title>OBTV</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/340/ playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf pageUrl=http://www.myliveafricatv.com/show/obtv live=true timeout=15</link>
+<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/340-160x120-C7C7C7.jpg</thumbnail>
+</item>
+
+<item>
+<title>Kessben</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/329/ playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf pageUrl=http://www.myliveafricatv.com/show/kessben live=true timeout=15</link>
+<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/329-160x120-C7C7C7.jpg</thumbnail>
+</item>
+
+<item>
+<title>PTV</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=srtmp_mlalive/331/ playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf pageUrl=http://www.myliveafricatv.com/show/ptv live=true timeout=15</link>
+<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/331-160x120-C7C7C7.jpg</thumbnail>
+</item>
+
+<item>
+<title>Akwaaba Radio</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/242/ playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf pageUrl=http://www.myliveafricatv.com/show/akwaabaradio-va-free-channel live=true timeout=15</link>
+<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/242-160x120-C7C7C7.jpg</thumbnail>
 </item>
 
 <item>
@@ -60,7 +84,7 @@
 
 <item>
 <title>Joy News</title>
-<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/185 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/joynews</link>
+<link>rtmp://skylite.pointcdn.net playpath=skylite/ams/joyenews swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.filmover.com/gh/joy-news.html live=true timeout=15</link>
 <thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/185-540x304-000000.jpg</thumbnail>
 </item>
 
