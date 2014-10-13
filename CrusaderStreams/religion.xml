@@ -42,7 +42,7 @@
 
 <item>
 <title>MEsat</title>
-<link>http://sc-e1.streamcyclone.com:1935/MeSatWeb/MeSat/playlist.m3u8</link>
+<link>rtmp://sc-e1.streamcyclone.com:1935/ app=MeSatWeb playpath=MeSatChannel swfUrl=http://mesat.tv/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl=http://mesat.tv/2012/06/02/streaming/ live=true timeout=15</link>
 <thumbnail>http://1.bp.blogspot.com/-j2Fe0r5_iRs/T4QCqXGZwrI/AAAAAAAAAJU/ODMWlJzE-Gs/s1600/mesat.jpg</thumbnail>
 </item>
 
