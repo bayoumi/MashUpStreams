@@ -7,7 +7,7 @@
 
 
 <info>
-<message>[COLOR=FFFF0000]Announcement(s): Fixed Bein Spanish, USA, Other Bein Streams[/COLOR]</message>
+<message>[COLOR=FFFF0000]Announcement(s): Fixed MBC Pro 1-4, Fixed Bein Spanish, USA, Other Bein Streams[/COLOR]</message>
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/3/32/The_flag_of_Syrian_Arab_Republic_Damascus%2C_Syria.jpg</thumbnail>
 </info>
 
@@ -18,25 +18,25 @@
 
 <item>
 <title>MBC Pro 1</title>
-<link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live/stream1.m3u8</link>
+<link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live.m3u8</link>
 <thumbnail>http://prosports.mbc.net/dms/Promos/Dawry/live1.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC Pro 2</title>
-<link>http://mbcprosports02-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports02/_definst_/live/stream1.m3u8</link>
+<link>http://mbcprosports02-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports02/_definst_/live.m3u8</link>
 <thumbnail>http://prosports.mbc.net/dms/Promos/Dawry/live2.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC Pro 3</title>
-<link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports03/_definst_/live/stream1.m3u8</link>
+<link>http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports03/_definst_/live.m3u8</link>
 <thumbnail>http://prosports.mbc.net/dms/Promos/Dawry/live3.jpg</thumbnail>
 </item>
 
 <item>
 <title>MBC Pro 4</title>
-<link>http://mbcprosports04-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports04/_definst_/live/stream1.m3u8</link>
+<link>http://mbcprosports04-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports04/_definst_/live.m3u8</link>
 <thumbnail>http://prosports.mbc.net/dms/Promos/Dawry/live4.jpg</thumbnail>
 </item>
 
