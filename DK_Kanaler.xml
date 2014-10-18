@@ -1,0 +1,192 @@
+#######################################################################################################################################
+<poster>IPTV</poster>
+<fanart></fanart></fanart>
+#######################################################################################################################################
+
+
+<item>
+<title>DR1</title>
+<link>http://dr01-lh.akamaihd.net/i/dr01_0@147054/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dr_1.png</thumbnail>
+</item>
+
+<item>
+<title>DR2 HD</title>
+<link>http://dr02-lh.akamaihd.net/i/dr02_0@147055/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dr_2.png</thumbnail>
+</item>
+
+<item>
+<title>DR3</title>
+<link>http://dr03-lh.akamaihd.net/i/dr03_0@147056/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dr_3.png</thumbnail>
+</item>
+
+<item>
+<title>DR K</title>
+<link>http://dr04-lh.akamaihd.net/i/dr04_0@147057/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dr_k.png</thumbnail>
+</item>
+
+<item>
+<title>DR Ramasjang</title>
+<link>http://dr05-lh.akamaihd.net/i/dr05_0@147058/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dr_ramasjang.png</thumbnail>
+</item>
+
+<item>
+<title>DR Ultra</title>
+<link>http://dr06-lh.akamaihd.net/i/dr06_0@147059/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/dd/dr_ultra_dk.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Fyn</title>
+<link>rtmp://<HOST>:1935/live/_definst_/tv2fyn_2000 live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv_fyn_dk.png/thumbnail>
+</item>
+
+<item>
+<title>TV2 Lorry</title>
+<link>rtmp://<HOST>:1935/live/_definst_/tv2lorry_2000 live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_lorry.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Syd</title>
+<link>rtmp://<HOST>:1935/live/_definst_/tvsyd_2000 live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_syd.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Midtvest</title>
+<link>rtmp://live.tvmidtvest.dk/tvmv/live live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv_midt_vest_dk.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Nord</title>
+<link>rtmp://<HOST>:1935/live/_definst_/tv2nord-plus_2000 live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_nord.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Øst</title>
+<link>http://tv2east.live-s.cdn.bitgravity.com/cdn-live-c1/_definst_/tv2east/live/feed01/playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_ost_dk.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Østjylland</title>
+<link>rtmp://<HOST>:1935/live/_definst_/tv2oj-plus_2000 live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_ostjylland.png</thumbnail>
+</item>
+
+<item>
+<title>TV2 Zulu</title>
+<link>rtmp://<HOST>:1935/live/_definst_/tv2zulu-plus_2000 live=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv2_zulu_dk.png</thumbnail>
+</item>
+
+<item>
+<title>TV3 Puls</title>
+<link>http://viasatlive1-i.akamaihd.net/hls/live/202795/tv3puls/wifi1500.m3u8</link>
+<thumbnail>http://static.timefor.tv/imgs/epg/logos/tv3puls_dk_dk_big.png</thumbnail>
+</item>
+
+<item>
+<title>TV3+</title>
+<link>http://viasatlive2-i.akamaihd.net/hls/live/202775/tv3plus/mastererki1.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/vv/viasat_tv3_plus_dk_hd.png</thumbnail>
+</item>
+
+<item>
+<title>Canal 8</title>
+<link>http://viasatlive1-i.akamaihd.net/hls/live/206922/canal8dkebs/4arp.m3u8</link>
+<thumbnail>http://mlgz0r-hehetv.googlecode.com/svn/addons/channels/Canal%208.png</thumbnail>
+</item>
+
+<item>
+<title>Canal 9</title>
+<link>http://viasatlive3-i.akamaihd.net/hls/live/206923/canal9dkebs/4arp.m3u8</link>
+<thumbnail>http://mlgz0r-hehetv.googlecode.com/svn/addons/channels/Canal%209.png</thumbnail>
+</item>
+	    
+<item>
+<title>3Sport1 HD</title>
+<link>http://viasatlive1-i.akamaihd.net/hls/live/207015/tv3sport1HD/2TmY8fEdOfL.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/vv/viasat_tv3_sport1_dk_hd.png</thumbnail>
+</item>
+
+<item>
+<title>3Sport2 HD</title>
+<link>http://viasatlive5-i.akamaihd.net/hls/live/207018/tv3sport2HD/2h5416erG1v.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/vv/viasat_tv3_sport2_dk_hd.png</thumbnail>
+</item>
+
+<item>
+<title>TV4</title>
+<link>http://tv4live-i.akamaihd.net/hls/live/200284/akamaihls2/wifi1500_akamaihls2.m3u8</link>
+<thumbnail>https://www.apple.com/appletv/whats-on/images/vevo.png</thumbnail>
+</item>
+	    
+<item>
+<title>Vevo 1</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/05/prog_index.m3u8</link>
+<thumbnail>https://www.apple.com/appletv/whats-on/images/vevo.png</thumbnail>
+</item> 
+
+<item>
+<title>Vevo 2</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/05/prog_index.m3u8</link>
+<thumbnail>https://www.apple.com/appletv/whats-on/images/vevo.png</thumbnail>
+</item>
+
+<item>
+<title>Vevo 3</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/05/prog_index.m3u8</link>
+<thumbnail>https://www.apple.com/appletv/whats-on/images/vevo.png</thumbnail>
+</item>
+
+<item>
+<title>Kanalsport HD</title>
+<link>http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/playlist.m3u8</link>
+<thumbnail>http://mmaforum.dk/uploadtiny/FileUpload/pics/Nyheder/kanalsport.jpeg</thumbnail>
+</item>
+
+<item>
+<title>TV4 Sport SE</title>
+<link>http://tvhdslive-f.akamaihd.net/i/EDCSPORTHDS_1@108870/index_4_av-b.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tv4_sport.png</thumbnail>
+</item>
+
+<item>
+<title>Viasat Golf</title>
+<link>http://viasatlive4-i.akamaihd.net/hls/live/207031/golfHDdk/2rgUCQ5WwwM.m3u8</link>
+<thumbnail>http://mlgz0r-hehetv.googlecode.com/svn/addons/channels/Viasat%20Golf.png</thumbnail>
+</item>
+
+<item>
+<title>Viasat Hockey HD</title>
+<link>http://viasatlive4-i.akamaihd.net/hls/live/202772/viasathockey/2dif.m3u8</link>
+<thumbnail>http://mlgz0r-hehetv.googlecode.com/svn/addons/channels/Viasat%20Hockey.png</thumbnail>
+</item>
+
+<item>
+<title>Viasat motor</title>
+<link>http://viasatlive2-i.akamaihd.net/hls/live/207406/viasatmotorno/2psh.m3u8</link>
+<thumbnail>http://www.viasat.no/sites/viasat.no/files/styles/promo_channel_logo/public/viasat-fotball-200x1002x.png?itok=nop-4mur</thumbnail>
+</item>
+
+<item>
+<title>TV3 HD SE</title>
+<link>http://viasatlive5-i.akamaihd.net/hls/live/202794/tv3se/1aik.m3u8</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item
+
+<item>
+<title>TV10 SE</title>
+<link>http://viasatlive3-i.akamaihd.net/hls/live/202781/tv10se/1aik.m3u8</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+
