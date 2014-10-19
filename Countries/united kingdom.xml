@@ -6,7 +6,21 @@
 
 <item>
 <title>Sky Sports 1</title>
-<link>rtmp://62.210.187.70:443/liverepeater playpath=166524 token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://biggestplayer.me/</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://biggestplayer.me/ live=true timeout=15
+<regex>
+<name>streamer</name>
+<expres>streamer=([^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=168193&amp;width=620&amp;height=490</page>
+<referer>http://theactionlive.com/livegamecr.php?id=sky1&amp;width=620&amp;height=490&amp;stretching=</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>"file=([^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=168193&amp;width=620&amp;height=490</page>
+<referer>http://theactionlive.com/livegamecr.php?id=sky1&amp;width=620&amp;height=490&amp;stretching=</referer>
+</regex>
+</link>
 <thumbnail>http://3.bp.blogspot.com/-b3q2g-UxZwI/UVWzFcsgA_I/AAAAAAAAFY8/nmBHsWYdLCM/s1600/sky_sports1.png</thumbnail>
 </item>
 
@@ -32,7 +46,21 @@ $doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr
 
 <item>
 <title>Sky Sports 3</title>
-<link>rtmp://89.248.168.86:443/liverepeater playpath=166530 swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://biggestplayer.me/</link>
+<link>
+$doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z
+<regex>
+<name>streamer</name>
+<expres>'streamer','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ss3x&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skys3.php</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file','([^']*)</expres>
+<page>http://www.flashtv.co/embed.php?live=ss3x&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/update/skys3.php</referer>
+</regex>
+</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports3.jpg</thumbnail>
 </item>
 
