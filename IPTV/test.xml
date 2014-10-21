@@ -1,0 +1,223 @@
+#######################################################################################################################################
+<poster>IPTV - Provided by Bayoumi.dk</poster>
+<fanart></fanart>
+#######################################################################################################################################
+<item>
+<title>Telecine - LOW QUALITY</title>
+<link>rtmp://win5.yayinda.org/telecine/telecine</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA TURK - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinematurk</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA 6 - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema6</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA 5 - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema5</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA 4 - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema4</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA 3 - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema3</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA 2 - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema2</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SINEMA 1 - LOW QUALITY</title>
+<link>http://yayin7.canliyayin.org/sinema1</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Netd Sinema - LOW QUALITY</title>
+<link>http://live.netd.com.tr/S1/HLS_LIVE/taksim/1000/prog_index.m3u8</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TAY TV - LOW QUALITY</title>
+<link>http://212.224.108.76:80/S1/HLS_LIVE/tay/1000/prog_index.m3u8</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Dream TV</title>
+<link>http://live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TV 8</title>
+<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/tv8/tv8/tv8.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>ATV</title>
+<link>http://hls01-01.az.myvideo.az/hls-live/livepkgr/atvturk/atvturk/atvturk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Show TV</title>
+<link>http://hls01-09.az.myvideo.az/hls-live/livepkgr/showtv/showtv/showtv.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Kanal D</title>
+<link>http://hls01-01.az.myvideo.az/hls-live/livepkgr/canald/canald/canald.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Star</title>
+<link>http://hls01-04.az.myvideo.az/hls-live/livepkgr/startv/startv/startv.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT 1</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/trt1/trt1/trt1.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>SHOWMAX</title>
+<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/showmax/showmax/showmax.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>FOX</title>
+<link>http://hls01-09.az.myvideo.az/hls-live/livepkgr/foxturk/foxturk/foxturk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Kanal 7</title>
+<link>http://hls01-04.az.myvideo.az/hls-live/livepkgr/kanal7/kanal7/kanal7.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>24 TV</title>
+<link>http://hls01-04.az.myvideo.az/hls-live/livepkgr/kanal24/kanal24/kanal24.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Kanal Türk</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/kanalturk/kanalturk/kanalturk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>NTV </title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/canlintv/canlintv/canlintv.m3u8?&rRb545vJBB5tYzB7vVPa</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Sky 360</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/skyturk/skyturk/skyturk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT Haber</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/haberturk/haberturk/haberturk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT Türk</title>
+<link>http://hls01-09.az.myvideo.az/hls-live/livepkgr/trtturk/trtturk/trtturk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT Avaz</title>
+<link>http://hls01-04.az.myvideo.az/hls-live/livepkgr/trtavaz/trtavaz/trtavaz.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT Cocuk</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/trtcocuk/trtcocuk/trtcocuk.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT Okul</title>
+<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/okul/okul/okul.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TRT Spor</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/trt3/trt3/trt3.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TV 8</title>
+<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/tv8/tv8/tv8.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Yaban TV</title>
+<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/yabantv/yabantv/yabantv.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>TMB Tv</title>
+<link>http://hls01-08.az.myvideo.az/hls-live/livepkgr/tmbtv/tmbtv/tmbtv.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Kral Tv</title>
+<link>http://hls01-04.az.myvideo.az/hls-live/livepkgr/kral/kral/kral.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>ChatBox</title>
+<link>http://hls01-01.az.myvideo.az/hls-live/livepkgr/chatbox/chatbox/chatbox.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Fashion</title>
+<link>http://hls01-05.az.myvideo.az/hls-live/livepkgr/ftv/ftv/ftv.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Mezzo</title>
+<link>http://hls01-03.az.myvideo.az/hls-live/livepkgr/mezzo/mezzo/mezzo.m3u8?&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Nickelodeon</title>
+<link>http://hls01-05.az.myvideo.az/hls-live/livepkgr/nickelodeon/nickelodeon/nickelodeon.m3u8&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Cartoon Network</title>
+<link>http://hls01-09.az.myvideo.az/hls-live/livepkgr/cartoon/cartoon/cartoon.m3u8&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+<item>
+<title>Disney Channel</title>
+<link>http://hls01-05.az.myvideo.az/hls-live/livepkgr/disney/disney/disney.m3u8&rRb545vJBB5tYzB7vVP</link>
+<thumbnail>http://newtvworld.com/Images/livetv_transparent.png</thumbnail>
+</item>
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+    © 2014 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Contact
+
